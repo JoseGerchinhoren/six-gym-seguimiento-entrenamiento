@@ -1,0 +1,11 @@
+idPedido,fecha,pedido,nombreCliente,contacto,estado,montoSeña,nombreUsuario
+1.0,2023-12-05,Funda transparente smg S23 FE,Gisele Funes,3875644588.0,Entregado,2000.0,José Gerchinhoren
+2.0,2023-12-03,Funda transparente smg A53,Nicolas Patron,3875540853.0,Avisado,1000.0,José Gerchinhoren
+3.0,2023-12-05,Vidrio smg S21 FE ,Virginia Hearne,3874472840.0,Cancelado,1000.0,José Gerchinhoren
+4.0,2023-12-08,Funda transparente smg A10,Josefina Frattuni,3874435034.0,Avisado,1000.0,José Gerchinhoren
+5.0,2023-12-21,Funda Azul smg A12,Agustin Castro,3875964001.0,Señado,1000.0,José Gerchinhoren
+6.0,2023-12-22,Funda Azul smg A33,Guillermina Diez,3875654786.0,Avisado,1000.0,José Gerchinhoren
+7.0,2024-01-02,Funda transparente smg A02 S,Eva Sola,3875838439.0,Avisado,1000.0,José Gerchinhoren
+8.0,2024-01-02,VIdrio smg A02 S,Eva Sola,3875838439.0,Avisado,1000.0,José Gerchinhoren
+9.0,2024-01-02,VIdrio Redmi i9,Catalina Agustillo,91125991400.0,Cancelado,1000.0,José Gerchinhoren
+10.0,2024-01-24,Vidrio A22,Ilario,3875294851,Sin Seña,,Eduardo Rojas

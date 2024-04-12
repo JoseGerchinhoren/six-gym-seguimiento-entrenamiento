@@ -3,8 +3,7 @@ import boto3
 import pandas as pd
 
 from config import cargar_configuracion
-from ingresaEntrenamiento import main as ingresaEntrenamiento
-from visualizaEntrenamiento import main as visualizaEntrenamiento
+from entrenamientosHipertrofia import main as ingresaEntrenamiento
 from ingresaUsuarios import ingresa_usuario
 from visualizaUsuarios import main as visualiza_usuarios
 
@@ -68,8 +67,8 @@ def logout():
     st.success("Sesión cerrada exitosamente")
 
 def main():
-    st.title("T.A. Ciudad de Alderetes - T.A. El Tigre")
-    st.title("Control de Combustible")
+    st.markdown("<h1 style='text-align: center; color: green;'>SixGym</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: yellow;'>🏋️‍♀️Seguimiento de Entrenamientos🏋️‍♂️</h1>", unsafe_allow_html=True)
 
     if logged_in:
         st.sidebar.title("Menú")
@@ -77,12 +76,18 @@ def main():
         # st.subheader(f"Bienvenido/a, {user_nombre_apellido}!")
 
         if user_rol == "admin":
-            selected_option = st.sidebar.selectbox("Seleccione una opción:", ["Nuevo Entrenamiento", "Visualiza Entrenamientos", "Usuarios"])
-            if selected_option == 'Nuevo Entrenamiento':
-                ingresaEntrenamiento()
-
-            if selected_option == 'Visualiza Entrenamiento':
-                visualizaEntrenamiento()
+            selected_option = st.sidebar.selectbox("Seleccione una opción:", ["Entrenamientos de Hipertrofia","Entrenamientos de Fuerza", "Usuarios"])
+            # if selected_option == "Ventas":
+            #     with st.expander('Ingresar Venta'):
+            #         venta(st.session_state.user_nombre_apellido)
+            #     with st.expander('Visualizar Ventas'):
+            #         visualiza_ventas()
+            if selected_option == 'Entrenamientos de Hipertrofia':
+                with st.expander('Registra Entrenamiento'):
+                    ingresaEntrenamiento()
+                
+                # with st.expander('Visualiza Entrenamientos'):
+                #     visualizaEntrenamiento()
 
             if selected_option == "Usuarios":
                 st.title('Usuarios')
@@ -100,8 +105,8 @@ def main():
             if selected_option == 'Nuevo Entrenamiento':
                 ingresaEntrenamiento()
 
-            if selected_option == 'Visualiza Entrenamiento':
-                visualizaEntrenamiento()
+            # if selected_option == 'Visualiza Entrenamiento':
+            #     visualizaEntrenamiento()
 
         st.write(f"Usuario: {user_nombre_apellido}")
 
