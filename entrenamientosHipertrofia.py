@@ -53,7 +53,7 @@ def validar_entradas(socio, grupoMuscular, musculo, ejercicio, peso, repeticione
     return errores
 
 def registra_entrenamientos_hipertrofia():
-    st.title('Registro de Entrenamientos de Six Gym')
+    st.markdown("<h1 style='text-align: center; color: yellow;'>Registrá Entrenamiento de Hipertrofia</h1>", unsafe_allow_html=True)
 
     # Conectar a S3
     s3, bucket_name = conectar_s3()
@@ -70,7 +70,7 @@ def registra_entrenamientos_hipertrofia():
     repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
 
     # Botón para guardar el registro
-    if st.button('Guardar Entrenamiento Hipertrofia'):
+    if st.button('Guardar Entrenamiento de Hipertrofia'):
         # Validar las entradas del usuario
         errores = validar_entradas(socio, grupoMuscular, musculo, ejercicio, peso, repeticiones)
 
