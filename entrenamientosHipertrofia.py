@@ -55,14 +55,13 @@ def validar_entradas(socio, grupoMuscular, musculo, ejercicio, serie, peso, repe
     return errores
 
 def registra_entrenamientos_hipertrofia():
-    st.markdown("<h1 style='text-align: center;'>Registrá Entrenamiento de Hipertrofia</h1>", unsafe_allow_html=True)
-
     # Conectar a S3
     s3, bucket_name = conectar_s3()
 
     # Cargar DataFrame desde S3
     df_total = cargar_dataframe_desde_s3(s3, bucket_name)
 
+    st.subheader("Ingrese nombre, apellido y luego seleccione")
     # Variables ingresadas por el cliente
     socio_input = st.text_input('Nombre y Apellido')
 
@@ -72,72 +71,81 @@ def registra_entrenamientos_hipertrofia():
     # Selectbox para mostrar nombres coincidentes
     socio = st.selectbox('Seleccionar Socio', [socio_input] + list(nombres_coincidentes))
 
-    # Variables ingresadas por el cliente
-    # socio = st.text_input('Nombre y Apellido')
-    grupoMuscular = st.text_input('Grupo Muscular')
-    musculo = st.text_input('Músculo')
-    ejercicio = st.text_input('Ejercicio')
-    serie = st.number_input('Serie', min_value=0, value=1, step=1)
-    peso = st.number_input('Peso',  min_value=0, value=None, step=1)
-    repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
-    observaciones = st.text_input('Observaciones')
+    with st.expander('Nuevo Entrenamiento de Hipertrofia'):
+        st.markdown("<h1 style='text-align: center;'>Registrá Entrenamiento de Hipertrofia</h1>", unsafe_allow_html=True)
 
-    # Botón para guardar el registro
-    if st.button('Guardar Entrenamiento de Hipertrofia'):
-        # Validar las entradas del usuario
-        errores = validar_entradas(socio, grupoMuscular, musculo, ejercicio, serie, peso, repeticiones)
-
-        if errores:
-            st.error("Por favor, corrija los siguientes errores:")
-            for error in errores:
-                st.error(error)
+        # Variables ingresadas por el cliente
+        # socio = st.text_input('Nombre y   Apellido')
+        grupoMuscular = st.selectbox('Grupo Muscular', ['Tren Superior', 'Tren Inferior'])
+        # Dependiendo de la opción seleccionada en grupoMuscular, mostrar los músculos correspondientes
+        if grupoMuscular == 'Tren Superior':
+            opciones_musculos = ['Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']
+        elif grupoMuscular == 'Tren Inferior':
+            opciones_musculos = ['Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
         else:
-            fecha = obtener_fecha_argentina().strftime('%d/%m/%Y')
-            hora = obtener_fecha_argentina().strftime('%H:%M')
-            usuario = st.session_state.get("user_nombre_apellido", "")
+            opciones_musculos = []
 
-            # Crear un DataFrame con los datos ingresados
-            data = {
-                'idEjercicioHiper': [df_total['idEjercicioHiper'].max() + 1 if not df_total.empty else 0],
-                'fecha': [fecha],
-                'hora': [hora],
-                'socio': [socio],
-                'grupoMuscular': [grupoMuscular],
-                'musculo': [musculo],
-                'ejercicio': [ejercicio],
-                'serie': [serie],
-                'peso': [peso],
-                'repeticiones': [repeticiones],
-                'observaciones': [observaciones],
-                'usuario': [usuario]
-            }
-            df_new = pd.DataFrame(data)
+        musculo = st.selectbox('Músculo', opciones_musculos)        
+        ejercicio = st.text_input('Ejercicio')
+        serie = st.number_input('Serie', min_value=0, value=1, step=1)
+        peso = st.number_input('Peso',  min_value=0, value=None, step=1)
+        repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
+        observaciones = st.text_input('Observaciones')
 
-            # Concatenar el nuevo DataFrame con el DataFrame total
-            df_total = pd.concat([df_total, df_new], ignore_index=True)
+        # Botón para guardar el registro
+        if st.button('Guardar Entrenamiento de Hipertrofia'):
+            # Validar las entradas del usuario
+            errores = validar_entradas(socio, grupoMuscular, musculo, ejercicio, serie, peso, repeticiones)
 
-            # Cargar los datos en el archivo CSV en S3
-            upload_to_s3(df_total, s3, bucket_name)
+            if errores:
+                st.error("Por favor, corrija los siguientes errores:")
+                for error in errores:
+                    st.error(error)
+            else:
+                fecha = obtener_fecha_argentina().strftime('%d/%m/%Y')
+                hora = obtener_fecha_argentina().strftime('%H:%M')
+                usuario = st.session_state.get("user_nombre_apellido", "")
 
-            st.success('Entrenamiento guardado con éxito!')
+                # Crear un DataFrame con los datos ingresados
+                data = {
+                    'idEjercicioHiper': [df_total['idEjercicioHiper'].max() + 1 if not df_total.empty else 0],
+                    'fecha': [fecha],
+                    'hora': [hora],
+                    'socio': [socio],
+                    'grupoMuscular': [grupoMuscular],
+                    'musculo': [musculo],
+                    'ejercicio': [ejercicio],
+                    'serie': [serie],
+                    'peso': [peso],
+                    'repeticiones': [repeticiones],
+                    'observaciones': [observaciones],
+                    'usuario': [usuario]
+                }
+                df_new = pd.DataFrame(data)
 
-# def formatear_fecha(x):
-#     if pd.notnull(x):
-#         try:
-#             return x.strftime('%d/%m/%Y')
-#         except AttributeError:
-#             return x
-#     else:
-#         return ''
+                # Concatenar el nuevo DataFrame con el DataFrame total
+                df_total = pd.concat([df_total, df_new], ignore_index=True)
 
-def visualizar_entrenamientos_hiper():
-    st.markdown("<h1 style='text-align: center;'>Entrenamientos de Hipertrofia</h1>", unsafe_allow_html=True)
+                # Cargar los datos en el archivo CSV en S3
+                upload_to_s3(df_total, s3, bucket_name)
+
+                st.success('Entrenamiento guardado con éxito!')
+    
+    if socio:
+        with st.expander(f'Visualizar Entrenamientos de Hipertrofia'):
+            visualizar_entrenamientos_hiper(socio)
+
+def visualizar_entrenamientos_hiper(socio):
+    st.markdown(f"<h1 style='text-align: center;'>Entrenamientos de Hipertrofia de {socio}</h1>", unsafe_allow_html=True)
 
     # Conectar a S3
     s3, bucket_name = conectar_s3()
 
     # Cargar DataFrame desde S3
     df_total = cargar_dataframe_desde_s3(s3, bucket_name)
+
+    # Filtrar el DataFrame por el socio seleccionado
+    df_total = df_total[df_total['socio'] == socio]
 
     if df_total.empty:
         st.warning("No hay entrenamientos de hipertrofia registrados.")
@@ -156,11 +164,11 @@ def visualizar_entrenamientos_hiper():
         'peso': 'Peso',
         'repeticiones': 'Repeticiones',
         'observaciones': 'Observaciones',
-        'usuario': 'Usuario'
+        'usuario': 'Entrenador'
     })
 
     # Establecer el orden deseado de las columnas
-    column_order = ['ID', 'Socio', 'Grupo Muscular', 'Músculo', 'Ejercicio', 'Serie', 'Peso', 'Repeticiones', 'Fecha', 'Hora', 'Observaciones', 'Usuario']
+    column_order = ['Fecha', 'Grupo Muscular', 'Músculo', 'Ejercicio', 'Serie', 'Peso', 'Repeticiones', 'Hora', 'Observaciones', 'Entrenador','ID']
     df_total = df_total.reindex(columns=column_order)
 
     # Ordenar el DataFrame por el ID de Ejercicio de Hipertrofia de forma descendente
@@ -169,6 +177,23 @@ def visualizar_entrenamientos_hiper():
     # Mostrar el DataFrame de entrenamientos de hipertrofia
     st.dataframe(df_total)
 
+def main():
+    
+    # with st.expander('Nuevo Entrenamiento de Hipertrofia'):
+    registra_entrenamientos_hipertrofia()
+
+if __name__ == '__main__':
+    main()
+
+
+# def formatear_fecha(x):
+#     if pd.notnull(x):
+#         try:
+#             return x.strftime('%d/%m/%Y')
+#         except AttributeError:
+#             return x
+#     else:
+#         return ''
 
 # def visualizar_cargas_combustible():
 #     st.title("Visualizar Cargas de Combustible")
@@ -341,12 +366,3 @@ def visualizar_entrenamientos_hiper():
 #     if st.session_state.user_rol == "admin":
 #         editar_carga_combustible()
 #         eliminar_carga_combustible()
-
-def main():
-    with st.expander('Nuevo Entrenamiento de Hipertrofia'):
-        registra_entrenamientos_hipertrofia()
-    with st.expander('Visualizar Entrenamiento de Hipertrofia'):
-        visualizar_entrenamientos_hiper()
-
-if __name__ == '__main__':
-    main()

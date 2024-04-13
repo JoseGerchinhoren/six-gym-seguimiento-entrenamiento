@@ -66,9 +66,10 @@ def logout():
     st.session_state.user_nombre_apellido = ""  # Limpiar el nombre y apellido al cerrar sesión
     st.success("Sesión cerrada exitosamente")
 
-def main():
-    st.markdown("<h1 style='text-align: center; color: green;'>SixGym</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: yellow;'>🏋️‍♀️Seguimiento de Entrenamientos🏋️‍♂️</h1>", unsafe_allow_html=True)
+def main():    
+    st.markdown("<h1 style='text-align: center;'>Seguimiento de Entrenamientos</h1>", unsafe_allow_html=True)
+
+    st.image("img/logo-six-gym-fondo-amarillo.png", use_column_width= "always")
 
     if logged_in:
         st.sidebar.title("Menú")
