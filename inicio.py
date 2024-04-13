@@ -83,8 +83,7 @@ def main():
             #     with st.expander('Visualizar Ventas'):
             #         visualiza_ventas()
             if selected_option == 'Entrenamientos de Hipertrofia':
-                with st.expander('Nuevo Entrenamiento de Hipertrofia'):
-                    ingresaEntrenamiento()
+                ingresaEntrenamiento()
                 
                 # with st.expander('Visualiza Entrenamientos'):
                 #     visualizaEntrenamiento()
