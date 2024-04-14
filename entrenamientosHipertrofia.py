@@ -97,7 +97,9 @@ def registra_entrenamientos_hipertrofia():
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
 
         elif grupoMuscular == 'Zona Media':
-            repeticiones = st.number_input('Tiempo en Segundos',  min_value=0, value=None, step=1)
+            peso = st.number_input('Tiempo en Segundos',  min_value=0, value=None, step=1)
+
+            repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
 
         observaciones = st.text_input('Observaciones')
 
