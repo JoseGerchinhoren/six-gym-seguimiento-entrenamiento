@@ -76,20 +76,29 @@ def registra_entrenamientos_hipertrofia():
 
         # Variables ingresadas por el cliente
         # socio = st.text_input('Nombre y   Apellido')
-        grupoMuscular = st.selectbox('Grupo Muscular', ['Tren Superior', 'Tren Inferior'])
+        grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
         # Dependiendo de la opción seleccionada en grupoMuscular, mostrar los músculos correspondientes
         if grupoMuscular == 'Tren Superior':
-            opciones_musculos = ['Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']
+            opciones_musculos = ['','Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']            
         elif grupoMuscular == 'Tren Inferior':
-            opciones_musculos = ['Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
+            opciones_musculos = ['', 'Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
+        elif grupoMuscular == 'Zona Media':
+            opciones_musculos = ['abdominales']
         else:
             opciones_musculos = []
 
         musculo = st.selectbox('Músculo', opciones_musculos)        
         ejercicio = st.text_input('Ejercicio')
         serie = st.number_input('Serie', min_value=0, value=1, step=1)
-        peso = st.number_input('Peso',  min_value=0, value=None, step=1)
-        repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
+
+        if grupoMuscular == 'Tren Superior' or grupoMuscular == 'Tren Inferior':
+            peso = st.number_input('Peso',  min_value=0, value=None, step=1)
+
+            repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
+
+        elif grupoMuscular == 'Zona Media':
+            repeticiones = st.number_input('Tiempo en Segundos',  min_value=0, value=None, step=1)
+
         observaciones = st.text_input('Observaciones')
 
         # Botón para guardar el registro
