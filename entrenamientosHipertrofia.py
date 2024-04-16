@@ -78,32 +78,6 @@ def registra_entrenamientos_hipertrofia():
     with st.expander('Nuevo Entrenamiento de Hipertrofia'):
         st.markdown("<h1 style='text-align: center;'>Registrá Entrenamiento de Hipertrofia</h1>", unsafe_allow_html=True)
 
-        # grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
-
-        # if grupoMuscular == 'Tren Superior':
-        #     opciones_musculos = ['','Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']            
-        # elif grupoMuscular == 'Tren Inferior':
-        #     opciones_musculos = ['', 'Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
-        # elif grupoMuscular == 'Zona Media':
-        #     opciones_musculos = ['abdominales']
-        # else:
-        #     opciones_musculos = []
-
-        # musculo = st.selectbox('Músculo', opciones_musculos)
-
-        # if musculo:
-        #     ejercicios_disponibles = df_entrenamientos_socio[df_entrenamientos_socio['musculo'] == musculo]['ejercicio'].unique()
-        # else:
-        #     ejercicios_disponibles = []
-
-        # ejercicio_input = st.text_input('Ejercicio')
-
-        # ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
-
-        # ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
-
-        # serie = st.number_input('Serie', min_value=0, value=1, step=1)
-
         # Aquí se modificó la lógica para cargar automáticamente los datos del último ejercicio
         # realizado por el socio en los campos respectivos
         if not df_entrenamientos_socio.empty:
@@ -124,9 +98,8 @@ def registra_entrenamientos_hipertrofia():
 
             musculo = st.selectbox('Músculo', opciones_musculos, index=opciones_musculos.index(ultima_fila_socio.get('musculo', '')) if ultima_fila_socio.get('musculo') in opciones_musculos else 0)
 
-
             if musculo:
-                ejercicios_disponibles = df_entrenamientos_socio[df_entrenamientos_socio['musculo'] == musculo]['ejercicio'].unique()
+                ejercicios_disponibles = df_total[df_total['musculo'] == musculo]['ejercicio'].unique()
             else:
                 ejercicios_disponibles = []
 
@@ -142,7 +115,35 @@ def registra_entrenamientos_hipertrofia():
             peso = st.number_input('Peso',  min_value=0, value=ultima_fila_socio.get('peso'), step=1)
 
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=ultima_fila_socio.get('repeticiones'), step=1)
+
         else:
+
+            grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
+
+            if grupoMuscular == 'Tren Superior':
+                opciones_musculos = ['','Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']            
+            elif grupoMuscular == 'Tren Inferior':
+                opciones_musculos = ['', 'Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
+            elif grupoMuscular == 'Zona Media':
+                opciones_musculos = ['abdominales']
+            else:
+                opciones_musculos = []
+
+            musculo = st.selectbox('Músculo', opciones_musculos)
+
+            if musculo:
+                ejercicios_disponibles = df_entrenamientos_socio[df_entrenamientos_socio['musculo'] == musculo]['ejercicio'].unique()
+            else:
+                ejercicios_disponibles = []
+
+            ejercicio_input = st.text_input('Ejercicio')
+
+            ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
+
+            ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
+
+            serie = st.number_input('Serie', min_value=0, value=1, step=1)
+
             peso = st.number_input('Peso',  min_value=0, value=None, step=1)
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
 
