@@ -3,6 +3,7 @@ import pandas as pd
 import boto3
 import io
 from io import StringIO
+import altair as alt
 
 # Obtener credenciales
 from config import cargar_configuracion
@@ -71,34 +72,78 @@ def registra_entrenamientos_hipertrofia():
     # Selectbox para mostrar nombres coincidentes
     socio = st.selectbox('Seleccionar Socio', [socio_input] + list(nombres_coincidentes))
 
+    # Filtrar los datos del DataFrame según el socio seleccionado
+    df_entrenamientos_socio = df_total[df_total['socio'] == socio]
+
     with st.expander('Nuevo Entrenamiento de Hipertrofia'):
         st.markdown("<h1 style='text-align: center;'>Registrá Entrenamiento de Hipertrofia</h1>", unsafe_allow_html=True)
 
-        # Variables ingresadas por el cliente
-        # socio = st.text_input('Nombre y   Apellido')
-        grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
-        # Dependiendo de la opción seleccionada en grupoMuscular, mostrar los músculos correspondientes
-        if grupoMuscular == 'Tren Superior':
-            opciones_musculos = ['','Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']            
-        elif grupoMuscular == 'Tren Inferior':
-            opciones_musculos = ['', 'Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
-        elif grupoMuscular == 'Zona Media':
-            opciones_musculos = ['abdominales']
+        # grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
+
+        # if grupoMuscular == 'Tren Superior':
+        #     opciones_musculos = ['','Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']            
+        # elif grupoMuscular == 'Tren Inferior':
+        #     opciones_musculos = ['', 'Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
+        # elif grupoMuscular == 'Zona Media':
+        #     opciones_musculos = ['abdominales']
+        # else:
+        #     opciones_musculos = []
+
+        # musculo = st.selectbox('Músculo', opciones_musculos)
+
+        # if musculo:
+        #     ejercicios_disponibles = df_entrenamientos_socio[df_entrenamientos_socio['musculo'] == musculo]['ejercicio'].unique()
+        # else:
+        #     ejercicios_disponibles = []
+
+        # ejercicio_input = st.text_input('Ejercicio')
+
+        # ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
+
+        # ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
+
+        # serie = st.number_input('Serie', min_value=0, value=1, step=1)
+
+        # Aquí se modificó la lógica para cargar automáticamente los datos del último ejercicio
+        # realizado por el socio en los campos respectivos
+        if not df_entrenamientos_socio.empty:
+            ultima_fila_socio = df_entrenamientos_socio.iloc[-1]
+
+            gruposMusculares = ['Tren Superior', 'Tren Inferior', 'Zona Media']
+
+            grupoMuscular = st.selectbox('Grupo Muscular', gruposMusculares, index=gruposMusculares.index(ultima_fila_socio.get('grupoMuscular', '')) if ultima_fila_socio.get('grupoMuscular') in gruposMusculares else 0)
+
+            if grupoMuscular == 'Tren Superior':
+                opciones_musculos = ['','Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']            
+            elif grupoMuscular == 'Tren Inferior':
+                opciones_musculos = ['', 'Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
+            elif grupoMuscular == 'Zona Media':
+                opciones_musculos = ['abdominales']
+            else:
+                opciones_musculos = []
+
+            musculo = st.selectbox('Músculo', opciones_musculos, index=opciones_musculos.index(ultima_fila_socio.get('musculo', '')) if ultima_fila_socio.get('musculo') in opciones_musculos else 0)
+
+
+            if musculo:
+                ejercicios_disponibles = df_entrenamientos_socio[df_entrenamientos_socio['musculo'] == musculo]['ejercicio'].unique()
+            else:
+                ejercicios_disponibles = []
+
+            ejercicio_input = st.text_input('Ejercicio', value=ultima_fila_socio.get('ejercicio', ''))
+
+            ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
+
+            ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
+
+            serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1)), step=1)
+
+
+            peso = st.number_input('Peso',  min_value=0, value=ultima_fila_socio.get('peso'), step=1)
+
+            repeticiones = st.number_input('Repeticiones',  min_value=0, value=ultima_fila_socio.get('repeticiones'), step=1)
         else:
-            opciones_musculos = []
-
-        musculo = st.selectbox('Músculo', opciones_musculos)        
-        ejercicio = st.text_input('Ejercicio')
-        serie = st.number_input('Serie', min_value=0, value=1, step=1)
-
-        if grupoMuscular == 'Tren Superior' or grupoMuscular == 'Tren Inferior':
             peso = st.number_input('Peso',  min_value=0, value=None, step=1)
-
-            repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
-
-        elif grupoMuscular == 'Zona Media':
-            peso = st.number_input('Tiempo en Segundos',  min_value=0, value=None, step=1)
-
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
 
         observaciones = st.text_input('Observaciones')
@@ -187,6 +232,38 @@ def visualizar_entrenamientos_hiper(socio):
 
     # Mostrar el DataFrame de entrenamientos de hipertrofia
     st.dataframe(df_total)
+
+    st.markdown(f"<h1 style='text-align: center;'>Peso levantado por día de {socio}</h1>", unsafe_allow_html=True)
+
+    # Calcular peso total levantado por día
+    df_total['Fecha'] = pd.to_datetime(df_total['Fecha'])
+    df_total['Peso Total'] = df_total['Peso'] * df_total['Repeticiones']
+    peso_total_por_dia = df_total.groupby('Fecha')['Peso Total'].sum().reset_index()
+
+    # Gráfico de línea con peso total levantado por día
+    line_chart = alt.Chart(peso_total_por_dia).mark_line().encode(
+        x='Fecha:T',
+        y='Peso Total:Q',
+        tooltip=['Fecha:T', 'Peso Total:Q']
+    ).properties(
+        width=600,
+        height=400
+    )
+
+    # Capa adicional con puntos sobre el gráfico
+    points = alt.Chart(peso_total_por_dia).mark_circle(
+        size=100,
+        color='red',
+        opacity=0.5
+    ).encode(
+        x='Fecha:T',
+        y='Peso Total:Q'
+    )
+
+    # Combinar el gráfico de línea y los puntos
+    chart = line_chart + points
+
+    st.altair_chart(chart)
 
 def main():
     
