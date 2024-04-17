@@ -51,7 +51,7 @@ def validar_entradas(socio, grupoMuscular, musculo, ejercicio, serie, peso, repe
     if peso is None or peso < 0:
         errores.append("El peso debe ser un valor numérico positivo.")
     if repeticiones is None or repeticiones < 0:
-        errores.append("El número de repeticiones debe ser un valor numérico positivo.")
+        errores.append("El número de repeticiones o el tiempo debe ser un valor numérico positivo.")
 
     return errores
 
@@ -111,7 +111,6 @@ def registra_entrenamientos_hipertrofia():
 
             serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1)), step=1)
 
-
             peso = st.number_input('Peso',  min_value=0, value=ultima_fila_socio.get('peso'), step=1)
 
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=ultima_fila_socio.get('repeticiones'), step=1)
@@ -146,6 +145,7 @@ def registra_entrenamientos_hipertrofia():
 
             peso = st.number_input('Peso',  min_value=0, value=None, step=1)
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
+        tiempo = st.number_input('Tiempo en segundos',  min_value=0, value=None, step=1)
 
         observaciones = st.text_input('Observaciones')
 
@@ -175,6 +175,7 @@ def registra_entrenamientos_hipertrofia():
                     'serie': [serie],
                     'peso': [peso],
                     'repeticiones': [repeticiones],
+                    'tiempo': [tiempo],
                     'observaciones': [observaciones],
                     'usuario': [usuario]
                 }
@@ -220,12 +221,13 @@ def visualizar_entrenamientos_hiper(socio):
         'serie': 'Serie',
         'peso': 'Peso',
         'repeticiones': 'Repeticiones',
+        'tiempo': 'Tiempo',
         'observaciones': 'Observaciones',
         'usuario': 'Entrenador'
     })
 
     # Establecer el orden deseado de las columnas
-    column_order = ['Fecha', 'Grupo Muscular', 'Músculo', 'Ejercicio', 'Serie', 'Peso', 'Repeticiones', 'Hora', 'Observaciones', 'Entrenador','ID']
+    column_order = ['Fecha', 'Grupo Muscular', 'Músculo', 'Ejercicio', 'Serie', 'Peso', 'Repeticiones', 'Tiempo','Hora', 'Observaciones', 'Entrenador','ID']
     df_total = df_total.reindex(columns=column_order)
 
     # Ordenar el DataFrame por el ID de Ejercicio de Hipertrofia de forma descendente
@@ -242,20 +244,20 @@ def visualizar_entrenamientos_hiper(socio):
     peso_total_por_dia = df_total.groupby('Fecha')['Peso Total'].sum().reset_index()
 
     # Gráfico de línea con peso total levantado por día
-    line_chart = alt.Chart(peso_total_por_dia).mark_line().encode(
+    line_chart = alt.Chart(peso_total_por_dia).mark_line(color='green').encode(
         x='Fecha:T',
         y='Peso Total:Q',
         tooltip=['Fecha:T', 'Peso Total:Q']
     ).properties(
-        width=600,
-        height=400
+        width=500,
+        height=400,
     )
 
     # Capa adicional con puntos sobre el gráfico
     points = alt.Chart(peso_total_por_dia).mark_circle(
         size=100,
-        color='red',
-        opacity=0.5
+        color='yellow',
+        opacity=1
     ).encode(
         x='Fecha:T',
         y='Peso Total:Q'
