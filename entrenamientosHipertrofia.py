@@ -78,6 +78,8 @@ def registra_entrenamientos_hipertrofia():
     with st.expander('Nuevo Entrenamiento de Hipertrofia'):
         st.markdown("<h1 style='text-align: center;'>Registrá Entrenamiento de Hipertrofia</h1>", unsafe_allow_html=True)
 
+        fecha_seleccionada = st.date_input("Seleccione la fecha", obtener_fecha_argentina())
+
         # Aquí se modificó la lógica para cargar automáticamente los datos del último ejercicio
         # realizado por el socio en los campos respectivos
         if not df_entrenamientos_socio.empty:
@@ -159,7 +161,7 @@ def registra_entrenamientos_hipertrofia():
                 for error in errores:
                     st.error(error)
             else:
-                fecha = obtener_fecha_argentina().strftime('%d/%m/%Y')
+                fecha = fecha_seleccionada.strftime('%d/%m/%Y')
                 hora = obtener_fecha_argentina().strftime('%H:%M')
                 usuario = st.session_state.get("user_nombre_apellido", "")
 
@@ -249,7 +251,7 @@ def visualizar_entrenamientos_hiper(socio):
         y='Peso Total:Q',
         tooltip=['Fecha:T', 'Peso Total:Q']
     ).properties(
-        width=500,
+        width=400,
         height=400,
     )
 
