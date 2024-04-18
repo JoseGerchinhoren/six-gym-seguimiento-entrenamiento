@@ -112,7 +112,7 @@ def registra_entrenamientos_hipertrofia():
 
             ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
 
-            serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1)), step=1)
+            serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1))+1, step=1)
 
             peso = st.number_input('Peso',  min_value=0, value=ultima_fila_socio.get('peso'), step=1)
 
@@ -193,7 +193,7 @@ def registra_entrenamientos_hipertrofia():
                 st.success('Entrenamiento guardado con éxito!')
 
                 # Esperar 1 segundos antes de recargar la aplicación
-                time.sleep(0.5)
+                time.sleep(0.4)
                 
                 # Recargar la aplicación
                 st.rerun()
@@ -250,13 +250,13 @@ def visualizar_entrenamientos_hiper(socio):
     # Calcular peso total levantado por día
     df_total['Fecha'] = pd.to_datetime(df_total['Fecha'])
     df_total['Peso Total'] = df_total['Peso'] * df_total['Repeticiones']
-    peso_total_por_dia = df_total.groupby('Fecha')['Peso Total'].sum().reset_index()
+    peso_total_por_dia = df_total.groupby('Fecha', as_index=False).agg({'Peso Total': 'sum', 'Músculo': lambda x: ', '.join(set(x))})
 
     # Gráfico de línea con peso total levantado por día
     line_chart = alt.Chart(peso_total_por_dia).mark_line(color='green').encode(
         x='Fecha:T',
         y='Peso Total:Q',
-        tooltip=['Fecha:T', 'Peso Total:Q']
+        tooltip=['Fecha:T', 'Peso Total:Q', 'Músculo:N']
     ).properties(
         width=500,
         height=400,
@@ -269,7 +269,8 @@ def visualizar_entrenamientos_hiper(socio):
         opacity=1
     ).encode(
         x='Fecha:T',
-        y='Peso Total:Q'
+        y='Peso Total:Q',
+        tooltip=['Fecha:T', 'Peso Total:Q', 'Músculos:N']
     )
 
     # Combinar el gráfico de línea y los puntos

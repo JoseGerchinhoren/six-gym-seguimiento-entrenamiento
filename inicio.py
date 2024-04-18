@@ -67,7 +67,7 @@ def logout():
     st.success("Sesión cerrada exitosamente")
 
 def main():    
-    st.markdown("<h1 style='text-align: center;'>Seguimiento de Entrenamientos</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color:yellow;'>Seguimiento de Entrenamientos</h1>", unsafe_allow_html=True)
 
     st.image("img/logo-six-gym-fondo-amarillo.png", use_column_width= "always")
 
