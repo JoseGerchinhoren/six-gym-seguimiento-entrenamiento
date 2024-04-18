@@ -4,6 +4,7 @@ import boto3
 import io
 from io import StringIO
 import altair as alt
+import time
 
 # Obtener credenciales
 from config import cargar_configuracion
@@ -190,6 +191,12 @@ def registra_entrenamientos_hipertrofia():
                 upload_to_s3(df_total, s3, bucket_name)
 
                 st.success('Entrenamiento guardado con éxito!')
+
+                # Esperar 1 segundos antes de recargar la aplicación
+                time.sleep(0.5)
+                
+                # Recargar la aplicación
+                st.rerun()
     
     if socio:
         with st.expander(f'Visualizar Entrenamientos de Hipertrofia'):
@@ -251,7 +258,7 @@ def visualizar_entrenamientos_hiper(socio):
         y='Peso Total:Q',
         tooltip=['Fecha:T', 'Peso Total:Q']
     ).properties(
-        width=400,
+        width=500,
         height=400,
     )
 
