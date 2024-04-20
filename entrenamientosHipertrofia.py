@@ -270,7 +270,7 @@ def visualizar_entrenamientos_hiper(socio):
     ).encode(
         x='Fecha:T',
         y='Peso Total:Q',
-        tooltip=['Fecha:T', 'Peso Total:Q', 'Músculos:N']
+        tooltip=['Fecha:T', 'Peso Total:Q', 'Músculo:N']
     )
 
     # Combinar el gráfico de línea y los puntos
