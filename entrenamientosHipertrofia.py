@@ -5,6 +5,7 @@ import io
 from io import StringIO
 import altair as alt
 import time
+import re
 
 # Obtener credenciales
 from config import cargar_configuracion
@@ -29,6 +30,8 @@ def cargar_dataframe_desde_s3(s3, bucket_name):
 def upload_to_s3(data, s3, bucket_name):
     csv_filename = "entrenamientosHipertrofia.csv"
     csv_buffer = StringIO()
+    # Especificamos el tipo de datos para la columna 'serie' como int
+    data['serie'] = data['serie'].astype(int)
     data.to_csv(csv_buffer, index=False)
     csv_buffer.seek(0)
     s3.put_object(Bucket=bucket_name, Key=csv_filename, Body=csv_buffer.getvalue())
@@ -202,6 +205,9 @@ def registra_entrenamientos_hipertrofia():
         with st.expander(f'Visualizar Entrenamientos de Hipertrofia'):
             visualizar_entrenamientos_hiper(socio)
 
+        with st.expander('Edita Entrenamiento de Hipertrofia'):
+            editar_entrenamientos_hiper()
+
 def visualizar_entrenamientos_hiper(socio):
     st.markdown(f"<h1 style='text-align: center;'>Entrenamientos de Hipertrofia de {socio}</h1>", unsafe_allow_html=True)
 
@@ -278,9 +284,71 @@ def visualizar_entrenamientos_hiper(socio):
 
     st.altair_chart(chart)
 
+def editar_entrenamientos_hiper():
+    st.header('Editar Entrenamiento de Hipertrofia')
+
+    # Ingresar el ID del ejercicio a editar
+    id_ejercicio_editar = st.number_input('Ingrese el ID del ejercicio a editar', value=None, min_value=0)
+
+    if id_ejercicio_editar is not None:
+        # Conectar a S3
+        s3, bucket_name = conectar_s3()
+
+        # Cargar DataFrame desde S3
+        df_total = cargar_dataframe_desde_s3(s3, bucket_name)
+
+        # Filtrar el DataFrame para obtener el ejercicio específico por ID
+        ejercicio_editar_df = df_total[df_total['idEjercicioHiper'] == id_ejercicio_editar]
+
+        if not ejercicio_editar_df.empty:
+            # Mostrar la información actual del ejercicio
+            st.write("Información actual del ejercicio:")
+            st.dataframe(ejercicio_editar_df)
+
+            # Mostrar campos para editar cada variable
+            for column in ejercicio_editar_df.columns:
+                valor_actual = ejercicio_editar_df.iloc[0][column]
+
+                nuevo_valor = None
+                if column in ['grupoMuscular', 'musculo', 'ejercicio', 'observaciones']:
+                    nuevo_valor = st.text_input(f"Nuevo valor para {column}", value=str(valor_actual))
+                elif column == 'fecha':
+                    # Convertir la fecha al formato deseado para mostrar
+                    fecha_actual = pd.to_datetime(valor_actual, format='%d/%m/%Y')
+                    nuevo_valor = st.date_input(f"Nuevo valor para {column}", value=fecha_actual)
+                    # Convertir la fecha al formato "%d/%m/%Y" antes de actualizar el DataFrame
+                    nuevo_valor = nuevo_valor.strftime('%d/%m/%Y')
+                elif column in ['serie', 'peso', 'repeticiones', 'tiempo']:
+                    if column == 'serie':
+                        nuevo_valor = st.number_input(f"Nuevo valor para {column}", value=int(valor_actual))
+                    else:
+                        nuevo_valor = st.number_input(f"Nuevo valor para {column}", value=valor_actual)
+
+                if nuevo_valor is not None:
+                    ejercicio_editar_df.at[ejercicio_editar_df.index[0], column] = nuevo_valor
+
+            # Botón para guardar los cambios
+            if st.button("Guardar modificación"):
+                # Actualizar el DataFrame original con los cambios realizados
+                df_total.update(ejercicio_editar_df)
+
+                # Guardar el DataFrame actualizado en S3
+                upload_to_s3(df_total, s3, bucket_name)
+
+                st.success("¡Entrenamiento de hipertrofia actualizado correctamente!")
+
+                # Esperar 2 segundos antes de recargar la aplicación
+                time.sleep(2)
+
+                # Recargar la aplicación
+                st.rerun()
+        else:
+            st.warning(f"No se encontró ningún entrenamiento de hipertrofia con el ID {id_ejercicio_editar}")
+    else:
+        st.warning('Ingrese el ID del ejercicio para editar la información del entrenamiento')
+
 def main():
     
-    # with st.expander('Nuevo Entrenamiento de Hipertrofia'):
     registra_entrenamientos_hipertrofia()
 
 if __name__ == '__main__':
