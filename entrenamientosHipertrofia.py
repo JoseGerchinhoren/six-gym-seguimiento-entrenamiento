@@ -84,8 +84,6 @@ def registra_entrenamientos_hipertrofia():
 
         fecha_seleccionada = st.date_input("Seleccione la fecha", obtener_fecha_argentina())
 
-        # Aquí se modificó la lógica para cargar automáticamente los datos del último ejercicio
-        # realizado por el socio en los campos respectivos
         if not df_entrenamientos_socio.empty:
             ultima_fila_socio = df_entrenamientos_socio.iloc[-1]
 
@@ -114,6 +112,15 @@ def registra_entrenamientos_hipertrofia():
             ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
 
             ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
+                        # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
+                        
+            if ejercicio:
+                entrenamientos_ejercicio = df_entrenamientos_socio[df_entrenamientos_socio['ejercicio'] == ejercicio]
+                if not entrenamientos_ejercicio.empty:
+                    ultimo_entrenamiento = entrenamientos_ejercicio.iloc[-1]
+                    st.info(f"El último peso realizado para {ejercicio} fue de {ultimo_entrenamiento['peso']} kg y se realizaron {ultimo_entrenamiento['repeticiones']} repeticiones.")
+                else:
+                    st.info(f"No hay registros de entrenamiento para {ejercicio} para {socio}.")
 
             serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1))+1, step=1)
 
