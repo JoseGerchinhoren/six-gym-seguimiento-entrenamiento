@@ -112,7 +112,7 @@ def registra_entrenamientos_hipertrofia():
             ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
 
             ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
-                        # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
+            # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
                         
             if ejercicio:
                 entrenamientos_ejercicio = df_entrenamientos_socio[df_entrenamientos_socio['ejercicio'] == ejercicio]
@@ -129,7 +129,6 @@ def registra_entrenamientos_hipertrofia():
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=ultima_fila_socio.get('repeticiones'), step=1)
 
         else:
-
             grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
 
             if grupoMuscular == 'Tren Superior':
@@ -144,7 +143,7 @@ def registra_entrenamientos_hipertrofia():
             musculo = st.selectbox('Músculo', opciones_musculos)
 
             if musculo:
-                ejercicios_disponibles = df_entrenamientos_socio[df_entrenamientos_socio['musculo'] == musculo]['ejercicio'].unique()
+                ejercicios_disponibles = df_total[df_total['musculo'] == musculo]['ejercicio'].unique()
             else:
                 ejercicios_disponibles = []
 
@@ -203,7 +202,7 @@ def registra_entrenamientos_hipertrofia():
                 st.success('Entrenamiento guardado con éxito!')
 
                 # Esperar 1 segundos antes de recargar la aplicación
-                time.sleep(0.3)
+                time.sleep(0.1)
                 
                 # Recargar la aplicación
                 st.rerun()
@@ -264,7 +263,7 @@ def visualizar_entrenamientos_hiper(socio):
     st.markdown(f"<h1 style='text-align: center;'>Peso levantado por día de {socio}</h1>", unsafe_allow_html=True)
 
     # Calcular peso total levantado por día
-    df_total['Fecha'] = pd.to_datetime(df_total['Fecha'])
+    df_total['Fecha'] = pd.to_datetime(df_total['Fecha'], format='%d/%m/%Y')
     df_total['Peso Total'] = df_total['Peso'] * df_total['Repeticiones']
     peso_total_por_dia = df_total.groupby('Fecha', as_index=False).agg({'Peso Total': 'sum', 'Músculo': lambda x: ', '.join(set(x))})
 
