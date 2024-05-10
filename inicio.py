@@ -7,6 +7,9 @@ from entrenamientosHipertrofia import main as ingresaEntrenamiento
 from ingresaUsuarios import ingresa_usuario
 from visualizaUsuarios import main as visualiza_usuarios
 
+# Establecer el modo wide como predeterminado
+st.set_page_config(layout="wide")
+
 # Obtener credenciales
 aws_access_key, aws_secret_key, region_name, bucket_name = cargar_configuracion()
 

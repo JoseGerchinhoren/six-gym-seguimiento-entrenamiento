@@ -5,7 +5,6 @@ import io
 from io import StringIO
 import altair as alt
 import time
-import re
 
 # Obtener credenciales
 from config import cargar_configuracion
@@ -59,6 +58,28 @@ def validar_entradas(socio, grupoMuscular, musculo, ejercicio, serie, peso, repe
 
     return errores
 
+def normalizar_ejercicio(texto):
+    texto = texto.strip()
+    palabras = texto.split()
+    # Verificar si hay palabras en la lista antes de capitalizar la primera
+    if palabras:
+        palabras[0] = palabras[0].capitalize()
+        return ' '.join(palabras)
+    else:
+        return texto
+
+def normalizar_socio(texto):
+    texto = texto.strip()
+    palabras = texto.split()
+    palabras = [palabra.capitalize() for palabra in palabras]
+    return ' '.join(palabras)
+
+def normalizar_observaciones(texto):
+    if isinstance(texto, str):
+        texto = texto.strip()
+        texto = texto.capitalize()
+    return texto
+
 def registra_entrenamientos_hipertrofia():
     # Conectar a S3
     s3, bucket_name = conectar_s3()
@@ -69,6 +90,7 @@ def registra_entrenamientos_hipertrofia():
     st.subheader("Ingrese nombre, apellido y luego seleccione")
     # Variables ingresadas por el cliente
     socio_input = st.text_input('Nombre y Apellido')
+    socio_input = normalizar_socio(socio_input)
 
     # Filtrar los nombres que coinciden con lo que se ha ingresado
     nombres_coincidentes = df_total['socio'][df_total['socio'].str.contains(socio_input, case=False)].unique()
@@ -108,6 +130,7 @@ def registra_entrenamientos_hipertrofia():
                 ejercicios_disponibles = []
 
             ejercicio_input = st.text_input('Ejercicio', value=ultima_fila_socio.get('ejercicio', ''))
+            ejercicio_input = normalizar_ejercicio(ejercicio_input)
 
             ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
 
@@ -148,6 +171,7 @@ def registra_entrenamientos_hipertrofia():
                 ejercicios_disponibles = []
 
             ejercicio_input = st.text_input('Ejercicio')
+            ejercicio_input = normalizar_ejercicio(ejercicio_input)
 
             ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
 
@@ -160,6 +184,8 @@ def registra_entrenamientos_hipertrofia():
         tiempo = st.number_input('Tiempo en segundos',  min_value=0, value=None, step=1)
 
         observaciones = st.text_input('Observaciones')
+        observaciones = normalizar_observaciones(observaciones)
+
 
         # Botón para guardar el registro
         if st.button('Guardar Entrenamiento de Hipertrofia'):
@@ -292,7 +318,7 @@ def visualizar_entrenamientos_hiper(socio):
     chart = line_chart + points
 
     st.altair_chart(chart)
-
+    
 def editar_entrenamientos_hiper():
     st.header('Editar Entrenamiento de Hipertrofia')
 
