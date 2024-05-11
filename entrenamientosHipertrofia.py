@@ -138,12 +138,33 @@ def registra_entrenamientos_hipertrofia():
             # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
                         
             if ejercicio:
-                entrenamientos_ejercicio = df_entrenamientos_socio[df_entrenamientos_socio['ejercicio'] == ejercicio]
+                # Obtener la fecha actual usando la función obtener_fecha_argentina()
+                fecha_actual = obtener_fecha_argentina()
+                
+                # Filtrar los entrenamientos del ejercicio seleccionado y que no sean de la fecha actual
+                entrenamientos_ejercicio = df_entrenamientos_socio[(df_entrenamientos_socio['ejercicio'] == ejercicio) & (df_entrenamientos_socio['fecha'] != fecha_actual)]
+                
                 if not entrenamientos_ejercicio.empty:
-                    ultimo_entrenamiento = entrenamientos_ejercicio.iloc[-1]
-                    st.info(f"El último peso realizado para {ejercicio} fue de {ultimo_entrenamiento['peso']} kg y se realizaron {ultimo_entrenamiento['repeticiones']} repeticiones.")
+                    # Ordenar los entrenamientos por fecha en orden descendente para obtener el más reciente primero
+                    entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='fecha', ascending=False)
+                    
+                    # Obtener la fecha más reciente
+                    ultima_fecha = entrenamientos_ejercicio.iloc[0]['fecha']
+                    
+                    st.info(f"Última vez en {ejercicio} ({ultima_fecha}):")
+                    
+                    # Filtrar los entrenamientos por la fecha más reciente
+                    entrenamientos_ultima_fecha = entrenamientos_ejercicio[entrenamientos_ejercicio['fecha'] == ultima_fecha]
+                    
+                    # Iterar sobre las filas de entrenamiento y mostrar los detalles de cada serie
+                    for _, fila in entrenamientos_ultima_fecha.iterrows():
+                        serie = fila['serie']
+                        peso = fila['peso']
+                        repeticiones = fila['repeticiones']
+                        
+                        st.write(f"Serie {serie}: {peso} kg, repeticiones {repeticiones}")
                 else:
-                    st.info(f"No hay registros de entrenamiento para {ejercicio} para {socio}.")
+                    st.info(f"No hay registros de entrenamiento para {ejercicio} para {socio} que no sean de la fecha actual.")
 
             serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1))+1, step=1)
 

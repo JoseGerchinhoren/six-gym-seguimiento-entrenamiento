@@ -1,0 +1,1228 @@
+idEjercicioHiper,fecha,hora,socio,grupoMuscular,musculo,ejercicio,serie,peso,repeticiones,tiempo,observaciones,usuario
+1,15/04/2024,01:52,José,Tren Superior,Pecho,Press plano,2,60,10,,,Sixgym
+2,15/04/2024,01:53,José,Tren Superior,Pecho,Press plano,3,60,10,,,Sixgym
+3,15/04/2024,10:28,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas,4,8,14,,Fortalecer el abdomen,Sixgym
+4,15/04/2024,10:30,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas,1,8,14,,Fortalecer el abdomen,Sixgym
+5,15/04/2024,14:10,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas,1,8,14,,,Sixgym
+6,15/04/2024,14:11,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas,2,10,12,,,Sixgym
+7,15/04/2024,14:12,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas,3,10,12,,,Sixgym
+8,15/04/2024,14:13,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas,4,15,8,,Peso con mancuernas,Sixgym
+9,15/04/2024,14:16,Malena Cedrón,Tren Inferior,Cuádriceps,Prensa,1,80,12,,Combinado con sentadillas normales,Sixgym
+10,15/04/2024,14:22,Malena Cedrón,Tren Inferior,Cuádriceps,Prensa,2,70,12,,Combinado con sentadillas normales,Sixgym
+11,15/04/2024,14:22,Malena Cedrón,Tren Inferior,Cuádriceps,Prensa,3,80,10,,Combinado con sentadillas normales,Sixgym
+12,15/04/2024,14:26,Malena Cedrón,Tren Inferior,Cuádriceps,Estocadas,1,3,13,,"Usamos mancuernas de 3 kg , hacer más enfoque en estabilidad",Sixgym
+13,15/04/2024,14:26,Malena Cedrón,Tren Inferior,Cuádriceps,Estocadas,2,3,13,,"Usamos mancuernas de 3 kg , hacer más enfoque en estabilidad",Sixgym
+14,15/04/2024,14:27,Malena Cedrón,Tren Inferior,Cuádriceps,Estocadas,3,4,11,,,Sixgym
+15,15/04/2024,14:27,Malena Cedrón,Tren Inferior,Cuádriceps,Estocadas,4,4,11,,,Sixgym
+16,15/04/2024,14:32,Malena Cedrón,Tren Inferior,Pantorrillas,Elevación de talones,1,60,13,,Trabajamos en prensa con 10 rep de unilaterales,Sixgym
+17,15/04/2024,14:34,Malena Cedrón,Tren Inferior,Pantorrillas,Elevación de talones,2,60,13,,Trabajamos en prensa con 10 rep de unilaterales,Sixgym
+18,15/04/2024,14:35,Malena Cedrón,Tren Inferior,Pantorrillas,Elevación de talones,3,60,13,,Trabajamos en prensa con 10 rep de unilaterales,Sixgym
+19,15/04/2024,14:53,Eugenia Montero,Zona Media,abdominales,Plancha ventral,1,25,3,,,Sixgym
+20,15/04/2024,14:54,Eugenia Montero,Zona Media,abdominales,Plancha lateral,2,20,3,,,Sixgym
+21,15/04/2024,14:55,Eugenia Montero,Zona Media,abdominales,Bicho muerto,3,30,3,,,Sixgym
+22,15/04/2024,14:56,Eugenia Montero,Zona Media,abdominales,Elevación de rodillas al pecho,4,20,12,,,Sixgym
+23,15/04/2024,15:03,Eugenia Montero,Tren Superior,Pecho,Press inclinado,1,10,14,,,Sixgym
+24,15/04/2024,15:05,Eugenia Montero,Tren Superior,Pecho,Press inclinado,2,15,12,,,Sixgym
+25,15/04/2024,15:07,Eugenia Montero,Tren Superior,Pecho,Press inclinado,3,18,10,,,Sixgym
+26,15/04/2024,15:08,Eugenia Montero,Tren Superior,Pecho,Press inclinado,4,18,10,,,Sixgym
+27,15/04/2024,15:22,Eugenia Montero,Tren Superior,Pecho,Press con mancuernas plano,2,4,11,,Combinado con flexiones,Sixgym
+28,15/04/2024,15:24,Eugenia Montero,Tren Superior,Pecho,Press con mancuernas plano,1,3,13,,Combinado con flexiones,Sixgym
+29,15/04/2024,15:26,Eugenia Montero,Tren Superior,Pecho,Press con mancuernas plano,3,4,11,,Combinado con flexiones,Sixgym
+30,15/04/2024,15:39,Eugenia Montero,Tren Superior,Pecho,Unilateral en polea,1,2,12,,,Sixgym
+31,15/04/2024,15:39,Eugenia Montero,Tren Superior,Pecho,Unilateral en polea,2,2,12,,,Sixgym
+32,15/04/2024,16:19,Angeles Conforti,Tren Superior,Hombros,Press militar,1,18,12,,,Sixgym
+33,15/04/2024,16:19,Angeles Conforti,Tren Superior,Hombros,Press militar,2,18,12,,,Sixgym
+34,15/04/2024,16:22,Angeles Conforti,Tren Superior,Hombros,Press militar,3,18,12,,Primera ves del ejercicio,Sixgym
+35,15/04/2024,16:27,Angeles Conforti,Tren Superior,Hombros,Vuelos laterales,1,2,12,,Combinado con 10 rep de frontales,Sixgym
+36,15/04/2024,16:30,Angeles Conforti,Tren Superior,Hombros,Vuelos laterales,2,2,12,,Combinado con 10 rep de frontales,Sixgym
+37,15/04/2024,16:30,Angeles Conforti,Tren Superior,Hombros,Vuelos laterales,3,3,10,,Combinado con 10 rep de frontales,Sixgym
+38,15/04/2024,16:30,Angeles Conforti,Tren Superior,Hombros,Vuelos laterales,4,3,10,,Combinado con 10 rep de frontales,Sixgym
+39,15/04/2024,16:41,Angeles Conforti,Tren Superior,Biceps,Curl con barra,1,1,13,,,Sixgym
+40,15/04/2024,16:41,Angeles Conforti,Tren Superior,Biceps,Curl con barra,2,2,11,,,Sixgym
+41,15/04/2024,16:42,Angeles Conforti,Tren Superior,Biceps,Curl con barra,3,2,11,,,Sixgym
+42,15/04/2024,16:50,Angeles Conforti,Tren Superior,Biceps,Martillo con mancuerna,1,3,13,,Aguanto 10 seg en iso.,Sixgym
+43,15/04/2024,16:51,Angeles Conforti,Tren Superior,Biceps,Martillo con mancuerna,2,3,13,,Aguanto 10 seg en iso.,Sixgym
+44,15/04/2024,16:51,Angeles Conforti,Tren Superior,Biceps,Martillo con mancuerna,3,4,11,,Aguanto 10 seg en iso.,Sixgym
+45,15/04/2024,16:51,Angeles Conforti,Tren Superior,Biceps,Martillo con mancuerna,4,4,11,,Aguanto 10 seg en iso.,Sixgym
+46,15/04/2024,18:19,Ana Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,1,20,15,,,Sixgym
+47,15/04/2024,18:19,Alfonsina Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,1,20,15,,,Sixgym
+48,15/04/2024,18:20,Alfonsina Gonza,Tren Superior,Espalda,Remo en polea,1,20,15,,,Sixgym
+49,15/04/2024,18:24,Alfonsina Gonza,Tren Superior,Espalda,Remo en polea,2,25,12,,,Sixgym
+50,15/04/2024,18:24,Ana Gonza,Tren Superior,Espalda,Remo en polea,1,20,15,,,Sixgym
+51,15/04/2024,18:25,Ana Gonza,Tren Superior,Espalda,Remo en polea,2,25,12,,,Sixgym
+52,15/04/2024,18:25,Ana Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,2,25,12,,,Sixgym
+53,15/04/2024,18:25,Alfonsina Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,2,25,12,,,Sixgym
+54,15/04/2024,18:36,Alfonsina Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,3,25,12,,,Sixgym
+55,15/04/2024,18:36,Ana Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,3,25,12,,,Sixgym
+56,15/04/2024,18:39,Ana Gonza,Tren Superior,Espalda,Remo en polea,3,25,12,,,Sixgym
+57,15/04/2024,18:39,Ana Gonza,Tren Superior,Espalda,Remo en polea,4,25,14,,,Sixgym
+58,15/04/2024,18:40,Ana Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,4,25,12,,,Sixgym
+59,15/04/2024,18:41,Alfonsina Gonza,Tren Superior,Espalda,Remo en polea,3,25,12,,,Sixgym
+60,15/04/2024,18:41,Alfonsina Gonza,Tren Superior,Espalda,Dorsalera agarre amplio,4,25,12,,,Sixgym
+61,15/04/2024,18:41,Alfonsina Gonza,Tren Superior,Espalda,Remo en polea,4,25,12,,,Sixgym
+62,15/04/2024,18:56,Ana Gonza,Tren Superior,Hombros,Press de hombro en maquina,1,7,12,,,Sixgym
+63,15/04/2024,18:56,Ana Gonza,Tren Superior,Hombros,Press de hombro en maquina,2,7,12,,,Sixgym
+64,15/04/2024,18:56,Ana Gonza,Tren Superior,Hombros,Press de hombro en maquina,3,7,12,,,Sixgym
+65,15/04/2024,18:56,Ana Gonza,Tren Superior,Hombros,Press de hombro en maquina,4,7,12,,,Sixgym
+66,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Press de hombro en maquina,1,7,12,,,Sixgym
+67,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Press de hombro en maquina,2,7,12,,,Sixgym
+68,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Press de hombro en maquina,3,7,12,,,Sixgym
+69,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Press de hombro en maquina,4,7,12,,,Sixgym
+70,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Elevaciones laterales,1,3,12,,,Sixgym
+71,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Elevaciones laterales,2,3,12,,,Sixgym
+72,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Elevaciones laterales,3,3,12,,,Sixgym
+73,15/04/2024,18:57,Alfonsina Gonza,Tren Superior,Hombros,Elevaciones laterales,4,3,12,,,Sixgym
+74,15/04/2024,18:57,Ana Gonza,Tren Superior,Hombros,Elevaciones laterales,1,3,12,,,Sixgym
+75,15/04/2024,18:57,Ana Gonza,Tren Superior,Hombros,Elevaciones laterales,2,3,12,,,Sixgym
+76,15/04/2024,18:58,Ana Gonza,Tren Superior,Hombros,Elevaciones laterales,3,3,12,,,Sixgym
+77,15/04/2024,18:58,Ana Gonza,Tren Superior,Hombros,Elevaciones laterales,4,3,12,,,Sixgym
+78,15/04/2024,19:09,Alfonsina Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,1,8,12,,,Sixgym
+79,15/04/2024,19:09,Alfonsina Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,2,8,12,,,Sixgym
+80,15/04/2024,19:09,Alfonsina Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,3,8,12,,,Sixgym
+81,15/04/2024,19:09,Alfonsina Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,4,8,12,,,Sixgym
+82,15/04/2024,19:09,Ana Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,1,8,12,,,Sixgym
+83,15/04/2024,19:09,Ana Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,2,8,12,,,Sixgym
+84,15/04/2024,19:09,Ana Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,3,8,12,,,Sixgym
+85,15/04/2024,19:09,Ana Gonza,Tren Superior,Triceps,Extencion de triceps con mancuerna,4,8,12,,,Sixgym
+86,15/04/2024,19:10,Ana Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,1,10,12,,,Sixgym
+87,15/04/2024,19:10,Ana Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,2,10,12,,,Sixgym
+88,15/04/2024,19:10,Ana Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,3,10,12,,,Sixgym
+89,15/04/2024,19:10,Ana Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,4,10,12,,,Sixgym
+90,15/04/2024,19:10,Alfonsina Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,1,10,12,,,Sixgym
+91,15/04/2024,19:10,Alfonsina Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,2,10,12,,,Sixgym
+92,15/04/2024,19:10,Alfonsina Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,3,10,12,,,Sixgym
+93,15/04/2024,19:10,Alfonsina Gonza,Tren Superior,Triceps,Extension de triceps en polea con bara V,4,10,12,,,Sixgym
+94,15/04/2024,19:21,Ana Gonza,Tren Superior,Biceps,Curl de biceps con barra,1,5,12,,,Sixgym
+95,15/04/2024,19:21,Ana Gonza,Tren Superior,Biceps,Curl de biceps con barra,2,5,12,,,Sixgym
+96,15/04/2024,19:21,Ana Gonza,Tren Superior,Biceps,Curl de biceps con barra,3,5,12,,,Sixgym
+97,15/04/2024,19:21,Alfonsina Gonza,Tren Superior,Biceps,Curl de biceps con barra,1,5,12,,,Sixgym
+98,15/04/2024,19:21,Alfonsina Gonza,Tren Superior,Biceps,Curl de biceps con barra,2,5,12,,,Sixgym
+99,15/04/2024,19:21,Alfonsina Gonza,Tren Superior,Biceps,Curl de biceps con barra,3,5,12,,,Sixgym
+100,15/04/2024,19:22,Alfonsina Gonza,Tren Superior,Biceps,Martillo con mancuernas,1,8,12,,,Sixgym
+101,15/04/2024,19:22,Alfonsina Gonza,Tren Superior,Biceps,Martillo con mancuernas,2,8,12,,,Sixgym
+102,15/04/2024,19:22,Alfonsina Gonza,Tren Superior,Biceps,Martillo con mancuernas,3,8,12,,,Sixgym
+103,15/04/2024,19:23,Ana Gonza,Tren Superior,Biceps,Martillo con mancuernas,1,8,12,,,Sixgym
+104,15/04/2024,19:23,Ana Gonza,Tren Superior,Biceps,Martillo con mancuernas,2,8,12,,,Sixgym
+105,15/04/2024,19:23,Ana Gonza,Tren Superior,Biceps,Martillo con mancuernas,3,8,12,,,Sixgym
+107,15/04/2024,20:00,José Gerchinhoren,Tren Inferior,Pantorrillas,Pantorrillas en prensa,2,80,15,,,Sixgym
+108,15/04/2024,20:00,José Gerchinhoren,Tren Inferior,Pantorrillas,Pantorrillas en prensa,3,100,12,,,Sixgym
+109,15/04/2024,20:00,José Gerchinhoren,Tren Inferior,Pantorrillas,Pantorrillas en prensa,4,120,8,,,Sixgym
+110,15/04/2024,20:00,José Gerchinhoren,Tren Inferior,Pantorrillas,Pantorrillas en maquina,1,15,12,,,Sixgym
+111,15/04/2024,20:00,José Gerchinhoren,Tren Inferior,Pantorrillas,Pantorrillas en maquina,2,15,12,,,Sixgym
+112,15/04/2024,20:01,José Gerchinhoren,Tren Inferior,Pantorrillas,Pantorrillas en maquina,3,15,12,,,Sixgym
+113,15/04/2024,20:05,José Gerchinhoren,Tren Inferior,Pantorrillas,Pantorrillas en maquina,4,15,12,,,Sixgym
+114,15/04/2024,20:19,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,1,160,15,,,Sixgym
+115,15/04/2024,20:20,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,30,12,,,Sixgym
+116,15/04/2024,20:25,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,2,175,13,,,Sixgym
+117,15/04/2024,20:26,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,30,12,,Las primeras 8 rep con 3 segundos en isometrico,Sixgym
+118,15/04/2024,20:34,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,3,190,10,,,Sixgym
+119,15/04/2024,20:35,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,60,12,,Primeras 6 repeticiones con 3 seg de isometrico,Sixgym
+120,15/04/2024,20:45,José Gerchinhoren,Tren Inferior,Cuádriceps,Sentadillas,1,70,10,,"Con pies semi juntos, talones sobre disco",Sixgym
+121,15/04/2024,20:46,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,60,20,,"Primeras 10 con las dos piernas, últimas 10 unilaterales 10 cada pierna",Sixgym
+122,15/04/2024,20:55,José Gerchinhoren,Tren Inferior,Cuádriceps,Sentadillas,2,70,8,,"Con pies semi juntos, talones sobre disco",Sixgym
+123,15/04/2024,20:57,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,50,20,,"Primeras 10 con las dos piernas, últimas 10 unilaterales 10 cada pierna",Sixgym
+124,15/04/2024,21:02,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,50,20,,"Primeras 10 con las dos piernas, últimas 10 unilaterales 10 cada pierna",Sixgym
+125,15/04/2024,21:03,José Gerchinhoren,Tren Inferior,Cuádriceps,Sentadillas,3,70,10,,"Con pies semi juntos, talones sobre disco",Sixgym
+126,15/04/2024,21:12,José Gerchinhoren,Tren Superior,Espalda,Dominadas,1,72,10,,,Sixgym
+127,15/04/2024,21:14,José Gerchinhoren,Tren Superior,Espalda,Dominadas,2,72,10,,,Sixgym
+128,15/04/2024,21:18,José Gerchinhoren,Tren Superior,Espalda,Dominadas,3,72,10,,,Sixgym
+129,15/04/2024,21:22,José Gerchinhoren,Tren Superior,Espalda,Dominadas,4,72,10,,,Sixgym
+130,16/04/2024,09:29,Virginia Yapura,Tren Inferior,Cuádriceps,Sentadillas,1,8,14,,,Sixgym
+131,16/04/2024,09:31,Virginia Yapura,Tren Inferior,Cuádriceps,Sentadillas,2,10,12,,,Sixgym
+132,16/04/2024,09:33,Virginia Yapura,Tren Inferior,Cuádriceps,Sentadillas,2,8,14,,,Sixgym
+133,16/04/2024,09:33,Virginia Yapura,Tren Inferior,Cuádriceps,Sentadillas,3,10,12,,,Sixgym
+134,16/04/2024,09:49,Virginia Yapura,Tren Inferior,Cuádriceps,Prensa,1,60,13,,Combinado con iso  y 10 sentadillas,Sixgym
+135,16/04/2024,09:50,Virginia Yapura,Tren Inferior,Cuádriceps,Prensa,1,65,11,,Combinado con iso  y 10 sentadillas,Sixgym
+136,16/04/2024,09:50,Virginia Yapura,Tren Inferior,Cuádriceps,Prensa,3,65,11,,Combinado con iso  y 10 sentadillas,Sixgym
+137,16/04/2024,09:51,Virginia Yapura,Tren Inferior,Cuádriceps,Estocadas,1,3,12,,,Sixgym
+138,16/04/2024,09:52,Virginia Yapura,Tren Inferior,Cuádriceps,Estocadas,1,3,12,,,Sixgym
+139,16/04/2024,09:52,Virginia Yapura,Tren Inferior,Cuádriceps,Estocadas,3,4,10,,,Sixgym
+140,16/04/2024,09:52,Virginia Yapura,Tren Inferior,Cuádriceps,Estocadas,3,4,10,,,Sixgym
+141,16/04/2024,09:54,Virginia Yapura,Tren Inferior,Pantorrillas,Elevación de talones,1,60,12,,Combinado con 10 unilaterales con cada pie,Sixgym
+142,16/04/2024,09:54,Virginia Yapura,Tren Inferior,Pantorrillas,Elevación de talones,1,60,12,,Combinado con 10 unilaterales con cada pie,Sixgym
+143,16/04/2024,09:54,Virginia Yapura,Tren Inferior,Pantorrillas,Elevación de talones,3,60,12,,Combinado con 10 unilaterales con cada pie,Sixgym
+144,16/04/2024,10:39,Brenda Paz,Tren Superior,Espalda,Remo supino con barra,1,2,14,,,Sixgym
+145,16/04/2024,10:40,Brenda Paz,Tren Superior,Espalda,Remo supino con barra,2,3,12,,,Sixgym
+146,16/04/2024,10:40,Brenda Paz,Tren Superior,Espalda,Remo supino con barra,2,3,12,,,Sixgym
+147,16/04/2024,10:41,Brenda Paz,Tren Superior,Espalda,Remo supino con barra,4,5,10,,,Sixgym
+148,16/04/2024,10:42,Brenda Paz,Tren Superior,Espalda,Dorsalera agarre cerrado,1,7,12,,Combinado con dominadas negativas,Sixgym
+149,16/04/2024,10:42,Brenda Paz,Tren Superior,Espalda,Dorsalera agarre cerrado,1,7,12,,Combinado con dominadas negativas,Sixgym
+150,16/04/2024,10:43,Brenda Paz,Tren Superior,Espalda,Dorsalera agarre cerrado,3,9,10,,Combinado con dominadas negativas,Sixgym
+151,16/04/2024,10:43,Brenda Paz,Tren Superior,Espalda,Dorsalera agarre cerrado,4,9,10,,Combinado con dominadas negativas,Sixgym
+152,16/04/2024,10:45,Brenda Paz,Tren Superior,Espalda,Dorsalera unilateral,1,4,13,,,Sixgym
+153,16/04/2024,10:45,Brenda Paz,Tren Superior,Espalda,Dorsalera unilateral,2,4,13,,,Sixgym
+154,16/04/2024,10:45,Brenda Paz,Tren Superior,Espalda,Dorsalera unilateral,3,5,11,,,Sixgym
+155,16/04/2024,10:46,Brenda Paz,Tren Superior,Espalda,Dorsalera unilateral,3,5,11,,,Sixgym
+156,16/04/2024,11:06,Brenda Paz,Tren Superior,Triceps,Tras nuca unilateral,1,2,12,,Combinado con fondos,Sixgym
+157,16/04/2024,11:06,Brenda Paz,Tren Superior,Triceps,Tras nuca unilateral,2,2,12,,Combinado con fondos,Sixgym
+158,16/04/2024,11:08,Brenda Paz,Tren Superior,Triceps,Tras nuca unilateral,3,3,10,,Combinado con fondos,Sixgym
+159,16/04/2024,11:09,Brenda Paz,Tren Superior,Triceps,Tras nuca unilateral,4,3,10,,Combinado con fondos,Sixgym
+160,16/04/2024,11:22,Candela Perez,Tren Superior,Hombros,Press militar,1,2,12,,,Sixgym
+161,16/04/2024,11:23,Candela Perez,Tren Superior,Hombros,Press militar,2,4,12,,,Sixgym
+162,16/04/2024,11:24,Candela Perez,Tren Superior,Hombros,Press militar,2,5,10,,,Sixgym
+163,16/04/2024,11:24,Candela Perez,Tren Superior,Hombros,Press militar,2,5,10,,,Sixgym
+164,16/04/2024,11:24,Candela Perez,Tren Superior,Hombros,Press militar,2,5,10,,,Sixgym
+165,16/04/2024,11:42,Candela Perez,Tren Superior,Hombros,Vuelos laterales,1,4,12,,Aguanto 10 seg en iso combinado con 10 frontales,Sixgym
+166,16/04/2024,11:54,Candela Perez,Tren Superior,Hombros,Vuelos laterales,2,4,13,,Aguanto 10 seg en iso combinado con 10 frontales,Sixgym
+167,16/04/2024,11:54,Candela Perez,Tren Superior,Hombros,Vuelos laterales,2,4,13,,Aguanto 10 seg en iso combinado con 10 frontales,Sixgym
+168,16/04/2024,11:55,Candela Perez,Tren Superior,Hombros,Posteriores en polea unilateral,1,1,14,,,Sixgym
+169,16/04/2024,11:56,Candela Perez,Tren Superior,Hombros,Posteriores en polea unilateral,2,1,14,,,Sixgym
+170,16/04/2024,11:56,Candela Perez,Tren Superior,Hombros,Posteriores en polea unilateral,3,1,14,,,Sixgym
+171,16/04/2024,11:58,Candela Perez,Tren Superior,Biceps,Curl con barra recta,1,2,13,,Combinado con martillo con mancuernas 10 x brazo,Sixgym
+172,16/04/2024,11:59,Candela Perez,Tren Superior,Biceps,Curl con barra recta,2,2,13,,Combinado con martillo con mancuernas 10 x brazo,Sixgym
+173,16/04/2024,11:59,Candela Perez,Tren Superior,Biceps,Curl con barra recta,3,3,10,,Combinado con martillo con mancuernas 10 x brazo,Sixgym
+174,16/04/2024,12:00,Candela Perez,Tren Superior,Biceps,Curl con barra recta,4,5,9,,Combinado con martillo con mancuernas 10 x brazo,Sixgym
+175,16/04/2024,14:24,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,1,50,20,,Isometrico en la última rep al fallo,Sixgym
+176,16/04/2024,14:29,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,1,60,12,,Isometrico en la última rep al fallo,Sixgym
+177,16/04/2024,14:32,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,3,60,10,,,Sixgym
+178,16/04/2024,14:38,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,1,50,12,,,Sixgym
+179,16/04/2024,14:41,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,1,50,12,,,Sixgym
+180,16/04/2024,14:41,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,2,60,10,,,Sixgym
+181,16/04/2024,14:46,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,3,70,7,,,Sixgym
+182,16/04/2024,14:51,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas baja,1,30,18,,,Sixgym
+183,16/04/2024,14:53,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas baja,2,40,10,,,Sixgym
+184,16/04/2024,14:58,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas baja,3,40,13,,Isometrica en la última rep,Sixgym
+185,16/04/2024,20:30,José,Tren Superior,Pecho,Press plano,3,60,0,0.0,,Sixgym
+186,17/04/2024,08:15,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,1,19,14,,,Sixgym
+187,17/04/2024,08:15,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,2,19,14,,,Sixgym
+188,17/04/2024,08:16,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,3,22,12,,,Sixgym
+189,17/04/2024,08:16,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,4,22,12,,,Sixgym
+190,17/04/2024,08:18,Nieva Valeria,Tren Inferior,Cuádriceps,Maquina Hack,1,2,12,,Combinado con 10 sentadillas normales,Sixgym
+191,17/04/2024,08:19,Nieva Valeria,Tren Inferior,Cuádriceps,Maquina Hack,2,5,10,,Combinado con 10 sentadillas normales,Sixgym
+192,17/04/2024,08:19,Nieva Valeria,Tren Inferior,Cuádriceps,Maquina Hack,3,5,10,,Combinado con 10 sentadillas normales,Sixgym
+193,17/04/2024,08:20,Nieva Valeria,Tren Inferior,Cuádriceps,Estocadas hacia adelante,1,4,12,,,Sixgym
+194,17/04/2024,08:20,Nieva Valeria,Tren Inferior,Cuádriceps,Estocadas hacia adelante,2,4,12,,,Sixgym
+195,17/04/2024,08:30,Nieva Valeria,Zona Media,abdominales,Plancha ventral,1,1,0,25.0,,Sixgym
+196,17/04/2024,08:31,Nieva Valeria,Zona Media,abdominales,Plancha ventral,2,1,0,20.0,Lo mismo del otro lado,Sixgym
+197,17/04/2024,08:32,Nieva Valeria,Zona Media,abdominales,Bicho muerto,3,1,0,30.0,Lo mismo del otro lado,Sixgym
+198,17/04/2024,08:48,Nieva Valeria,Tren Superior,Espalda,Remo T,1,2,14,,Entrenamiento de hoy,Sixgym
+199,17/04/2024,08:48,Nieva Valeria,Tren Superior,Espalda,Remo T,2,3,12,,Entrenamiento de hoy,Sixgym
+200,17/04/2024,08:49,Nieva Valeria,Tren Superior,Espalda,Remo T,3,5,10,,Entrenamiento de hoy,Sixgym
+201,17/04/2024,08:49,Nieva Valeria,Tren Superior,Espalda,Remo T,4,5,10,,Entrenamiento de hoy,Sixgym
+202,17/04/2024,08:49,Nieva Valeria,Tren Superior,Espalda,Remo T,4,5,10,,Entrenamiento de hoy,Sixgym
+203,17/04/2024,08:56,Nieva Valeria,Tren Superior,Espalda,Dorsalera,1,4,13,,Descanso 10 segundos y hago mas,Sixgym
+204,17/04/2024,08:59,Nieva Valeria,Tren Superior,Espalda,Dorsalera,2,5,11,,Descanso 10 segundos y hago mas,Sixgym
+205,17/04/2024,09:03,Nieva Valeria,Tren Superior,Espalda,Dorsalera,3,5,11,,Descanso 10 segundos y hago mas,Sixgym
+206,17/04/2024,09:23,Nieva Valeria,Tren Superior,Triceps,Tras nuca unilateral,1,2,11,,Combinado con fondos,Sixgym
+207,17/04/2024,09:25,Nieva Valeria,Tren Superior,Triceps,Tras nuca unilateral,2,2,11,,Combinado con fondos,Sixgym
+208,17/04/2024,09:25,Nieva Valeria,Tren Superior,Triceps,Tras nuca unilateral,3,2,11,,Combinado con fondos,Sixgym
+209,17/04/2024,10:39,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas,1,10,14,,,Sixgym
+210,17/04/2024,10:39,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas,2,16,12,,,Sixgym
+211,17/04/2024,10:40,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas,3,16,12,,,Sixgym
+212,17/04/2024,10:40,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas,4,20,10,,,Sixgym
+213,17/04/2024,10:41,Roxana Cabrera,Tren Inferior,Cuádriceps,Maquina hack,1,12,13,,Combinado con estocadas,Sixgym
+214,17/04/2024,10:42,Roxana Cabrera,Tren Inferior,Cuádriceps,Maquina hack,2,30,11,,Combinado con estocadas,Sixgym
+215,17/04/2024,10:42,Roxana Cabrera,Tren Inferior,Cuádriceps,Maquina hack,3,30,11,,Combinado con estocadas,Sixgym
+216,17/04/2024,10:49,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas bulgaras,1,16,14,,,Sixgym
+217,17/04/2024,10:50,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas bulgaras,2,8,14,,,Sixgym
+218,17/04/2024,10:50,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas bulgaras,3,10,12,,,Sixgym
+219,17/04/2024,10:51,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadillas bulgaras,4,10,12,,,Sixgym
+220,17/04/2024,10:58,Eugenia Montero,Tren Superior,Pecho,Unilateral en polea,3,3,10,,,Sixgym
+221,17/04/2024,10:58,Eugenia Montero,Tren Superior,Pecho,Unilateral en polea,4,3,10,,,Sixgym
+222,17/04/2024,11:06,Analia Dal Borgo,Tren Superior,Pecho,Press inclinado con barra,1,10,14,,,Sixgym
+223,17/04/2024,11:07,Analia Dal Borgo,Tren Superior,Pecho,Press inclinado con barra,2,16,12,,,Sixgym
+224,17/04/2024,11:08,Analia Dal Borgo,Tren Superior,Pecho,Press inclinado con barra,3,13,12,,,Sixgym
+225,17/04/2024,11:08,Analia Dal Borgo,Tren Superior,Pecho,Press inclinado con barra,4,16,10,,,Sixgym
+226,17/04/2024,11:13,Analia Dal Borgo,Tren Superior,Pecho,Press con mancuerna en plano,1,6,12,,Combinado con flexiones de brazo,Sixgym
+227,17/04/2024,11:13,Analia Dal Borgo,Tren Superior,Pecho,Press con mancuerna en plano,2,8,10,,Combinado con flexiones de brazo,Sixgym
+228,17/04/2024,11:13,Analia Dal Borgo,Tren Superior,Pecho,Press con mancuerna en plano,3,8,10,,Combinado con flexiones de brazo,Sixgym
+229,17/04/2024,11:17,Analia Dal Borgo,Tren Superior,Pecho,Cruce unilateral de poleas,1,1,13,,Combinado con flexiones de brazo,Sixgym
+230,17/04/2024,11:17,Analia Dal Borgo,Tren Superior,Pecho,Cruce unilateral de poleas,2,1,13,,Combinado con flexiones de brazo,Sixgym
+231,17/04/2024,11:20,Analia Dal Borgo,Tren Superior,Pecho,Cruce unilateral de poleas,3,2,11,,Combinado con flexiones de brazo,Sixgym
+232,17/04/2024,11:20,Analia Dal Borgo,Tren Superior,Pecho,Cruce unilateral de poleas,4,2,11,,,Sixgym
+233,17/04/2024,11:25,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas,1,16,14,,,Sixgym
+234,17/04/2024,11:26,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas,2,20,12,,,Sixgym
+235,17/04/2024,11:26,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas,3,30,10,,,Sixgym
+236,17/04/2024,11:28,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas,4,36,8,,,Sixgym
+237,17/04/2024,11:29,Candela Perez,Tren Inferior,Cuádriceps,Maquina Hack,1,30,13,,Combinado con estocadas,Sixgym
+238,17/04/2024,11:30,Candela Perez,Tren Inferior,Cuádriceps,Maquina Hack,2,36,13,,Combinado con estocadas,Sixgym
+239,17/04/2024,11:30,Candela Perez,Tren Inferior,Cuádriceps,Maquina Hack,3,40,13,,Combinado con estocadas,Sixgym
+240,17/04/2024,11:32,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas bulgaras,1,16,13,,,Sixgym
+241,17/04/2024,11:32,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas bulgaras,1,16,13,,,Sixgym
+242,17/04/2024,11:32,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas bulgaras,3,20,11,,,Sixgym
+243,17/04/2024,11:32,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas bulgaras,4,20,11,,,Sixgym
+244,17/04/2024,11:34,Candela Perez,Tren Inferior,Pantorrillas,Elevacion de talones,1,30,13,,En maquina hack,Sixgym
+245,17/04/2024,11:34,Candela Perez,Tren Inferior,Pantorrillas,Elevacion de talones,2,36,13,,En maquina hack,Sixgym
+246,17/04/2024,11:35,Candela Perez,Tren Inferior,Pantorrillas,Elevacion de talones,2,40,13,,En maquina hack,Sixgym
+247,17/04/2024,11:36,Candela Perez,Tren Inferior,Pantorrillas,Elevacion de talon unilateral,1,8,14,,Combinado con 10 seg en iso.,Sixgym
+248,17/04/2024,11:37,Candela Perez,Tren Inferior,Pantorrillas,Elevacion de talon unilateral,2,8,14,,Combinado con 10 seg en iso.,Sixgym
+249,17/04/2024,11:41,Roxana Cabrera,Tren Inferior,Cuádriceps,Elevación de talones,1,24,13,,,Sixgym
+250,17/04/2024,11:41,Roxana Cabrera,Tren Inferior,Cuádriceps,Elevación de talones,2,30,13,,,Sixgym
+251,17/04/2024,11:43,Roxana Cabrera,Tren Inferior,Pantorrillas,Elevación de talones,3,36,13,,,Sixgym
+252,17/04/2024,11:48,Roxana Cabrera,Tren Inferior,Pantorrillas,Elevación de talón unilateral,1,5,14,,Combinado con 10 seg en iso.,Sixgym
+253,17/04/2024,11:48,Roxana Cabrera,Tren Inferior,Pantorrillas,Elevación de talón unilateral,2,5,14,,Combinado con 10 seg en iso.,Sixgym
+254,17/04/2024,11:53,Roxana Cabrera,Tren Superior,Hombros,Press militar,1,2,12,,,Sixgym
+255,17/04/2024,11:53,Roxana Cabrera,Tren Superior,Hombros,Press militar,2,3,12,,,Sixgym
+256,17/04/2024,11:53,Roxana Cabrera,Tren Superior,Hombros,Press militar,3,5,12,,,Sixgym
+257,17/04/2024,11:54,Roxana Cabrera,Tren Superior,Hombros,Press militar,4,5,12,,,Sixgym
+258,17/04/2024,11:55,Roxana Cabrera,Tren Superior,Hombros,Vuelos laterales,1,3,12,,Combinado con 10 en iso. y 10 frontales,Sixgym
+259,17/04/2024,11:55,Roxana Cabrera,Tren Superior,Hombros,Vuelos laterales,2,4,10,,Combinado con 10 en iso. y 10 frontales,Sixgym
+260,17/04/2024,11:56,Roxana Cabrera,Tren Superior,Hombros,Vuelos laterales,3,4,10,,Combinado con 10 seg en iso. y 10 frontales,Sixgym
+261,17/04/2024,11:58,Roxana Cabrera,Tren Superior,Hombros,Vuelos laterales,1,1,14,,,Sixgym
+262,17/04/2024,11:59,Roxana Cabrera,Tren Superior,Hombros,Posteriores en polea unilateral,2,1,14,,,Sixgym
+263,17/04/2024,11:59,Roxana Cabrera,Tren Superior,Hombros,Posteriores en polea unilateral,3,1,14,,,Sixgym
+264,17/04/2024,12:02,Roxana Cabrera,Tren Superior,Biceps,Curl con barra recta,1,5,14,,Combinado con curl martillo con mancuerna,Sixgym
+265,17/04/2024,12:02,Roxana Cabrera,Tren Superior,Biceps,Curl con barra recta,2,7,12,,Combinado con curl martillo con mancuerna,Sixgym
+266,17/04/2024,12:03,Roxana Cabrera,Tren Superior,Biceps,Curl con barra recta,3,10,10,,Combinado con curl martillo con mancuerna,Sixgym
+267,17/04/2024,12:03,Roxana Cabrera,Tren Superior,Biceps,Curl con barra recta,4,10,10,,Combinado con curl martillo con mancuerna,Sixgym
+268,17/04/2024,14:10,José,Tren Superior,Pecho,Press plano,3,60,0,,,Sixgym
+269,16/04/2024,14:48,José,Tren Superior,Pecho,Press plano,3,60,0,,,Sixgym
+270,17/04/2024,17:46,Angeles Conforti,Tren Superior,Pecho,Press plano con barra,1,5,20,,,Sixgym
+271,17/04/2024,17:46,Angeles Conforti,Tren Superior,Pecho,Press plano con barra,2,10,20,,,Sixgym
+272,17/04/2024,17:52,Angeles Conforti,Tren Superior,Pecho,Press plano con barra,3,15,20,,,Sixgym
+273,17/04/2024,17:52,Angeles Conforti,Tren Superior,Pecho,Press plano con barra,4,15,20,,,Sixgym
+274,17/04/2024,17:52,Angeles Conforti,Tren Superior,Espalda,Remo en polea,1,20,20,,,Sixgym
+275,17/04/2024,17:56,Angeles Conforti,Tren Superior,Espalda,Remo en polea,2,20,20,,,Sixgym
+276,17/04/2024,17:56,Angeles Conforti,Tren Superior,Espalda,Remo en polea,3,20,20,,,Sixgym
+277,17/04/2024,17:56,Angeles Conforti,Tren Superior,Espalda,Remo en polea,4,20,20,,,Sixgym
+278,17/04/2024,18:01,Angeles Conforti,Tren Superior,Pecho,Dorsalera agarre amplio,1,20,20,,,Sixgym
+279,17/04/2024,18:01,Angeles Conforti,Tren Superior,Pecho,Dorsalera agarre amplio,1,20,30,,,Sixgym
+280,17/04/2024,18:06,Angeles Conforti,Tren Superior,Espalda,Dorsalera agarre amplio,3,20,30,,,Sixgym
+281,17/04/2024,18:07,Angeles Conforti,Tren Superior,Pecho,Cruce de poleas,1,20,20,,,Sixgym
+282,17/04/2024,18:07,Angeles Conforti,Tren Superior,Pecho,Cruce de poleas,2,20,20,,,Sixgym
+283,17/04/2024,18:08,Angeles Conforti,Tren Superior,Pecho,Cruce de poleas,3,20,20,,,Sixgym
+284,17/04/2024,18:09,Angeles Conforti,Tren Superior,Biceps,Curl con barra,1,5,20,,,Sixgym
+285,17/04/2024,18:13,Angeles Conforti,Tren Superior,Biceps,Curl con barra,2,5,20,,,Sixgym
+286,17/04/2024,18:13,Angeles Conforti,Tren Superior,Biceps,Curl con barra,2,5,20,,,Sixgym
+287,17/04/2024,18:17,Angeles Conforti,Tren Superior,Biceps,Curl con barra,4,5,20,,,Sixgym
+288,17/04/2024,18:17,Angeles Conforti,Tren Superior,Triceps,Extencion de triceps con mancuerna,1,5,20,,,Sixgym
+289,17/04/2024,18:18,Angeles Conforti,Tren Superior,Triceps,Extencion de triceps con mancuerna,2,5,20,,,Sixgym
+290,17/04/2024,18:18,Angeles Conforti,Tren Superior,Triceps,Extencion de triceps con mancuerna,3,5,20,,,Sixgym
+291,17/04/2024,18:18,Angeles Conforti,Tren Superior,Triceps,Extencion de triceps con mancuerna,4,5,20,,,Sixgym
+292,17/04/2024,23:54,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre neutro,1,45,27,,,Sixgym
+293,18/04/2024,23:58,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre neutro,1,50,20,,,Sixgym
+294,18/04/2024,00:12,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre neutro,3,55,15,,,Sixgym
+295,18/04/2024,00:17,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,1,55,12,,,Sixgym
+296,18/04/2024,00:17,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,2,55,12,,,Sixgym
+297,18/04/2024,00:23,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,3,55,12,,,Sixgym
+298,18/04/2024,00:31,José Gerchinhoren,Tren Superior,Espalda,Dominadas agarre neutro,1,75,4,,,Sixgym
+299,18/04/2024,00:31,José Gerchinhoren,Tren Superior,Espalda,Dominadas agarre neutro,2,75,4,,,Sixgym
+300,18/04/2024,00:32,José Gerchinhoren,Tren Superior,Espalda,Dominadas agarre neutro,3,75,4,,,Sixgym
+301,18/04/2024,00:32,José Gerchinhoren,Tren Superior,Espalda,Dominadas agarre neutro,3,75,4,,,Sixgym
+302,18/04/2024,11:18,José,Tren Superior,Pecho,Press plano,3,60,0,,,Sixgym
+303,18/04/2024,12:07,José,Tren Superior,Pecho,Press plano,3,60,10,,,Sixgym
+304,18/04/2024,12:07,José,Tren Superior,Pecho,Press plano,4,60,10,,,Sixgym
+305,18/04/2024,12:12,José,Tren Superior,Pecho,Press plano,4,60,10,,,Sixgym
+306,18/04/2024,12:12,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+307,18/04/2024,12:12,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+308,18/04/2024,12:12,José,Tren Superior,Pecho,Press plano,5,60,10,,Aa,Sixgym
+309,18/04/2024,12:16,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+310,18/04/2024,12:17,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+311,18/04/2024,12:17,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+312,18/04/2024,12:21,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+313,18/04/2024,12:21,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+314,18/04/2024,12:21,José,Tren Superior,Pecho,Press plano,5,60,10,,,Sixgym
+315,18/04/2024,12:27,José,Tren Superior,Pecho,Press plano,6,60,10,,,Sixgym
+316,18/04/2024,12:27,José,Tren Superior,Pecho,Press plano,7,60,10,,,Sixgym
+317,18/04/2024,12:27,José,Tren Superior,Pecho,Press plano,8,60,10,,,Sixgym
+318,18/04/2024,12:28,José,Tren Superior,Pecho,Press plano,9,60,10,,,Sixgym
+319,18/04/2024,12:28,José,Tren Superior,Pecho,Press plano,10,60,10,,,Sixgym
+320,18/04/2024,12:28,José,Tren Superior,Pecho,Press plano,11,60,10,,,Sixgym
+321,18/04/2024,12:28,José,Tren Superior,Pecho,Press plano,12,60,10,,,Sixgym
+322,18/04/2024,12:28,José,Tren Superior,Pecho,Press plano,13,60,10,,,Sixgym
+323,18/04/2024,12:28,José,Tren Superior,Pecho,Press plano,14,60,10,,,Sixgym
+324,18/04/2024,12:29,José,Tren Superior,Pecho,Press plano,15,60,10,,,Sixgym
+325,18/04/2024,12:29,José,Tren Superior,Pecho,Press plano,16,60,10,,,Sixgym
+326,18/04/2024,12:29,José,Tren Superior,Pecho,Press plano,17,60,10,,,Sixgym
+327,18/04/2024,12:29,José,Tren Superior,Pecho,Press plano,18,60,10,,,Sixgym
+328,18/04/2024,12:38,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,1,35,30,,,Sixgym
+329,18/04/2024,12:38,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,2,35,30,,,Sixgym
+330,18/04/2024,12:38,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,3,35,30,,,Sixgym
+331,18/04/2024,22:05,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,1,30,10,,,Sixgym
+332,18/04/2024,22:05,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,2,30,10,,,Sixgym
+333,18/04/2024,22:09,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,3,30,11,,,Sixgym
+334,18/04/2024,22:14,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,1,20,20,,,Sixgym
+335,18/04/2024,22:16,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,2,25,10,,,Sixgym
+336,18/04/2024,22:19,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,3,20,10,,,Sixgym
+337,18/04/2024,22:21,José Gerchinhoren,Tren Superior,Biceps,Martillo con mancuerna,1,10,20,,,Sixgym
+338,18/04/2024,22:24,José Gerchinhoren,Tren Superior,Biceps,Martillo con mancuerna,2,10,20,,Última repeticion isometrica,Sixgym
+339,18/04/2024,22:35,José Gerchinhoren,Tren Superior,Biceps,Martillo con mancuerna,3,10,20,,Última repeticion isometrica,Sixgym
+340,18/04/2024,22:36,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,1,10,12,,Última repeticion isometrica,Sixgym
+341,18/04/2024,22:39,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,2,15,10,,Última repeticion isometrica,Sixgym
+342,19/04/2024,07:59,Nieva Valeria,Tren Superior,Triceps,Tras nuca unilateral,3,2,11,,,Sixgym
+343,19/04/2024,08:28,Nieva Valeria,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,1,10,13,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+344,19/04/2024,08:28,Nieva Valeria,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,2,10,13,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+345,19/04/2024,08:29,Nieva Valeria,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,3,15,11,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+346,18/04/2024,08:31,Brenda Paz,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,1,10,12,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+347,18/04/2024,08:31,Brenda Paz,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,2,10,12,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+348,18/04/2024,08:31,Brenda Paz,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,3,15,10,,,Sixgym
+349,18/04/2024,08:31,Brenda Paz,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,4,15,10,,,Sixgym
+350,18/04/2024,08:32,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,8,13,,Combinado con 10  buenos dias,Sixgym
+351,18/04/2024,08:33,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,10,11,,Combinado con 10  buenos dias,Sixgym
+352,18/04/2024,08:33,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,10,11,,Combinado con 10  buenos dias,Sixgym
+353,18/04/2024,08:34,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto unilateral,1,5,15,,,Sixgym
+354,18/04/2024,08:34,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto unilateral,2,5,15,,,Sixgym
+355,18/04/2024,08:36,Brenda Paz,Tren Inferior,Glúteos,Hip trust con barra,1,24,15,,,Sixgym
+356,18/04/2024,08:36,Brenda Paz,Tren Inferior,Glúteos,Hip trust con barra,2,32,13,,,Sixgym
+357,18/04/2024,08:37,Brenda Paz,Tren Inferior,Glúteos,Hip trust con barra,3,38,11,,,Sixgym
+358,18/04/2024,08:48,Brenda Paz,Tren Inferior,Glúteos,Patada de gluteos de costado,1,10,15,,,Sixgym
+359,18/04/2024,08:48,Brenda Paz,Tren Inferior,Glúteos,Patada de gluteos de costado,2,10,15,,,Sixgym
+360,18/04/2024,08:49,Brenda Paz,Zona Media,abdominales,Bicho muerto,0,0,0,30.0,,Sixgym
+361,18/04/2024,08:50,Brenda Paz,Zona Media,abdominales,Plancha ventral,0,0,0,25.0,,Sixgym
+362,18/04/2024,08:50,Brenda Paz,Zona Media,abdominales,Plancha lateral,0,0,0,20.0,,Sixgym
+363,18/04/2024,08:52,Nieva Valeria,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,6,13,,Combinado con 10 buenos dias,Sixgym
+364,18/04/2024,08:52,Nieva Valeria,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,6,13,,Combinado con 10 buenos dias,Sixgym
+365,18/04/2024,08:53,Nieva Valeria,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,6,13,,Combinado con 10 buenos dias,Sixgym
+366,18/04/2024,09:00,Nieva Valeria,Tren Inferior,Glúteos,Hip trust con mancuerna,1,10,14,,,Sixgym
+367,18/04/2024,09:00,Nieva Valeria,Tren Inferior,Glúteos,Hip trust con mancuerna,2,10,14,,,Sixgym
+368,18/04/2024,09:04,Nieva Valeria,Tren Inferior,Glúteos,Hip trust con mancuerna,3,15,11,,,Sixgym
+369,18/04/2024,09:05,Nieva Valeria,Tren Inferior,Glúteos,Hip trust con mancuerna,4,15,11,,,Sixgym
+370,18/04/2024,09:09,Nieva Valeria,Tren Inferior,Glúteos,Hip trust unilateral,1,5,15,,,Sixgym
+371,18/04/2024,09:10,Nieva Valeria,Tren Inferior,Glúteos,Hip trust unilateral,2,5,15,,,Sixgym
+372,19/04/2024,09:44,Roxana Cabrera,Zona Media,abdominales,Plancha ventral,0,0,0,25.0,,Sixgym
+373,19/04/2024,09:45,Roxana Cabrera,Zona Media,abdominales,Plancha lateral,0,0,0,20.0,,Sixgym
+374,19/04/2024,09:45,Roxana Cabrera,Zona Media,abdominales,Bicho muerto,0,0,0,30.0,,Sixgym
+375,19/04/2024,11:20,Bianca Blasco,Tren Superior,Espalda,Remo en polea,1,10,13,,Descanso 10 segundos y hago 8 mas,Sixgym
+376,19/04/2024,11:21,Bianca Blasco,Tren Superior,Espalda,Remo en polea,2,15,11,,Descanso 10 segundos y hago 8 mas,Sixgym
+377,19/04/2024,11:21,Bianca Blasco,Tren Superior,Espalda,Remo en polea,3,15,11,,Descanso 10 segundos y hago 8 mas,Sixgym
+378,19/04/2024,11:22,Bianca Blasco,Tren Superior,Espalda,Remo T,1,5,12,,Combinado con dominadas negativas,Sixgym
+379,19/04/2024,11:22,Bianca Blasco,Tren Superior,Espalda,Remo T,2,5,12,,Combinado con dominadas negativas,Sixgym
+380,19/04/2024,11:22,Bianca Blasco,Tren Superior,Espalda,Remo T,2,8,10,,Combinado con dominadas negativas,Sixgym
+381,19/04/2024,11:23,Bianca Blasco,Tren Superior,Espalda,Remo T,4,8,10,,Combinado con dominadas negativas,Sixgym
+382,19/04/2024,11:24,Bianca Blasco,Tren Superior,Espalda,Remo con mancuernas,1,4,15,,,Sixgym
+383,19/04/2024,11:24,Bianca Blasco,Tren Superior,Espalda,Remo con mancuernas,2,4,15,,,Sixgym
+384,19/04/2024,11:25,Bianca Blasco,Tren Superior,Triceps,Extension en polea,1,10,15,,,Sixgym
+385,19/04/2024,11:26,Bianca Blasco,Tren Superior,Triceps,Extension en polea,2,15,13,,,Sixgym
+386,19/04/2024,11:26,Bianca Blasco,Tren Superior,Triceps,Extension en polea,3,15,13,,,Sixgym
+387,19/04/2024,11:27,Bianca Blasco,Tren Superior,Triceps,Extension en polea unilateral,1,5,15,,Combinado con fondos,Sixgym
+388,19/04/2024,11:27,Bianca Blasco,Tren Superior,Triceps,Extension en polea unilateral,2,5,15,,Combinado con fondos,Sixgym
+390,19/04/2024,15:00,Malena Cedrón,Tren Superior,Espalda,Remo en polea,1,20,13,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+391,19/04/2024,15:01,Malena Cedrón,Tren Superior,Espalda,Remo en polea,2,25,11,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+392,19/04/2024,15:01,Malena Cedrón,Tren Superior,Espalda,Remo en polea,3,25,11,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+393,19/04/2024,15:03,Malena Cedrón,Tren Superior,Espalda,Remo T,1,8,12,,Combinado con dominadas negativas,Sixgym
+394,19/04/2024,15:03,Malena Cedrón,Tren Superior,Espalda,Remo T,2,8,12,,Combinado con dominadas negativas,Sixgym
+395,19/04/2024,15:04,Malena Cedrón,Tren Superior,Espalda,Remo T,3,10,10,,Combinado con dominadas negativas,Sixgym
+396,19/04/2024,15:04,Malena Cedrón,Tren Superior,Espalda,Remo T,4,10,10,,Combinado con dominadas negativas,Sixgym
+397,19/04/2024,15:07,Malena Cedrón,Tren Superior,Espalda,Remo unilateral con mancuerna,1,5,15,,,Sixgym
+398,19/04/2024,15:07,Malena Cedrón,Tren Superior,Espalda,Remo unilateral con mancuerna,2,5,15,,,Sixgym
+399,19/04/2024,15:09,Malena Cedrón,Tren Superior,Triceps,Extension en polea,1,10,15,,,Sixgym
+400,19/04/2024,15:10,Malena Cedrón,Tren Superior,Triceps,Extension en polea,2,15,13,,,Sixgym
+401,19/04/2024,15:10,Malena Cedrón,Tren Superior,Triceps,Extension en polea,3,15,13,,,Sixgym
+402,19/04/2024,15:11,Malena Cedrón,Tren Superior,Triceps,Extension en polea unilateral,1,5,15,,Combinado con fondos,Sixgym
+403,19/04/2024,15:11,Malena Cedrón,Tren Superior,Triceps,Extension en polea unilateral,2,5,15,,Combinado con fondos,Sixgym
+404,19/04/2024,17:09,Joaquin Molina,Tren Superior,Pecho,Press banca plana,1,40,12,,,Sixgym
+405,22/04/2024,11:13,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,16,14,,,Sixgym
+406,22/04/2024,11:13,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,16,14,,,Sixgym
+407,22/04/2024,11:14,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,20,12,,,Sixgym
+408,22/04/2024,11:14,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,4,20,12,,,Sixgym
+409,22/04/2024,11:17,Malena Cedrón,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,1,10,13,,Combinado con 10 buenos días,Sixgym
+410,22/04/2024,11:17,Malena Cedrón,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,2,10,13,,Combinado con 10 buenos días,Sixgym
+411,22/04/2024,11:18,Malena Cedrón,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,3,15,9,,Combinado con 10 buenos días,Sixgym
+412,22/04/2024,11:19,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto unilateral,1,10,15,,,Sixgym
+413,22/04/2024,11:19,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto unilateral,2,10,15,,,Sixgym
+414,22/04/2024,11:28,Malena Cedrón,Tren Inferior,Glúteos,Hip trust con barra,1,24,15,,,Sixgym
+415,22/04/2024,11:29,Malena Cedrón,Tren Inferior,Glúteos,Hip trust con barra,2,30,13,,,Sixgym
+416,22/04/2024,11:30,Malena Cedrón,Tren Inferior,Glúteos,Hip trust con barra,3,34,11,,,Sixgym
+417,22/04/2024,11:37,Malena Cedrón,Tren Inferior,Glúteos,Patada de gluteos en polea,1,10,15,,,Sixgym
+418,22/04/2024,11:38,Malena Cedrón,Tren Inferior,Glúteos,Patada de gluteos en polea,2,10,15,,,Sixgym
+419,22/04/2024,11:39,Bianca Blasco,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,10,14,,,Sixgym
+420,22/04/2024,11:39,Bianca Blasco,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,10,14,,,Sixgym
+421,22/04/2024,11:40,Bianca Blasco,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,15,12,,,Sixgym
+422,22/04/2024,11:40,Bianca Blasco,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,4,15,12,,,Sixgym
+423,22/04/2024,11:41,Bianca Blasco,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,1,5,13,,Combinado con 10 buenos días,Sixgym
+424,22/04/2024,11:41,Bianca Blasco,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,2,5,13,,Combinado con 10 buenos días,Sixgym
+425,22/04/2024,11:42,Bianca Blasco,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,3,10,9,,Combinado con 10 buenos días,Sixgym
+426,22/04/2024,11:43,Bianca Blasco,Tren Inferior,Isquiotibiales,Peso muerto unilateral,1,10,15,,,Sixgym
+427,22/04/2024,11:43,Bianca Blasco,Tren Inferior,Isquiotibiales,Peso muerto unilateral,2,10,15,,,Sixgym
+428,22/04/2024,11:44,Bianca Blasco,Tren Inferior,Glúteos,Hip trust con mancuerna,1,10,15,,,Sixgym
+429,22/04/2024,11:44,Bianca Blasco,Tren Inferior,Glúteos,Hip trust con mancuerna,2,10,13,,,Sixgym
+430,22/04/2024,11:44,Bianca Blasco,Tren Inferior,Glúteos,Hip trust con mancuerna,3,10,13,,,Sixgym
+431,22/04/2024,11:45,Bianca Blasco,Tren Inferior,Glúteos,Patadas de gluteos unilateral,1,5,15,,,Sixgym
+432,22/04/2024,11:45,Bianca Blasco,Tren Inferior,Glúteos,Patadas de gluteos unilateral,2,5,15,,,Sixgym
+433,22/04/2024,11:49,Rosario Gonza,Tren Inferior,Cuádriceps,Prensa,1,100,13,,,Sixgym
+434,22/04/2024,11:49,Rosario Gonza,Tren Inferior,Cuádriceps,Prensa,2,100,13,,,Sixgym
+435,22/04/2024,11:50,Rosario Gonza,Tren Inferior,Cuádriceps,Prensa,3,120,11,,,Sixgym
+436,22/04/2024,11:50,Rosario Gonza,Tren Inferior,Cuádriceps,Prensa,4,140,9,,,Sixgym
+437,22/04/2024,11:52,Rosario Gonza,Tren Inferior,Cuádriceps,Maquina Hack,1,40,13,,Descanso 10 seg hago 8 mas combinado con maquina sin peso,Sixgym
+438,22/04/2024,11:53,Rosario Gonza,Tren Inferior,Cuádriceps,Maquina Hack,2,40,13,,Descanso 10 seg hago 8 mas combinado con maquina sin peso,Sixgym
+439,22/04/2024,11:53,Rosario Gonza,Tren Inferior,Cuádriceps,Maquina Hack,3,40,13,,Descanso 10 seg hago 8 mas combinado con maquina sin peso,Sixgym
+440,22/04/2024,11:53,Rosario Gonza,Tren Inferior,Cuádriceps,Sentadillas bulagaras,1,15,15,,,Sixgym
+441,22/04/2024,11:54,Rosario Gonza,Tren Inferior,Cuádriceps,Sentadillas bulagaras,2,15,15,,,Sixgym
+442,22/04/2024,12:00,Rosario Gonza,Tren Inferior,Pantorrillas,Maquina de pantorrilllas,1,30,15,,,Sixgym
+443,22/04/2024,12:00,Rosario Gonza,Tren Inferior,Pantorrillas,Maquina de pantorrilllas,2,35,13,,,Sixgym
+444,22/04/2024,12:00,Rosario Gonza,Tren Inferior,Pantorrillas,Maquina de pantorrilllas,3,40,11,,,Sixgym
+445,21/04/2024,13:29,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,1,60,13,,,Sixgym
+446,21/04/2024,13:29,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,2,65,11,,,Sixgym
+447,21/04/2024,13:29,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,3,70,9,,,Sixgym
+448,21/04/2024,13:29,José Gerchinhoren,Tren Superior,Pecho,Press plano con barra,4,75,7,,,Sixgym
+449,21/04/2024,13:31,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con mancuernas,1,35,15,,Primero con mancuernas de 20 y despues al fallo con las de 15,Sixgym
+450,21/04/2024,13:31,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con mancuernas,2,35,15,,Primero con mancuernas de 20 y despues al fallo con las de 15,Sixgym
+451,21/04/2024,13:31,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con mancuernas,3,35,15,,Primero con mancuernas de 20 y despues al fallo con las de 15,Sixgym
+452,21/04/2024,13:32,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,1,40,13,,Con flexiones al fallo,Sixgym
+453,21/04/2024,13:32,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,2,50,10,,Con flexiones al fallo,Sixgym
+454,21/04/2024,13:32,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,3,50,10,,Con flexiones al fallo,Sixgym
+455,22/04/2024,20:52,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,1,140,17,,,Sixgym
+456,22/04/2024,21:09,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,2,160,14,,,Sixgym
+457,22/04/2024,21:09,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,3,180,11,,,Sixgym
+458,22/04/2024,21:17,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,4,200,8,,,Sixgym
+459,22/04/2024,21:44,José Gerchinhoren,Tren Inferior,Cuádriceps,Sentadillas,1,70,8,,,Sixgym
+460,22/04/2024,21:44,José Gerchinhoren,Tren Inferior,Cuádriceps,Sentadillas,2,70,8,,,Sixgym
+461,22/04/2024,21:50,José Gerchinhoren,Tren Inferior,Cuádriceps,Sentadillas,3,70,8,,,Sixgym
+462,22/04/2024,23:36,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,30,10,,,Sixgym
+463,22/04/2024,23:36,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,30,10,,,Sixgym
+464,22/04/2024,23:36,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,30,10,,,Sixgym
+465,23/04/2024,10:07,Roxana Cabrera,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,10,13,,,Sixgym
+466,23/04/2024,10:08,Roxana Cabrera,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,10,13,,,Sixgym
+467,23/04/2024,10:08,Roxana Cabrera,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,16,11,,,Sixgym
+468,23/04/2024,10:08,Roxana Cabrera,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,4,20,9,,,Sixgym
+469,23/04/2024,10:09,Roxana Cabrera,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,5,20,9,,,Sixgym
+470,23/04/2024,10:10,Candela Perez,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,16,13,,,Sixgym
+471,23/04/2024,10:10,Candela Perez,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,16,13,,,Sixgym
+472,23/04/2024,10:10,Candela Perez,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,20,11,,,Sixgym
+473,23/04/2024,10:11,Candela Perez,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,4,30,9,,,Sixgym
+474,23/04/2024,10:11,Candela Perez,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,5,30,9,,,Sixgym
+475,23/04/2024,10:13,Candela Perez,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,10,15,,,Sixgym
+476,23/04/2024,10:14,Candela Perez,Tren Inferior,Isquiotibiales,Peso muerto unilateral con mancu.,2,10,15,,,Sixgym
+477,23/04/2024,10:18,Roxana Cabrera,Tren Inferior,Isquiotibiales,Peso muerto unilateral con mancue.,1,8,15,,,Sixgym
+478,23/04/2024,10:18,Roxana Cabrera,Tren Inferior,Isquiotibiales,Peso muerto unilateral con mancue.,2,8,15,,,Sixgym
+479,23/04/2024,10:29,Roxana Cabrera,Tren Inferior,Isquiotibiales,Camilla de isquios,1,5,8,,Descanso 10 seg hago 8 mas combinado con 5 reps lentas,Sixgym
+480,23/04/2024,10:29,Roxana Cabrera,Tren Inferior,Isquiotibiales,Camilla de isquios,2,5,8,,Descanso 10 seg hago 8 mas combinado con 5 reps lentas,Sixgym
+481,23/04/2024,10:30,Roxana Cabrera,Tren Inferior,Isquiotibiales,Camilla de isquios,3,5,8,,Descanso 10 seg hago 8 mas combinado con 5 reps lentas,Sixgym
+482,23/04/2024,10:31,Candela Perez,Tren Inferior,Isquiotibiales,Camilla de isquios,1,5,8,,Descanso 10 seg hago 8 mas combinado con 5 reps lentas,Sixgym
+483,23/04/2024,10:32,Candela Perez,Tren Inferior,Isquiotibiales,Camilla de isquios,2,5,8,,Descanso 10 seg hago 8 mas combinado con 5 reps lentas,Sixgym
+484,23/04/2024,10:32,Candela Perez,Tren Inferior,Isquiotibiales,Camilla de isquios,3,5,8,,Descanso 10 seg hago 8 mas combinado con 5 reps lentas,Sixgym
+485,23/04/2024,10:50,Candela Perez,Tren Inferior,Glúteos,Hip trust con barra,1,45,15,,,Sixgym
+486,23/04/2024,10:51,Candela Perez,Tren Inferior,Glúteos,Hip trust con barra,2,55,13,,,Sixgym
+487,23/04/2024,10:52,Candela Perez,Tren Inferior,Glúteos,Hip trust con barra,3,58,11,,,Sixgym
+488,23/04/2024,10:54,Roxana Cabrera,Tren Inferior,Glúteos,Hip trust con barra,1,30,15,,,Sixgym
+489,23/04/2024,10:54,Roxana Cabrera,Tren Inferior,Glúteos,Hip trust con barra,2,36,13,,,Sixgym
+490,23/04/2024,10:54,Roxana Cabrera,Tren Inferior,Glúteos,Hip trust con barra,3,42,11,,,Sixgym
+491,23/04/2024,11:04,Roxana Cabrera,Tren Inferior,Glúteos,Patada unilateral en polea,1,10,15,,Combinado con aductores en pelota,Sixgym
+492,23/04/2024,11:05,Roxana Cabrera,Tren Inferior,Glúteos,Patada unilateral en polea,2,5,15,,Combinado con aductores en pelota,Sixgym
+493,23/04/2024,11:06,Candela Perez,Tren Inferior,Glúteos,Patada unilateral en polea,1,10,15,,Combinado con aductores en pelota,Sixgym
+494,23/04/2024,11:06,Candela Perez,Tren Inferior,Glúteos,Patada unilateral en polea,2,10,15,,Combinado con aductores en pelota,Sixgym
+495,23/04/2024,11:07,Candela Perez,Zona Media,abdominales,Acordeón en TRX,1,0,9,,,Sixgym
+496,23/04/2024,11:08,Candela Perez,Zona Media,abdominales,Maquina de lumbares,2,5,12,,,Sixgym
+497,23/04/2024,11:08,Candela Perez,Zona Media,abdominales,Plancha alta,3,0,0,25.0,,Sixgym
+498,23/04/2024,11:09,Candela Perez,Zona Media,abdominales,Plancha lateral,4,0,0,20.0,,Sixgym
+499,23/04/2024,11:11,Roxana Cabrera,Zona Media,abdominales,Acordeón en TRX,1,0,9,,,Sixgym
+500,23/04/2024,11:11,Roxana Cabrera,Zona Media,abdominales,Maquina de lumbares,2,5,12,,,Sixgym
+501,23/04/2024,11:12,Roxana Cabrera,Zona Media,abdominales,Plancha alta,3,0,0,25.0,,Sixgym
+502,23/04/2024,11:12,Roxana Cabrera,Zona Media,abdominales,Plancha lateral,4,0,0,20.0,,Sixgym
+503,23/04/2024,14:27,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,1,30,12,,,Sixgym
+504,23/04/2024,14:29,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,2,30,12,,,Sixgym
+505,23/04/2024,14:35,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,3,30,10,,,Sixgym
+506,23/04/2024,14:40,José Gerchinhoren,Tren Superior,Biceps,Martillo con mancuernas,1,30,10,,,Sixgym
+507,23/04/2024,14:44,José Gerchinhoren,Tren Superior,Biceps,Martillo con mancuernas,2,30,10,,,Sixgym
+508,23/04/2024,14:44,José Gerchinhoren,Tren Superior,Biceps,Martillo con mancuernas,3,30,10,,,Sixgym
+509,23/04/2024,15:04,José Gerchinhoren,Tren Superior,Biceps,Curl de biceps con mancuernas en banco inclinado,1,16,10,,,Sixgym
+510,23/04/2024,15:04,José Gerchinhoren,Tren Superior,Biceps,Curl de biceps con mancuernas en banco inclinado,2,16,10,,,Sixgym
+511,23/04/2024,15:04,José Gerchinhoren,Tren Superior,Biceps,Curl de biceps con mancuernas en banco inclinado,3,16,10,,,Sixgym
+512,23/04/2024,15:05,José Gerchinhoren,Tren Superior,Biceps,Curl invertido de biceps en polea,1,25,20,,,Sixgym
+513,23/04/2024,15:05,José Gerchinhoren,Tren Superior,Biceps,Curl invertido de biceps en polea,2,25,20,,,Sixgym
+514,23/04/2024,15:06,José Gerchinhoren,Tren Superior,Biceps,Curl invertido de biceps en polea,3,25,20,,,Sixgym
+515,23/04/2024,21:36,José,Tren Superior,Pecho,Press plano,19,60,10,,,Sixgym
+516,23/04/2024,23:45,José,Tren Superior,Pecho,Press plano,20,60,10,,,Sixgym
+517,23/04/2024,08:19,Analia Dal Borgo,Tren Inferior,Cuádriceps,Maquina Hack,1,15,13,,,Sixgym
+518,23/04/2024,08:19,Analia Dal Borgo,Tren Inferior,Cuádriceps,Maquina Hack,2,15,13,,,Sixgym
+519,23/04/2024,08:20,Analia Dal Borgo,Tren Inferior,Cuádriceps,Maquina Hack,3,20,11,,,Sixgym
+520,23/04/2024,08:20,Analia Dal Borgo,Tren Inferior,Cuádriceps,Maquina Hack,4,24,9,,,Sixgym
+521,23/04/2024,08:25,Analia Dal Borgo,Tren Inferior,Cuádriceps,Prensa,1,80,13,,Combinado con 10 seg de sentad. en iso,Sixgym
+522,23/04/2024,08:25,Analia Dal Borgo,Tren Inferior,Cuádriceps,Prensa,2,80,13,,Combinado con 10 seg de sentad. en iso,Sixgym
+523,23/04/2024,08:26,Analia Dal Borgo,Tren Inferior,Cuádriceps,Prensa,3,80,13,,Combinado con 10 seg de sentad. en iso,Sixgym
+524,23/04/2024,08:27,Analia Dal Borgo,Tren Inferior,Cuádriceps,Sentadillas bulgaras,1,10,15,,,Sixgym
+525,23/04/2024,08:27,Analia Dal Borgo,Tren Inferior,Cuádriceps,Sentadillas bulgaras,2,10,15,,,Sixgym
+526,23/04/2024,08:28,Analia Dal Borgo,Tren Inferior,Pantorrillas,Maquina de Pantorillas,1,20,15,,,Sixgym
+527,23/04/2024,08:29,Analia Dal Borgo,Tren Inferior,Pantorrillas,Maquina de Pantorillas,2,25,13,,,Sixgym
+528,23/04/2024,08:29,Analia Dal Borgo,Tren Inferior,Pantorrillas,Maquina de Pantorillas,3,30,11,,,Sixgym
+529,23/04/2024,08:31,Analia Dal Borgo,Tren Inferior,Pantorrillas,Elevaciones de talones unilateral,1,5,15,,Aguanto 10 seg en iso,Sixgym
+530,23/04/2024,08:32,Analia Dal Borgo,Tren Inferior,Pantorrillas,Elevaciones de talones unilateral,2,5,15,,Aguanto 10 seg en iso,Sixgym
+531,24/04/2024,14:30,Malena Cedrón,Tren Superior,Pecho,Press banco plano,1,10,14,,,Sixgym
+532,24/04/2024,14:31,Malena Cedrón,Tren Superior,Pecho,Press banco plano,2,13,12,,,Sixgym
+533,24/04/2024,14:31,Malena Cedrón,Tren Superior,Pecho,Press banco plano,3,13,12,,,Sixgym
+534,24/04/2024,14:32,Malena Cedrón,Tren Superior,Pecho,Press banco plano,4,20,10,,,Sixgym
+535,24/04/2024,14:33,Malena Cedrón,Tren Superior,Pecho,Press plano con mancuernas,1,8,8,,Combinado con flexiones de brazo,Sixgym
+536,24/04/2024,14:33,Malena Cedrón,Tren Superior,Pecho,Press plano con mancuernas,2,8,8,,Combinado con flexiones de brazo,Sixgym
+537,24/04/2024,14:33,Malena Cedrón,Tren Superior,Pecho,Press plano con mancuernas,3,8,8,,Combinado con flexiones de brazo,Sixgym
+538,24/04/2024,14:34,Malena Cedrón,Tren Superior,Pecho,Press unilateral con mancuernas,1,3,15,,,Sixgym
+539,24/04/2024,14:35,Malena Cedrón,Tren Superior,Pecho,Press unilateral con mancuernas,2,3,15,,,Sixgym
+540,24/04/2024,14:36,Malena Cedrón,Tren Superior,Biceps,Curl con barra w,1,8,13,,,Sixgym
+541,24/04/2024,14:36,Malena Cedrón,Tren Superior,Biceps,Curl con barra w,2,8,13,,,Sixgym
+542,24/04/2024,14:36,Malena Cedrón,Tren Superior,Biceps,Curl con barra w,3,8,13,,,Sixgym
+543,24/04/2024,14:40,Malena Cedrón,Tren Superior,Biceps,Curl alternado con mancuernas sentado,1,4,15,,Descanso 10 seg y hago 8 mas con las dos,Sixgym
+544,24/04/2024,14:40,Malena Cedrón,Tren Superior,Biceps,Curl alternado con mancuernas sentado,2,4,15,,Descanso 10 seg y hago 8 mas con las dos,Sixgym
+545,24/04/2024,14:47,Roxana Cabrera,Tren Superior,Pecho,Press con barra inclinado,1,10,16,,,Sixgym
+546,24/04/2024,14:51,Roxana Cabrera,Tren Superior,Pecho,Press con barra inclinado,2,15,13,,,Sixgym
+547,24/04/2024,14:51,Roxana Cabrera,Tren Superior,Pecho,Press con barra inclinado,3,15,13,,,Sixgym
+548,24/04/2024,14:52,Roxana Cabrera,Tren Superior,Pecho,Press con barra inclinado,4,19,11,,,Sixgym
+549,24/04/2024,14:59,Roxana Cabrera,Tren Superior,Pecho,Press plano con mancuerna,1,10,8,,Descanso 10 seg y hacemos 8 flexiones,Sixgym
+550,24/04/2024,14:59,Roxana Cabrera,Tren Superior,Pecho,Press plano con mancuerna,2,10,8,,Descanso 10 seg y hacemos 8 flexiones,Sixgym
+551,24/04/2024,15:00,Roxana Cabrera,Tren Superior,Pecho,Press plano con mancuerna,3,10,8,,Descanso 10 seg y hacemos 8 flexiones,Sixgym
+552,24/04/2024,15:22,Roxana Cabrera,Tren Superior,Pecho,Press con mancuerna unilateral,1,2,15,,,Sixgym
+553,24/04/2024,15:23,Roxana Cabrera,Tren Superior,Pecho,Press con mancuerna unilateral,2,2,15,,,Sixgym
+554,24/04/2024,15:26,Roxana Cabrera,Tren Superior,Triceps,Press frances con mancuernas,1,4,15,,,Sixgym
+555,24/04/2024,15:26,Roxana Cabrera,Tren Superior,Triceps,Press frances con mancuernas,2,6,13,,,Sixgym
+556,24/04/2024,15:27,Roxana Cabrera,Tren Superior,Triceps,Press frances con mancuernas,3,8,11,,,Sixgym
+557,24/04/2024,15:27,Roxana Cabrera,Tren Superior,Triceps,Extensión en polea unilateral,1,5,15,,,Sixgym
+558,24/04/2024,15:28,Roxana Cabrera,Tren Superior,Triceps,Extensión en polea unilateral,2,5,15,,,Sixgym
+559,24/04/2024,15:34,Candela Perez,Tren Superior,Pecho,Press inclinado con barra,1,17,15,,,Sixgym
+560,24/04/2024,15:35,Candela Perez,Tren Superior,Pecho,Press inclinado con barra,2,23,13,,,Sixgym
+561,24/04/2024,15:35,Candela Perez,Tren Superior,Pecho,Press inclinado con barra,3,23,13,,,Sixgym
+562,24/04/2024,15:35,Candela Perez,Tren Superior,Pecho,Press inclinado con barra,4,28,11,,,Sixgym
+563,24/04/2024,15:37,Candela Perez,Tren Superior,Pecho,Press plano con mancuernas,1,16,8,,Combinado con flexiones de brazo,Sixgym
+564,24/04/2024,15:38,Candela Perez,Tren Superior,Pecho,Press plano con mancuernas,2,16,8,,Combinado con flexiones de brazo,Sixgym
+565,24/04/2024,15:38,Candela Perez,Tren Superior,Pecho,Press plano con mancuernas,3,16,8,,Combinado con flexiones de brazo,Sixgym
+566,24/04/2024,15:39,Candela Perez,Tren Superior,Pecho,Press con mancuerna unilateral,1,3,15,,,Sixgym
+567,24/04/2024,15:39,Candela Perez,Tren Superior,Pecho,Press con mancuerna unilateral,2,3,15,,,Sixgym
+568,24/04/2024,15:39,Candela Perez,Tren Superior,Triceps,Press frances con mancuernas,1,4,15,,,Sixgym
+569,24/04/2024,15:40,Candela Perez,Tren Superior,Triceps,Press frances con mancuernas,2,6,13,,,Sixgym
+570,24/04/2024,15:40,Candela Perez,Tren Superior,Triceps,Press frances con mancuernas,3,8,11,,,Sixgym
+571,24/04/2024,15:42,Candela Perez,Tren Superior,Triceps,Extension unilateral en polea,1,5,15,,,Sixgym
+572,24/04/2024,15:43,Candela Perez,Tren Superior,Triceps,Extension unilateral en polea,2,5,15,,,Sixgym
+573,25/04/2024,20:31,Nieva Valeria,Tren Superior,Hombros,Press militar con barra,1,7,15,,,Sixgym
+574,25/04/2024,20:31,Nieva Valeria,Tren Superior,Hombros,Press militar con barra,2,9,13,,,Sixgym
+575,25/04/2024,20:31,Nieva Valeria,Tren Superior,Hombros,Press militar con barra,3,9,13,,,Sixgym
+576,25/04/2024,20:32,Nieva Valeria,Tren Superior,Hombros,Press militar con barra,4,14,11,,,Sixgym
+577,25/04/2024,20:33,Nieva Valeria,Tren Superior,Hombros,Vuelos laterales con mancuernas,1,4,8,,Combinado con 10 vuelos frontales,Sixgym
+578,25/04/2024,20:33,Nieva Valeria,Tren Superior,Hombros,Vuelos laterales con mancuernas,2,4,8,,Combinado con 10 vuelos frontales,Sixgym
+579,25/04/2024,20:34,Nieva Valeria,Tren Superior,Hombros,Vuelos laterales con mancuernas,3,4,8,,Combinado con 10 vuelos frontales,Sixgym
+580,25/04/2024,20:36,Nieva Valeria,Tren Superior,Hombros,Press militar unilateral con mancuerna,1,3,15,,Combinado con 15 posteriores en polea,Sixgym
+581,25/04/2024,20:37,Nieva Valeria,Tren Superior,Hombros,Press militar unilateral con mancuerna,2,3,15,,Combinado con 15 posteriores en polea,Sixgym
+582,25/04/2024,20:44,Alfonsina Gonza,Tren Superior,Pecho,Press banco plano con barra,1,9,15,,,Sixgym
+583,25/04/2024,20:44,Alfonsina Gonza,Tren Superior,Pecho,Press banco plano con barra,2,15,13,,,Sixgym
+584,25/04/2024,20:45,Alfonsina Gonza,Tren Superior,Pecho,Press banco plano con barra,3,15,13,,,Sixgym
+585,25/04/2024,20:45,Alfonsina Gonza,Tren Superior,Pecho,Press banco plano con barra,4,18,11,,,Sixgym
+586,25/04/2024,20:47,Alfonsina Gonza,Tren Superior,Pecho,Aperturas en banco plano con mancuernas,1,8,8,,Combinado con flexiones de brazo,Sixgym
+587,25/04/2024,20:47,Alfonsina Gonza,Tren Superior,Pecho,Aperturas en banco plano con mancuernas,2,8,8,,Combinado con flexiones de brazo,Sixgym
+588,25/04/2024,20:47,Alfonsina Gonza,Tren Superior,Pecho,Aperturas en banco plano con mancuernas,3,8,8,,Combinado con flexiones de brazo,Sixgym
+589,25/04/2024,20:48,Alfonsina Gonza,Tren Superior,Pecho,Cruce unilateral de polea,1,5,15,,,Sixgym
+590,25/04/2024,20:48,Alfonsina Gonza,Tren Superior,Pecho,Cruce unilateral de polea,2,5,15,,,Sixgym
+591,25/04/2024,20:55,José,Tren Superior,Pecho,Press plano,21,60,10,0.0,,Sixgym
+592,25/04/2024,21:07,Alfonsina Gonza,Tren Superior,Triceps,Extension en polea alta,1,5,13,,,Sixgym
+593,25/04/2024,21:07,Alfonsina Gonza,Tren Superior,Triceps,Extension en polea alta,2,10,11,,,Sixgym
+594,25/04/2024,21:07,Alfonsina Gonza,Tren Superior,Triceps,Extension en polea alta,3,10,11,,,Sixgym
+595,25/04/2024,21:08,Alfonsina Gonza,Tren Superior,Triceps,Extension unilateral en polea individual,1,5,15,,Combinado con fondos,Sixgym
+596,25/04/2024,21:08,Alfonsina Gonza,Tren Superior,Triceps,Extension unilateral en polea individual,2,5,15,,Combinado con fondos,Sixgym
+597,25/04/2024,21:09,Ana Gonza,Tren Superior,Pecho,Press plano con barra,1,9,15,,,Sixgym
+598,25/04/2024,21:10,Ana Gonza,Tren Superior,Pecho,Press plano con barra,2,17,13,,,Sixgym
+599,25/04/2024,21:10,Ana Gonza,Tren Superior,Pecho,Press plano con barra,3,17,13,,,Sixgym
+600,25/04/2024,21:11,Ana Gonza,Tren Superior,Pecho,Press plano con barra,4,19,11,,,Sixgym
+601,25/04/2024,21:12,Ana Gonza,Tren Superior,Pecho,Apertura en plano con mancuernas,1,8,8,,Combinado con flexiones de brazo,Sixgym
+602,25/04/2024,21:12,Ana Gonza,Tren Superior,Pecho,Apertura en plano con mancuernas,2,8,8,,Combinado con flexiones de brazo,Sixgym
+603,25/04/2024,21:12,Ana Gonza,Tren Superior,Pecho,Apertura en plano con mancuernas,3,8,8,,Combinado con flexiones de brazo,Sixgym
+604,25/04/2024,21:14,Ana Gonza,Tren Superior,Pecho,Cruce unilateral con polea,1,5,15,,,Sixgym
+605,25/04/2024,21:14,Ana Gonza,Tren Superior,Pecho,Cruce unilateral con polea,2,5,15,,,Sixgym
+606,25/04/2024,21:15,Ana Gonza,Tren Superior,Triceps,Extension en polea alta,1,5,13,,,Sixgym
+607,25/04/2024,21:15,Ana Gonza,Tren Superior,Triceps,Extension en polea alta,2,10,11,,,Sixgym
+608,25/04/2024,21:16,Ana Gonza,Tren Superior,Triceps,Extension en polea alta,3,10,11,,,Sixgym
+609,25/04/2024,21:22,Ana Gonza,Tren Superior,Triceps,Extension en polea individual,1,5,15,,Combinado con fondos,Sixgym
+610,25/04/2024,21:22,Ana Gonza,Tren Superior,Triceps,Extension en polea individual,2,5,15,,Combinado con fondos,Sixgym
+611,25/04/2024,21:59,Brenda Paz,Tren Inferior,Cuádriceps,Sentadillas con barra,1,36,14,,,Sixgym
+612,25/04/2024,22:00,Brenda Paz,Tren Inferior,Cuádriceps,Sentadillas con barra,2,40,12,,,Sixgym
+613,25/04/2024,22:00,Brenda Paz,Tren Inferior,Cuádriceps,Sentadillas con barra,3,40,12,,,Sixgym
+614,25/04/2024,22:00,Brenda Paz,Tren Inferior,Cuádriceps,Sentadillas con barra,4,40,12,,,Sixgym
+615,25/04/2024,22:01,Brenda Paz,Tren Inferior,Cuádriceps,Maquina hack,1,30,10,,Combinado con 10 sentadilla en sisi,Sixgym
+616,25/04/2024,22:01,Brenda Paz,Tren Inferior,Cuádriceps,Maquina hack,2,30,10,,Combinado con 10 sentadilla en sisi,Sixgym
+617,25/04/2024,22:01,Brenda Paz,Tren Inferior,Cuádriceps,Maquina hack,3,30,10,,Combinado con 10 sentadilla en sisi,Sixgym
+618,25/04/2024,22:03,Brenda Paz,Tren Inferior,Cuádriceps,Sentadillas bulgaras,1,8,15,,,Sixgym
+619,25/04/2024,22:03,Brenda Paz,Tren Inferior,Cuádriceps,Sentadillas bulgaras,2,8,15,,,Sixgym
+620,25/04/2024,22:08,Brenda Paz,Tren Inferior,Pantorrillas,Elevacion de talones,1,30,15,,,Sixgym
+621,25/04/2024,22:11,Brenda Paz,Tren Inferior,Pantorrillas,Elevacion de talones,2,36,13,,,Sixgym
+622,25/04/2024,22:11,Brenda Paz,Tren Inferior,Pantorrillas,Elevacion de talones,3,36,13,,,Sixgym
+623,25/04/2024,22:15,Brenda Paz,Tren Inferior,Pantorrillas,Elevacion de talon unilateral con mancuerna,1,5,15,,Combinado con 10 seg en iso,Sixgym
+624,25/04/2024,22:15,Brenda Paz,Tren Inferior,Pantorrillas,Elevacion de talon unilateral con mancuerna,2,5,15,,Combinado con 10 seg en iso,Sixgym
+625,25/04/2024,22:21,José Gerchinhoren,Tren Superior,Hombros,Press militar,1,30,10,,,Sixgym
+626,25/04/2024,22:21,José Gerchinhoren,Tren Superior,Hombros,Press militar,2,30,10,,,Sixgym
+627,25/04/2024,22:22,José Gerchinhoren,Tren Superior,Hombros,Press militar,3,30,8,,,Sixgym
+628,25/04/2024,22:27,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales con mancuernas,1,16,12,,Últimas 4 repeticiones parciales,Sixgym
+629,25/04/2024,22:30,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales con mancuernas,2,16,10,,Últimas 2 repeticiones parciales,Sixgym
+630,25/04/2024,22:35,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales con mancuernas,3,16,10,,,Sixgym
+631,25/04/2024,22:37,José Gerchinhoren,Tren Superior,Hombros,Press de hombro en maquina,1,30,8,,,Sixgym
+632,25/04/2024,22:41,José Gerchinhoren,Tren Superior,Hombros,Press de hombro en maquina,2,30,10,,,Sixgym
+633,25/04/2024,22:45,José Gerchinhoren,Tren Superior,Hombros,Press de hombro en maquina,3,30,8,,,Sixgym
+634,25/04/2024,23:04,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,1,40,15,,,Sixgym
+635,25/04/2024,23:07,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,2,40,12,,,Sixgym
+636,25/04/2024,23:10,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,3,40,10,,,Sixgym
+637,25/04/2024,23:20,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,1,15,8,,Concentradas,Sixgym
+638,25/04/2024,23:22,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,2,15,8,,Concentradas,Sixgym
+639,25/04/2024,23:31,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,3,15,8,,Concentradas,Sixgym
+640,25/04/2024,23:33,José Gerchinhoren,Tren Superior,Triceps,Unilateral en polea alta,1,15,24,,12 con cada brazo,Sixgym
+641,25/04/2024,23:34,José Gerchinhoren,Tren Superior,Triceps,Unilateral en polea alta,2,15,24,,12 con cada brazo,Sixgym
+642,25/04/2024,23:38,José Gerchinhoren,Tren Superior,Triceps,Unilateral en polea alta,3,15,24,,12 con cada brazo,Sixgym
+643,26/04/2024,11:44,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas,1,30,13,,,Sixgym
+644,26/04/2024,11:45,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas con barra,2,36,11,,,Sixgym
+645,26/04/2024,11:45,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas con barra,3,36,11,,,Sixgym
+646,26/04/2024,11:45,Malena Cedrón,Tren Inferior,Cuádriceps,Sentadillas con barra,4,40,9,,,Sixgym
+647,26/04/2024,11:48,Malena Cedrón,Tren Inferior,Cuádriceps,Prensa,1,70,12,,Combinado con sentadilla en sysy,Sixgym
+648,26/04/2024,11:48,Malena Cedrón,Tren Inferior,Cuádriceps,Prensa,2,70,12,,Combinado con sentadilla en sysy,Sixgym
+649,26/04/2024,11:48,Malena Cedrón,Tren Inferior,Cuádriceps,Prensa,3,70,12,,Combinado con sentadilla en sysy,Sixgym
+650,26/04/2024,11:50,Malena Cedrón,Tren Inferior,Pantorrillas,Pantorrillas en maquina,1,20,14,,,Sixgym
+651,26/04/2024,11:51,Malena Cedrón,Tren Inferior,Pantorrillas,Pantorrillas en maquina,2,25,12,,,Sixgym
+652,26/04/2024,11:51,Malena Cedrón,Tren Inferior,Pantorrillas,Pantorrillas en maquina,3,25,10,,,Sixgym
+653,26/04/2024,11:53,Malena Cedrón,Zona Media,abdominales,Maquina de lumbares,1,0,12,,,Sixgym
+654,26/04/2024,11:53,Malena Cedrón,Zona Media,abdominales,Espinales,2,0,0,30.0,,Sixgym
+655,26/04/2024,11:54,Malena Cedrón,Zona Media,abdominales,Acordeon en pelota,3,0,10,,,Sixgym
+656,26/04/2024,12:03,Bianca Blasco,Tren Inferior,Cuádriceps,Sentadillas con barra,1,25,13,,,Sixgym
+657,26/04/2024,12:03,Bianca Blasco,Tren Inferior,Cuádriceps,Sentadillas con barra,2,30,11,,,Sixgym
+658,26/04/2024,12:03,Bianca Blasco,Tren Inferior,Cuádriceps,Sentadillas con barra,3,30,11,,,Sixgym
+659,26/04/2024,12:03,Bianca Blasco,Tren Inferior,Cuádriceps,Sentadillas con barra,4,33,9,,,Sixgym
+660,26/04/2024,12:05,Bianca Blasco,Tren Inferior,Cuádriceps,Prensa,1,60,11,,Combinado  con sentadillas en sysy,Sixgym
+661,26/04/2024,12:05,Bianca Blasco,Tren Inferior,Cuádriceps,Prensa,2,60,11,,Combinado  con sentadillas en sysy,Sixgym
+662,26/04/2024,12:05,Bianca Blasco,Tren Inferior,Cuádriceps,Prensa,3,60,11,,Combinado  con sentadillas en sysy,Sixgym
+663,26/04/2024,12:06,Bianca Blasco,Tren Inferior,Pantorrillas,Maquina de pantorillas,1,20,14,,,Sixgym
+664,26/04/2024,12:07,Bianca Blasco,Tren Inferior,Pantorrillas,Maquina de pantorillas,2,25,12,,,Sixgym
+665,26/04/2024,12:07,Bianca Blasco,Tren Inferior,Pantorrillas,Maquina de pantorillas,3,30,10,,,Sixgym
+666,26/04/2024,12:08,Bianca Blasco,Zona Media,abdominales,Maquina de lumbares,1,0,12,,,Sixgym
+667,26/04/2024,12:09,Bianca Blasco,Zona Media,abdominales,Espinales,2,0,0,30.0,,Sixgym
+668,26/04/2024,12:09,Bianca Blasco,Zona Media,abdominales,Acordeon en TRX,3,0,8,,,Sixgym
+669,26/04/2024,15:30,Eugenia Montero,Tren Superior,Hombros,Press militar con maquina,1,10,15,,,Sixgym
+670,26/04/2024,15:31,Eugenia Montero,Tren Superior,Hombros,Press militar con maquina,2,13,12,,,Sixgym
+671,26/04/2024,15:32,Eugenia Montero,Tren Superior,Hombros,Press militar con maquina,3,13,13,,,Sixgym
+672,26/04/2024,15:34,Eugenia Montero,Tren Superior,Hombros,Press militar con maquina,4,16,11,,,Sixgym
+673,26/04/2024,15:35,Eugenia Montero,Tren Superior,Hombros,Vuelos frontales con mancuerna,1,6,14,,Aguanto 10 seg en iso. y 10 vuelos laterales,Sixgym
+674,26/04/2024,15:36,Eugenia Montero,Tren Superior,Hombros,Vuelos frontales con mancuerna,2,6,14,,Aguanto 10 seg en iso. y 10 vuelos laterales,Sixgym
+675,26/04/2024,15:36,Eugenia Montero,Tren Superior,Hombros,Vuelos frontales con mancuerna,3,6,14,,Aguanto 10 seg en iso. y 10 vuelos laterales,Sixgym
+676,26/04/2024,15:40,Eugenia Montero,Tren Superior,Hombros,Vuelos posteriores,1,4,15,,Aguanto 10 seg en iso.,Sixgym
+677,26/04/2024,15:40,Eugenia Montero,Tren Superior,Hombros,Vuelos posteriores,2,4,15,,Aguanto 10 seg en iso.,Sixgym
+678,26/04/2024,15:41,Analia Dal Borgo,Tren Superior,Hombros,Press militar con maquina,1,5,15,,,Sixgym
+679,26/04/2024,15:42,Analia Dal Borgo,Tren Superior,Hombros,Press militar con maquina,2,10,13,,,Sixgym
+680,26/04/2024,15:42,Analia Dal Borgo,Tren Superior,Hombros,Press militar con maquina,3,10,13,,,Sixgym
+681,26/04/2024,15:43,Analia Dal Borgo,Tren Superior,Hombros,Press militar con maquina,4,13,11,,,Sixgym
+682,26/04/2024,15:45,Analia Dal Borgo,Tren Superior,Hombros,Vuelos frontales con mancuerna,1,6,14,,Aguanto 10 seg en iso. y 10 vuelos laterales,Sixgym
+683,26/04/2024,15:45,Analia Dal Borgo,Tren Superior,Hombros,Vuelos frontales con mancuerna,2,6,14,,Aguanto 10 seg en iso. y 10 vuelos laterales,Sixgym
+684,26/04/2024,15:46,Analia Dal Borgo,Tren Superior,Hombros,Vuelos frontales con mancuerna,3,6,14,,Aguanto 10 seg en iso. y 10 vuelos laterales,Sixgym
+685,26/04/2024,15:47,Analia Dal Borgo,Tren Superior,Hombros,Vuelos posteriores,1,4,15,,Aguanto 10 seg en iso.,Sixgym
+686,26/04/2024,15:47,Analia Dal Borgo,Tren Superior,Hombros,Vuelos posteriores,2,4,15,,Aguanto 10 seg en iso.,Sixgym
+687,26/04/2024,15:51,Analia Dal Borgo,Tren Superior,Biceps,Curl con barra en U,1,6,15,,,Sixgym
+688,26/04/2024,15:51,Analia Dal Borgo,Tren Superior,Biceps,Curl con barra en U,2,9,13,,,Sixgym
+689,26/04/2024,15:52,Analia Dal Borgo,Tren Superior,Biceps,Curl con barra en U,3,12,11,,,Sixgym
+690,26/04/2024,15:53,Eugenia Montero,Tren Superior,Biceps,Curl con barra en U,1,7,15,,,Sixgym
+691,26/04/2024,15:54,Eugenia Montero,Tren Superior,Biceps,Curl con barra en U,2,10,13,,,Sixgym
+692,26/04/2024,15:54,Eugenia Montero,Tren Superior,Biceps,Curl con barra en U,3,14,11,,,Sixgym
+693,26/04/2024,16:13,Eugenia Montero,Tren Superior,Biceps,Curl con barra recta en polea,1,20,12,,Drop set decendiendo d 5 kg,Sixgym
+694,26/04/2024,16:13,Eugenia Montero,Tren Superior,Biceps,Curl con barra recta en polea,2,20,12,,Drop set decendiendo d 5 kg,Sixgym
+695,26/04/2024,16:14,Analia Dal Borgo,Tren Superior,Biceps,Curl con barra recta en polea,1,15,12,,Drop set decendiendo de 5 kg,Sixgym
+696,26/04/2024,16:15,Analia Dal Borgo,Tren Superior,Biceps,Curl con barra recta en polea,2,15,12,,Drop set decendiendo de 5 kg,Sixgym
+697,26/04/2024,16:18,Analia Dal Borgo,Zona Media,abdominales,Bicho muerto,1,0,12,30.0,,Sixgym
+698,26/04/2024,16:18,Analia Dal Borgo,Zona Media,abdominales,Acordeon,2,0,10,,,Sixgym
+699,26/04/2024,16:19,Analia Dal Borgo,Zona Media,abdominales,Plancha alta,3,0,0,30.0,,Sixgym
+700,26/04/2024,16:20,Eugenia Montero,Zona Media,abdominales,Bicho muerto,1,0,0,30.0,,Sixgym
+701,26/04/2024,16:21,Eugenia Montero,Zona Media,abdominales,Acordeon,2,0,10,,,Sixgym
+702,26/04/2024,16:22,Eugenia Montero,Zona Media,abdominales,Plancha alta,3,0,0,30.0,,Sixgym
+703,26/04/2024,19:20,José Gerchinhoren,Tren Inferior,Isquiotibiales,Peso muerto,1,60,12,,,Sixgym
+704,26/04/2024,19:20,José Gerchinhoren,Tren Inferior,Isquiotibiales,Peso muerto,2,80,10,,,Sixgym
+705,26/04/2024,19:20,José Gerchinhoren,Tren Inferior,Isquiotibiales,Peso muerto,3,100,6,,,Sixgym
+706,26/04/2024,19:29,Soledad Fernandez,Tren Inferior,Glúteos,Hip Thrust,1,30,30,,,Sixgym
+707,26/04/2024,19:29,Soledad Fernandez,Tren Inferior,Glúteos,Hip Thrust,2,40,10,,,Sixgym
+708,26/04/2024,19:29,Soledad Fernandez,Tren Inferior,Glúteos,Hip Thrust,3,40,10,,,Sixgym
+709,26/04/2024,19:43,José Gerchinhoren,Tren Inferior,Glúteos,Hip Thrust,1,80,13,,,Sixgym
+710,26/04/2024,19:45,José Gerchinhoren,Tren Inferior,Glúteos,Hip Thrust,2,80,11,,,Sixgym
+711,26/04/2024,19:50,Soledad Fernandez,Tren Inferior,Glúteos,Patada de gluteos en polea,1,15,40,,,Sixgym
+712,26/04/2024,19:50,Soledad Fernandez,Tren Inferior,Glúteos,Patada de gluteos en polea,2,15,40,,,Sixgym
+713,26/04/2024,19:50,Soledad Fernandez,Tren Inferior,Glúteos,Patada de gluteos en polea,3,15,40,,,Sixgym
+714,26/04/2024,19:51,Soledad Fernandez,Tren Inferior,Cuádriceps,Prensa,1,60,20,,,Sixgym
+715,26/04/2024,19:51,Soledad Fernandez,Tren Inferior,Cuádriceps,Prensa,2,60,20,,,Sixgym
+716,26/04/2024,19:51,Soledad Fernandez,Tren Inferior,Cuádriceps,Prensa,3,60,20,,,Sixgym
+717,26/04/2024,19:53,José Gerchinhoren,Tren Inferior,Glúteos,Hip Thrust,3,80,11,,,Sixgym
+718,29/04/2024,10:01,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,1,3,13,,,Sixgym
+719,29/04/2024,10:01,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,2,5,11,,,Sixgym
+720,29/04/2024,10:02,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,3,5,11,,,Sixgym
+721,29/04/2024,10:02,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,4,10,9,,,Sixgym
+722,29/04/2024,10:10,Bianca Blasco,Tren Superior,Hombros,Press militar en maquina,1,3,13,,,Sixgym
+723,29/04/2024,10:10,Bianca Blasco,Tren Superior,Hombros,Press militar en maquina,2,5,11,,,Sixgym
+724,29/04/2024,10:11,Bianca Blasco,Tren Superior,Hombros,Press militar en maquina,3,5,11,,,Sixgym
+725,29/04/2024,10:11,Bianca Blasco,Tren Superior,Hombros,Press militar en maquina,4,5,11,,,Sixgym
+726,29/04/2024,10:13,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,1,3,13,,,Sixgym
+727,29/04/2024,10:14,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,2,5,11,,,Sixgym
+728,29/04/2024,10:14,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,3,5,11,,,Sixgym
+729,29/04/2024,10:14,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,4,5,11,,,Sixgym
+730,29/04/2024,10:16,Malena Cedrón,Tren Superior,Hombros,Elevaciones frontales con disco,1,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+731,29/04/2024,10:16,Malena Cedrón,Tren Superior,Hombros,Elevaciones frontales con disco,2,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+732,29/04/2024,10:16,Malena Cedrón,Tren Superior,Hombros,Elevaciones frontales con disco,3,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+733,29/04/2024,10:19,Bianca Blasco,Tren Superior,Hombros,Elevaciones frontales con disco,1,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+734,29/04/2024,10:20,Bianca Blasco,Tren Superior,Hombros,Elevaciones frontales con disco,2,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+735,29/04/2024,10:20,Bianca Blasco,Tren Superior,Hombros,Elevaciones frontales con disco,3,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+736,29/04/2024,10:21,Virginia Yapura,Tren Superior,Hombros,Elevaciones frontales con disco,1,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+737,29/04/2024,10:21,Virginia Yapura,Tren Superior,Hombros,Elevaciones frontales con disco,2,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+738,29/04/2024,10:21,Virginia Yapura,Tren Superior,Hombros,Elevaciones frontales con disco,3,5,12,,Aguanto 10 seg en iso. y hago 10 rep de laterales,Sixgym
+739,29/04/2024,10:29,Malena Cedrón,Tren Superior,Hombros,Press militar unilateral con mancuerna,1,4,15,,,Sixgym
+740,29/04/2024,10:29,Malena Cedrón,Tren Superior,Hombros,Press militar unilateral con mancuerna,2,4,15,,,Sixgym
+741,29/04/2024,10:38,Bianca Blasco,Tren Superior,Hombros,Press militar unilateral con mancuerna,1,3,15,,,Sixgym
+742,29/04/2024,10:39,Bianca Blasco,Tren Superior,Hombros,Press militar unilateral con mancuerna,2,3,15,,,Sixgym
+743,29/04/2024,10:40,Virginia Yapura,Tren Superior,Hombros,Press militar unilateral con mancuerna,1,3,15,,,Sixgym
+744,29/04/2024,10:40,Virginia Yapura,Tren Superior,Hombros,Press militar unilateral con mancuerna,2,3,15,,,Sixgym
+745,29/04/2024,10:42,Malena Cedrón,Tren Superior,Hombros,Vuelo posterior en polea unilateral,1,3,12,,Combinado con  11 rep de trapecios,Sixgym
+746,29/04/2024,10:42,Malena Cedrón,Tren Superior,Hombros,Vuelo posterior en polea unilateral,2,3,12,,Combinado con  11 rep de trapecios,Sixgym
+747,29/04/2024,10:42,Malena Cedrón,Tren Superior,Hombros,Vuelo posterior en polea unilateral,3,3,12,,Combinado con  11 rep de trapecios,Sixgym
+748,29/04/2024,10:43,Bianca Blasco,Tren Superior,Hombros,Vuelo posterior en polea unilateral,1,3,12,,Combinado con  11 rep de trapecios,Sixgym
+749,29/04/2024,10:43,Bianca Blasco,Tren Superior,Hombros,Vuelo posterior en polea unilateral,2,3,12,,Combinado con  11 rep de trapecios,Sixgym
+750,29/04/2024,10:43,Bianca Blasco,Tren Superior,Hombros,Vuelo posterior en polea unilateral,3,3,12,,Combinado con  11 rep de trapecios,Sixgym
+751,29/04/2024,10:44,Virginia Yapura,Tren Superior,Hombros,Vuelo posterior en polea unilateral,1,3,12,,Combinado con  11 rep de trapecios,Sixgym
+752,29/04/2024,10:44,Virginia Yapura,Tren Superior,Hombros,Vuelo posterior en polea unilateral,2,3,12,,Combinado con  11 rep de trapecios,Sixgym
+753,29/04/2024,10:44,Virginia Yapura,Tren Superior,Hombros,Vuelo posterior en polea unilateral,1,3,12,,Combinado con  11 rep de trapecios,Sixgym
+754,29/04/2024,10:50,Virginia Yapura,Tren Superior,Biceps,Curl con barra V,1,7,13,,,Sixgym
+755,29/04/2024,10:51,Virginia Yapura,Tren Superior,Biceps,Curl con barra V,2,10,11,,,Sixgym
+756,29/04/2024,10:51,Virginia Yapura,Tren Superior,Biceps,Curl con barra V,3,10,11,,,Sixgym
+757,29/04/2024,11:03,Virginia Yapura,Tren Superior,Biceps,Curl martillo con mancuernas,1,4,13,,Aguanto 15 seg en iso.,Sixgym
+758,29/04/2024,11:04,Virginia Yapura,Tren Superior,Biceps,Curl martillo con mancuernas,2,4,13,,Aguanto 15 seg en iso.,Sixgym
+759,29/04/2024,15:20,Brunella Paz,Tren Superior,Espalda,Remo supino con barra,1,25,13,,,Sixgym
+760,29/04/2024,15:21,Brunella Paz,Tren Superior,Espalda,Remo prono con barra,2,27,11,,,Sixgym
+761,29/04/2024,15:22,Brunella Paz,Tren Superior,Espalda,Remo prono con barra,3,27,11,,,Sixgym
+762,29/04/2024,15:22,Brunella Paz,Tren Superior,Espalda,Remo prono con barra,4,29,9,,,Sixgym
+763,29/04/2024,15:33,Brunella Paz,Tren Superior,Espalda,Dorsalera agarre neutro,1,25,12,,Combinado con dominadas negativas,Sixgym
+764,29/04/2024,15:38,Brunella Paz,Tren Superior,Espalda,Dorsalera agarre neutro,2,30,10,,Combinado con dominadas negativas,Sixgym
+765,29/04/2024,15:38,Brunella Paz,Tren Superior,Espalda,Dorsalera agarre neutro,3,30,10,,Combinado con dominadas negativas,Sixgym
+766,29/04/2024,16:31,Brunella Paz,Tren Superior,Espalda,Remo unilateral con mancuerna,1,5,15,,,Sixgym
+767,29/04/2024,16:31,Brunella Paz,Tren Superior,Espalda,Remo unilateral con mancuerna,2,5,15,,,Sixgym
+768,29/04/2024,16:35,Brunella Paz,Tren Superior,Triceps,Press frances con barra en V,1,5,13,,,Sixgym
+769,29/04/2024,16:35,Brunella Paz,Tren Superior,Triceps,Press frances con barra en V,2,9,11,,,Sixgym
+770,29/04/2024,16:35,Brunella Paz,Tren Superior,Triceps,Press frances con barra en V,3,9,11,,,Sixgym
+771,29/04/2024,16:37,Brunella Paz,Tren Superior,Triceps,Patada de burro unilateral,1,3,15,,Aguanto 10 seg en iso.,Sixgym
+772,29/04/2024,16:37,Brunella Paz,Tren Superior,Triceps,Patada de burro unilateral,2,3,15,,Aguanto 10 seg en iso.,Sixgym
+773,29/04/2024,18:25,Soledad Fernandez,Tren Superior,Espalda,Dorsalera agarre amplio,1,20,20,,,Sixgym
+774,29/04/2024,18:26,Soledad Fernandez,Tren Superior,Espalda,Remo en polea,1,20,15,,,Sixgym
+775,29/04/2024,18:26,Soledad Fernandez,Tren Superior,Espalda,Remo en polea,2,20,15,,,Sixgym
+776,29/04/2024,18:26,Soledad Fernandez,Tren Superior,Espalda,Remo en polea,3,20,15,,,Sixgym
+777,29/04/2024,18:26,Soledad Fernandez,Tren Superior,Espalda,Remo en polea,4,20,15,,,Sixgym
+778,29/04/2024,18:26,Soledad Fernandez,Tren Superior,Espalda,Dorsalera agarre amplio,2,20,15,,,Sixgym
+779,29/04/2024,18:28,Soledad Fernandez,Tren Superior,Espalda,Dorsalera agarre amplio,3,20,15,,,Sixgym
+780,29/04/2024,18:28,Soledad Fernandez,Tren Superior,Espalda,Dorsalera agarre amplio,4,20,15,,,Sixgym
+781,29/04/2024,18:29,Soledad Fernandez,Tren Superior,Hombros,Press de hombro en maquina,1,5,15,,,Sixgym
+782,29/04/2024,18:29,Soledad Fernandez,Tren Superior,Hombros,Press de hombro en maquina,2,5,15,,,Sixgym
+783,29/04/2024,18:29,Soledad Fernandez,Tren Superior,Hombros,Press de hombro en maquina,3,5,15,,,Sixgym
+784,29/04/2024,18:30,Soledad Fernandez,Tren Superior,Hombros,Press de hombro en maquina,4,5,15,,,Sixgym
+785,29/04/2024,18:32,Soledad Fernandez,Tren Superior,Hombros,Vuelos laterales y frontales,1,6,30,,15 laterales y 15 frontales,Sixgym
+786,29/04/2024,18:32,Soledad Fernandez,Tren Superior,Hombros,Vuelos laterales y frontales,2,6,30,,15 laterales y 15 frontales,Sixgym
+787,29/04/2024,18:32,Soledad Fernandez,Tren Superior,Hombros,Vuelos laterales y frontales,3,6,30,,15 laterales y 15 frontales,Sixgym
+788,29/04/2024,18:32,Soledad Fernandez,Tren Superior,Hombros,Vuelos laterales y frontales,4,6,30,,15 laterales y 15 frontales,Sixgym
+789,29/04/2024,19:48,Soledad Fernandez,Tren Superior,Triceps,Extension en polea alta,1,20,15,,,Sixgym
+790,29/04/2024,19:48,Soledad Fernandez,Tren Superior,Triceps,Extension en polea alta,2,20,15,,,Sixgym
+791,29/04/2024,19:48,Soledad Fernandez,Tren Superior,Triceps,Extension en polea alta,3,20,15,,,Sixgym
+792,29/04/2024,19:49,Soledad Fernandez,Tren Superior,Triceps,Extension en polea alta,4,20,15,,,Sixgym
+793,29/04/2024,19:49,Soledad Fernandez,Tren Superior,Triceps,Trasnuca con mancuernas,1,5,15,,,Sixgym
+794,29/04/2024,19:49,Soledad Fernandez,Tren Superior,Triceps,Trasnuca con mancuernas,2,5,15,,,Sixgym
+795,29/04/2024,19:50,Soledad Fernandez,Tren Superior,Triceps,Trasnuca con mancuernas,3,5,15,,,Sixgym
+796,29/04/2024,19:50,Soledad Fernandez,Tren Superior,Triceps,Trasnuca con mancuernas,4,5,15,,,Sixgym
+797,29/04/2024,19:51,Soledad Fernandez,Zona Media,abdominales,Varios,1,0,0,360.0,,Sixgym
+798,29/04/2024,19:51,Soledad Fernandez,Zona Media,abdominales,Varios,2,0,0,360.0,,Sixgym
+799,29/04/2024,21:37,Nieva Valeria,Tren Inferior,Glúteos,Hip Thrust,1,30,15,,,Sixgym
+800,29/04/2024,21:37,Nieva Valeria,Tren Inferior,Glúteos,Hip Thrust,2,30,15,,,Sixgym
+801,29/04/2024,21:37,Nieva Valeria,Tren Inferior,Glúteos,Hip Thrust,3,30,15,,,Sixgym
+802,29/04/2024,21:37,Nieva Valeria,Tren Inferior,Glúteos,Hip Thrust,4,30,15,,,Sixgym
+803,29/04/2024,21:39,Nieva Valeria,Tren Inferior,Glúteos,Patada unilateral en polea,1,15,30,,15 repeticiones cada pierna,Sixgym
+804,29/04/2024,21:39,Nieva Valeria,Tren Inferior,Glúteos,Patada unilateral en polea,2,15,30,,15 repeticiones cada pierna,Sixgym
+805,29/04/2024,21:39,Nieva Valeria,Tren Inferior,Glúteos,Patada unilateral en polea,3,15,30,,15 repeticiones cada pierna,Sixgym
+806,29/04/2024,21:39,Nieva Valeria,Tren Inferior,Glúteos,Patada unilateral en polea,4,15,30,,15 repeticiones cada pierna,Sixgym
+807,29/04/2024,21:42,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,1,30,12,,15 repeticiones cada pierna,Sixgym
+808,29/04/2024,21:43,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,2,30,12,,15 repeticiones cada pierna,Sixgym
+809,29/04/2024,21:43,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,3,30,12,,15 repeticiones cada pierna,Sixgym
+810,29/04/2024,21:43,Nieva Valeria,Tren Inferior,Cuádriceps,Sentadillas,4,30,12,,,Sixgym
+811,29/04/2024,21:44,Nieva Valeria,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,10,20,,Última repeticion isometrica,Sixgym
+812,29/04/2024,21:45,Nieva Valeria,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,10,20,,Última repeticion isometrica,Sixgym
+813,29/04/2024,21:45,Nieva Valeria,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,10,20,,Última repeticion isometrica,Sixgym
+814,29/04/2024,21:45,Nieva Valeria,Tren Inferior,Pantorrillas,Maquina de pantorillas,1,10,20,,,Sixgym
+815,29/04/2024,21:46,Nieva Valeria,Tren Inferior,Pantorrillas,Maquina de pantorillas,2,10,20,,,Sixgym
+816,29/04/2024,21:46,Nieva Valeria,Tren Inferior,Pantorrillas,Maquina de pantorillas,3,10,20,,,Sixgym
+817,29/04/2024,21:47,Nieva Valeria,Tren Inferior,Pantorrillas,Elevaciones de talones unilateral,1,60,20,,,Sixgym
+818,29/04/2024,21:47,Nieva Valeria,Tren Inferior,Pantorrillas,Elevaciones de talones unilateral,2,60,20,,,Sixgym
+819,29/04/2024,21:47,Nieva Valeria,Tren Inferior,Pantorrillas,Elevaciones de talones unilateral,3,60,20,,,Sixgym
+820,29/04/2024,21:52,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,1,40,15,,,Sixgym
+821,29/04/2024,21:52,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,2,40,15,,,Sixgym
+822,29/04/2024,21:52,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,3,40,15,,,Sixgym
+823,29/04/2024,21:52,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,4,40,15,,,Sixgym
+824,29/04/2024,21:53,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,1,40,15,,,Sixgym
+825,29/04/2024,21:53,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,2,40,15,,,Sixgym
+826,29/04/2024,21:53,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,3,40,15,,,Sixgym
+827,29/04/2024,21:53,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,4,40,15,,,Sixgym
+828,29/04/2024,21:55,José Gerchinhoren,Tren Superior,Espalda,Remo supino con barra,1,30,20,,,Sixgym
+829,29/04/2024,21:55,José Gerchinhoren,Tren Superior,Espalda,Remo supino con barra,2,30,20,,,Sixgym
+830,29/04/2024,21:55,José Gerchinhoren,Tren Superior,Espalda,Remo supino con barra,3,30,20,,,Sixgym
+831,29/04/2024,21:56,José Gerchinhoren,Tren Superior,Espalda,Remo unilateral con mancuerna,1,10,20,,,Sixgym
+832,29/04/2024,21:56,José Gerchinhoren,Tren Superior,Espalda,Remo unilateral con mancuerna,2,10,20,,,Sixgym
+833,29/04/2024,21:56,José Gerchinhoren,Tren Superior,Espalda,Remo unilateral con mancuerna,3,10,20,,,Sixgym
+834,29/04/2024,22:01,José Gerchinhoren,Tren Superior,Hombros,Press de hombro en maquina,1,20,20,,,Sixgym
+835,29/04/2024,22:01,José Gerchinhoren,Tren Superior,Hombros,Press de hombro en maquina,2,20,18,,,Sixgym
+836,29/04/2024,22:01,José Gerchinhoren,Tren Superior,Hombros,Press de hombro en maquina,3,20,12,,,Sixgym
+837,29/04/2024,22:06,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales con mancuernas,1,10,25,,,Sixgym
+838,29/04/2024,22:06,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales con mancuernas,2,10,25,,,Sixgym
+839,29/04/2024,22:06,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales con mancuernas,3,10,25,,,Sixgym
+840,29/04/2024,22:24,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,1,20,20,,,Sixgym
+841,29/04/2024,22:24,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,2,20,20,,,Sixgym
+842,29/04/2024,22:28,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,3,20,15,,,Sixgym
+843,29/04/2024,22:34,José Gerchinhoren,Tren Superior,Triceps,Trasnuca con mancuernas,1,10,20,,,Sixgym
+844,29/04/2024,22:38,José Gerchinhoren,Tren Superior,Triceps,Trasnuca con mancuernas,2,10,20,,,Sixgym
+845,29/04/2024,22:38,José Gerchinhoren,Tren Superior,Triceps,Trasnuca con mancuernas,3,10,20,,,Sixgym
+846,30/04/2024,15:01,Brenda Paz,Tren Superior,Pecho,Press banco plano con barra,1,8,15,,,Sixgym
+847,30/04/2024,15:01,Brenda Paz,Tren Superior,Pecho,Press banco plano con barra,2,14,13,,,Sixgym
+848,30/04/2024,15:02,Brenda Paz,Tren Superior,Pecho,Press banco plano con barra,3,17,11,,,Sixgym
+849,30/04/2024,15:02,Brenda Paz,Tren Superior,Pecho,Press banco plano con barra,4,20,9,,,Sixgym
+850,30/04/2024,15:04,Brenda Paz,Tren Superior,Pecho,Press inclinado con mancuerna,1,8,12,,Combinado con flexiones de brazo,Sixgym
+851,30/04/2024,15:04,Brenda Paz,Tren Superior,Pecho,Press inclinado con mancuerna,2,10,10,,Combinado con flexiones de brazo,Sixgym
+852,30/04/2024,15:04,Brenda Paz,Tren Superior,Pecho,Press inclinado con mancuerna,3,10,10,,Combinado con flexiones de brazo,Sixgym
+853,30/04/2024,15:05,Brenda Paz,Tren Superior,Pecho,Cruce unilateral de poleas,1,5,15,,,Sixgym
+854,30/04/2024,15:05,Brenda Paz,Tren Superior,Pecho,Cruce unilateral de poleas,2,5,15,,,Sixgym
+855,30/04/2024,15:06,Brenda Paz,Zona Media,abdominales,Espinales,1,0,0,30.0,,Sixgym
+856,30/04/2024,15:07,Brenda Paz,Zona Media,abdominales,Lumbares en maquina,2,0,12,,,Sixgym
+857,30/04/2024,15:07,Brenda Paz,Zona Media,abdominales,Acordeon en pelota,3,0,9,,,Sixgym
+858,01/05/2024,20:34,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,1,120,25,,,Sixgym
+859,01/05/2024,20:37,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,2,120,25,,,Sixgym
+860,01/05/2024,20:38,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,3,120,25,,,Sixgym
+861,01/05/2024,20:39,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,10,25,,,Sixgym
+862,01/05/2024,20:39,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,15,20,,,Sixgym
+863,01/05/2024,20:39,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,20,15,,,Sixgym
+864,01/05/2024,20:40,José Gerchinhoren,Tren Inferior,Pantorrillas,Maquina de pantorillas,1,30,15,,,Sixgym
+865,01/05/2024,20:40,José Gerchinhoren,Tren Inferior,Pantorrillas,Maquina de pantorillas,2,30,15,,,Sixgym
+866,01/05/2024,20:40,José Gerchinhoren,Tren Inferior,Pantorrillas,Maquina de pantorillas,3,30,15,,,Sixgym
+867,01/05/2024,20:41,José Gerchinhoren,Tren Inferior,Pantorrillas,Elevación de talones,1,75,20,,Con peso corporal,Sixgym
+868,01/05/2024,20:42,José Gerchinhoren,Tren Inferior,Pantorrillas,Elevación de talones,2,75,20,,Con peso corporal,Sixgym
+869,01/05/2024,20:42,José Gerchinhoren,Tren Inferior,Pantorrillas,Elevación de talones,3,75,20,,Con peso corporal,Sixgym
+870,02/05/2024,14:58,Analia Dal Borgo,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,16,14,,Descanso 10 seg y hago 8 mas,Sixgym
+871,02/05/2024,14:58,Analia Dal Borgo,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,16,14,,Descanso 10 seg y hago 8 mas,Sixgym
+872,02/05/2024,14:59,Analia Dal Borgo,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,20,12,,Descanso 10 seg y hago 8 mas,Sixgym
+873,02/05/2024,14:59,Analia Dal Borgo,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,4,20,12,,Descanso 10 seg y hago 8 mas,Sixgym
+874,02/05/2024,15:00,Eugenia Montero,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,1,20,14,,Descanso 10 seg y hago 8 mas,Sixgym
+875,02/05/2024,15:00,Eugenia Montero,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,2,20,14,,Descanso 10 seg y hago 8 mas,Sixgym
+876,02/05/2024,15:01,Eugenia Montero,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,3,30,10,,Descanso 10 seg y hago 8 mas,Sixgym
+877,02/05/2024,15:01,Eugenia Montero,Tren Inferior,Isquiotibiales,Peso muerto con mancuernas,4,30,10,,Descanso 10 seg y hago 8 mas,Sixgym
+878,02/05/2024,15:15,Analia Dal Borgo,Tren Inferior,Isquiotibiales,Camilla de isquios,1,10,13,,Combinado con 10 buenos días,Sixgym
+879,02/05/2024,15:15,Analia Dal Borgo,Tren Inferior,Isquiotibiales,Camilla de isquios,2,10,13,,Combinado con 10 buenos días,Sixgym
+880,02/05/2024,15:16,Analia Dal Borgo,Tren Inferior,Isquiotibiales,Camilla de isquios,3,10,13,,Combinado con 10 buenos días,Sixgym
+881,02/05/2024,15:18,Eugenia Montero,Tren Inferior,Isquiotibiales,Camilla de isquios,1,10,13,,Combinado con 10 buenos días,Sixgym
+882,02/05/2024,15:18,Eugenia Montero,Tren Inferior,Isquiotibiales,Camilla de isquios,2,10,13,,Combinado con 10 buenos días,Sixgym
+883,02/05/2024,15:19,Eugenia Montero,Tren Inferior,Isquiotibiales,Camilla de isquios,3,10,13,,Combinado con 12 buenos días,Sixgym
+884,02/05/2024,20:14,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto con mancuerna,1,8,14,,,Sixgym
+885,02/05/2024,20:15,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto con mancuerna,2,8,14,,,Sixgym
+886,02/05/2024,20:15,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto con mancuerna,3,10,12,,,Sixgym
+887,02/05/2024,20:15,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto con mancuerna,4,10,12,,,Sixgym
+888,02/05/2024,20:17,Angeles Conforti,Tren Inferior,Isquiotibiales,Camilla de isquios,1,10,13,,Descanso 10 seg y hago 8 mas combinado con 8 reps lentas de peso muerto,Sixgym
+889,02/05/2024,20:17,Angeles Conforti,Tren Inferior,Isquiotibiales,Camilla de isquios,2,10,13,,Descanso 10 seg y hago 8 mas combinado con 8 reps lentas de peso muerto,Sixgym
+890,02/05/2024,20:17,Angeles Conforti,Tren Inferior,Isquiotibiales,Camilla de isquios,3,10,13,,Descanso 10 seg y hago 8 mas combinado con 8 reps lentas de peso muerto,Sixgym
+891,02/05/2024,20:18,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto unilateral con mancue.,1,5,15,,,Sixgym
+892,02/05/2024,20:19,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto unilateral con mancue.,2,5,15,,,Sixgym
+893,02/05/2024,20:20,Angeles Conforti,Tren Inferior,Glúteos,Hip trust con mancuerna,1,20,13,,Combinado con 15 aductores en pelota,Sixgym
+894,02/05/2024,20:20,Angeles Conforti,Tren Inferior,Glúteos,Hip trust con mancuerna,2,20,13,,Combinado con 15 aductores en pelota,Sixgym
+895,02/05/2024,20:20,Angeles Conforti,Tren Inferior,Glúteos,Hip trust con mancuerna,3,20,13,,Combinado con 15 aductores en pelota,Sixgym
+896,02/05/2024,22:39,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con barra,1,50,15,,,Sixgym
+897,02/05/2024,22:43,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con barra,2,50,12,,,Sixgym
+898,02/05/2024,22:50,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con barra,3,50,12,,,Sixgym
+899,02/05/2024,22:50,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con barra,4,50,12,,,Sixgym
+900,02/05/2024,22:51,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,1,40,12,,,Sixgym
+901,02/05/2024,22:51,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,2,40,12,,,Sixgym
+902,02/05/2024,22:51,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,3,40,12,,,Sixgym
+903,02/05/2024,22:51,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,4,40,12,,,Sixgym
+904,02/05/2024,23:11,José Gerchinhoren,Tren Superior,Pecho,Flexiones declinadas,1,75,6,,,Sixgym
+905,02/05/2024,23:20,José Gerchinhoren,Tren Superior,Pecho,Flexiones declinadas,2,75,5,,,Sixgym
+906,02/05/2024,23:20,José Gerchinhoren,Tren Superior,Pecho,Flexiones declinadas,3,75,5,,,Sixgym
+907,02/05/2024,23:21,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas baja,1,30,15,,,Sixgym
+908,02/05/2024,23:21,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas baja,2,30,15,,,Sixgym
+909,02/05/2024,23:21,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas baja,3,30,15,,,Sixgym
+910,02/05/2024,23:30,José Gerchinhoren,Tren Superior,Biceps,Curl con barra recta en polea,1,20,30,,,Sixgym
+911,02/05/2024,23:33,José Gerchinhoren,Tren Superior,Biceps,Curl con barra recta en polea,2,25,23,,,Sixgym
+912,02/05/2024,23:40,José Gerchinhoren,Tren Superior,Biceps,Curl con barra recta en polea,3,30,19,,,Sixgym
+913,02/05/2024,23:53,José Gerchinhoren,Tren Superior,Biceps,Curl con barra recta en polea,4,35,13,,,Sixgym
+914,03/05/2024,10:05,Malena Cedrón,Tren Inferior,Glúteos,Hip trust con barra,1,37,15,,,Sixgym
+915,03/05/2024,10:06,Malena Cedrón,Tren Inferior,Glúteos,Hip trust con barra,2,47,13,,,Sixgym
+916,03/05/2024,10:06,Malena Cedrón,Tren Inferior,Glúteos,Hip trust con barra,3,47,13,,,Sixgym
+917,03/05/2024,10:09,Malena Cedrón,Tren Inferior,Glúteos,Hip trust con barra,4,53,11,,,Sixgym
+918,03/05/2024,10:17,Malena Cedrón,Tren Inferior,Glúteos,Sentadillas profundas,1,10,12,,Aguanto 10 seg en iso. y hago 15 de aductores,Sixgym
+919,03/05/2024,10:17,Malena Cedrón,Tren Inferior,Glúteos,Sentadillas profundas,2,10,12,,Aguanto 10 seg en iso. y hago 15 de aductores,Sixgym
+920,03/05/2024,10:17,Malena Cedrón,Tren Inferior,Glúteos,Sentadillas profundas,3,10,12,,Aguanto 10 seg en iso. y hago 15 de aductores,Sixgym
+921,03/05/2024,10:44,Malena Cedrón,Tren Inferior,Pantorrillas,Elevacion de talones en Hack,1,50,13,,Descanso 10 seg y hago 8 lentas,Sixgym
+922,03/05/2024,10:44,Malena Cedrón,Tren Inferior,Pantorrillas,Elevacion de talones en Hack,2,50,13,,Descanso 10 seg y hago 8 lentas,Sixgym
+923,03/05/2024,10:44,Malena Cedrón,Tren Inferior,Pantorrillas,Elevacion de talones en Hack,3,50,13,,Descanso 10 seg y hago 8 lentas,Sixgym
+924,03/05/2024,10:49,Malena Cedrón,Tren Inferior,Pantorrillas,Elevacion unilateral con mancuerna,1,5,15,,,Sixgym
+925,03/05/2024,10:49,Malena Cedrón,Tren Inferior,Pantorrillas,Elevacion unilateral con mancuerna,2,5,15,,,Sixgym
+926,03/05/2024,10:51,Malena Cedrón,Tren Inferior,Pantorrillas,Patada de gluteos de costado,1,5,15,,Combinado con 10 seg en iso.,Sixgym
+927,03/05/2024,10:51,Malena Cedrón,Tren Inferior,Pantorrillas,Patada de gluteos de costado,2,5,15,,Combinado con 10 seg en iso.,Sixgym
+928,03/05/2024,17:49,Eugenia Montero,Tren Superior,Espalda,Remo T agarre cerrado,1,15,15,,,Sixgym
+929,03/05/2024,17:49,Eugenia Montero,Tren Superior,Espalda,Remo T agarre cerrado,2,17,13,,,Sixgym
+930,03/05/2024,17:50,Eugenia Montero,Tren Superior,Espalda,Remo T agarre cerrado,3,18,11,,,Sixgym
+931,03/05/2024,17:50,Eugenia Montero,Tren Superior,Espalda,Remo T agarre cerrado,4,18,11,,,Sixgym
+932,03/05/2024,17:51,Eugenia Montero,Tren Superior,Espalda,Dorsalera agarre cerrado,1,25,13,,Descanso 10 seg y hago 8 mas,Sixgym
+933,03/05/2024,17:51,Eugenia Montero,Tren Superior,Espalda,Dorsalera agarre cerrado,2,25,13,,Descanso 10 seg y hago 8 mas,Sixgym
+934,03/05/2024,17:52,Eugenia Montero,Tren Superior,Espalda,Dorsalera agarre cerrado,3,25,13,,Descanso 10 seg y hago 8 mas,Sixgym
+935,03/05/2024,17:53,Eugenia Montero,Tren Superior,Espalda,Dorsales en polea unilateral,1,20,15,,Combinado con dominadas negativas,Sixgym
+936,03/05/2024,17:53,Eugenia Montero,Tren Superior,Espalda,Dorsales en polea unilateral,2,20,15,,Combinado con dominadas negativas,Sixgym
+937,03/05/2024,17:54,Eugenia Montero,Tren Superior,Triceps,Extension de triceps en polea,1,10,12,,Aguanto 10 seg en iso.,Sixgym
+938,03/05/2024,17:54,Eugenia Montero,Tren Superior,Triceps,Extension de triceps en polea,2,10,12,,Aguanto 10 seg en iso.,Sixgym
+939,03/05/2024,17:55,Eugenia Montero,Tren Superior,Triceps,Extension de triceps en polea,3,10,12,,Aguanto 10 seg en iso.,Sixgym
+940,03/05/2024,17:55,Eugenia Montero,Tren Superior,Triceps,Extension de tricep en polea unilateral,1,5,15,,Combinado con fondos,Sixgym
+941,03/05/2024,17:56,Eugenia Montero,Tren Superior,Triceps,Extension de tricep en polea unilateral,2,5,15,,Combinado con fondos,Sixgym
+942,03/05/2024,19:37,José,Tren Superior,Pecho,Press plano,22,60,10,,,Sixgym
+943,03/05/2024,19:37,José,Tren Superior,Pecho,Press plano,23,60,10,,,Sixgym
+944,03/05/2024,19:37,José,Tren Superior,Pecho,Press plano,24,60,10,,,Sixgym
+945,03/05/2024,19:37,José,Tren Superior,Pecho,Press plano,25,60,10,,,Sixgym
+946,03/05/2024,19:38,José,Tren Superior,Pecho,Press plano,26,60,10,,,Sixgym
+947,03/05/2024,19:38,José,Tren Superior,Pecho,Press plano,27,60,10,,,Sixgym
+948,03/05/2024,23:53,José Gerchinhoren,Tren Superior,Triceps,Extension en polea,1,30,25,,,Sixgym
+949,03/05/2024,23:58,José Gerchinhoren,Tren Superior,Triceps,Extension en polea,2,30,25,,,Sixgym
+950,03/05/2024,23:58,José Gerchinhoren,Tren Superior,Triceps,Extension en polea,3,30,25,,,Sixgym
+951,03/05/2024,23:59,José Gerchinhoren,Tren Superior,Triceps,Fondos,1,75,12,,,Sixgym
+952,03/05/2024,23:59,José Gerchinhoren,Tren Superior,Triceps,Fondos,2,75,12,,,Sixgym
+953,03/05/2024,23:59,José Gerchinhoren,Tren Superior,Triceps,Fondos,3,75,8,,,Sixgym
+954,05/05/2024,00:05,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,1,120,25,,,Sixgym
+955,05/05/2024,00:06,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,2,170,16,,,Sixgym
+956,05/05/2024,00:13,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,3,190,12,,,Sixgym
+957,05/05/2024,00:22,José Gerchinhoren,Tren Inferior,Cuádriceps,Prensa,4,210,10,,,Sixgym
+958,05/05/2024,00:32,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,25,12,,Repeticiones lentas y en cada repeticion 3 segundos isometricos,Sixgym
+959,05/05/2024,00:36,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,30,12,,Repeticiones lentas y en cada repeticion 3 segundos isometricos,Sixgym
+960,05/05/2024,00:39,José Gerchinhoren,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,35,10,,Repeticiones lentas y en cada repeticion 3 segundos isometricos,Sixgym
+961,06/05/2024,09:34,Anabella Suarez,Tren Superior,Pecho,Press banca plana,1,7,15,,,Sixgym
+962,06/05/2024,09:34,Anabella Suarez,Tren Superior,Pecho,Press banca plana,2,10,13,,,Sixgym
+963,06/05/2024,09:35,Anabella Suarez,Tren Superior,Pecho,Press banca plana,3,13,11,,,Sixgym
+964,06/05/2024,09:35,Anabella Suarez,Tren Superior,Pecho,Press banca plana,4,13,11,,,Sixgym
+965,06/05/2024,09:59,Anabella Suarez,Tren Superior,Pecho,Press banco inclinado con mancuerna,1,4,10,,Combinado con flexiones de brazo,Sixgym
+966,06/05/2024,09:59,Anabella Suarez,Tren Superior,Pecho,Press banco inclinado con mancuerna,2,4,10,,Combinado con flexiones de brazo,Sixgym
+967,06/05/2024,09:59,Anabella Suarez,Tren Superior,Pecho,Press banco inclinado con mancuerna,3,4,10,,Combinado con flexiones de brazo,Sixgym
+968,06/05/2024,10:17,Anabella Suarez,Tren Superior,Pecho,Press unilateral en banco plano,1,2,15,,,Sixgym
+969,06/05/2024,10:18,Anabella Suarez,Tren Superior,Pecho,Press unilateral en banco plano,2,2,15,,,Sixgym
+970,06/05/2024,10:24,Anabella Suarez,Tren Superior,Triceps,Press Frances con mancuernas,1,2,12,,,Sixgym
+971,06/05/2024,10:24,Anabella Suarez,Tren Superior,Triceps,Press Frances con mancuernas,2,2,12,,,Sixgym
+972,06/05/2024,10:27,Anabella Suarez,Tren Superior,Triceps,Press Frances con mancuernas,3,2,12,,,Sixgym
+973,06/05/2024,15:47,Eugenia Montero,Tren Superior,Espalda,Dorsalera agarre amplio,1,20,30,,,Sixgym
+974,06/05/2024,15:47,Eugenia Montero,Tren Superior,Espalda,Dorsalera agarre amplio,2,25,25,,,Sixgym
+975,06/05/2024,15:47,Eugenia Montero,Tren Superior,Espalda,Dorsalera agarre amplio,3,30,25,,,Sixgym
+976,06/05/2024,15:50,Analia Dal Borgo,Tren Superior,Espalda,Dorsalera agarre amplio,1,20,25,,,Sixgym
+977,06/05/2024,15:50,Analia Dal Borgo,Tren Superior,Espalda,Dorsalera agarre amplio,2,25,20,,,Sixgym
+978,06/05/2024,15:51,Analia Dal Borgo,Tren Superior,Espalda,Dorsalera agarre amplio,3,25,15,,,Sixgym
+979,06/05/2024,16:06,Analia Dal Borgo,Tren Superior,Espalda,Remo en polea,1,25,15,,,Sixgym
+980,06/05/2024,16:06,Analia Dal Borgo,Tren Superior,Espalda,Remo en polea,2,25,15,,,Sixgym
+981,06/05/2024,16:06,Analia Dal Borgo,Tren Superior,Espalda,Remo en polea,3,25,15,,,Sixgym
+982,06/05/2024,16:08,Eugenia Montero,Tren Superior,Espalda,Remo en polea,1,25,15,,,Sixgym
+983,06/05/2024,16:08,Eugenia Montero,Tren Superior,Espalda,Remo en polea,2,25,15,,,Sixgym
+984,06/05/2024,16:08,Eugenia Montero,Tren Superior,Espalda,Remo en polea,3,25,15,,,Sixgym
+985,06/05/2024,16:09,Analia Dal Borgo,Tren Superior,Hombros,Press militar,1,15,20,,,Sixgym
+986,06/05/2024,16:09,Analia Dal Borgo,Tren Superior,Hombros,Press militar,2,15,20,,,Sixgym
+987,06/05/2024,16:09,Analia Dal Borgo,Tren Superior,Hombros,Press militar,3,15,20,,,Sixgym
+988,06/05/2024,16:10,Eugenia Montero,Tren Superior,Hombros,Press militar,1,15,20,,,Sixgym
+989,06/05/2024,16:10,Eugenia Montero,Tren Superior,Hombros,Press militar,2,15,20,,,Sixgym
+990,06/05/2024,16:10,Eugenia Montero,Tren Superior,Hombros,Press militar,3,15,20,,,Sixgym
+991,06/05/2024,16:12,Eugenia Montero,Tren Superior,Hombros,Press militar con maquina,1,10,15,,,Sixgym
+992,06/05/2024,16:12,Eugenia Montero,Tren Superior,Hombros,Press militar con maquina,2,10,15,,,Sixgym
+993,06/05/2024,16:12,Analia Dal Borgo,Tren Superior,Hombros,Press militar con maquina,1,10,15,,,Sixgym
+994,06/05/2024,16:12,Analia Dal Borgo,Tren Superior,Hombros,Press militar con maquina,2,10,15,,,Sixgym
+995,06/05/2024,16:13,Analia Dal Borgo,Tren Superior,Hombros,Vuelos laterales y frontales,1,3,24,,,Sixgym
+996,06/05/2024,16:13,Analia Dal Borgo,Tren Superior,Hombros,Vuelos laterales y frontales,2,3,24,,,Sixgym
+997,06/05/2024,16:14,Eugenia Montero,Tren Superior,Hombros,Vuelos laterales y frontales,1,3,24,,,Sixgym
+998,06/05/2024,16:14,Eugenia Montero,Tren Superior,Hombros,Vuelos laterales y frontales,2,3,24,,,Sixgym
+999,06/05/2024,17:24,Angeles Conforti,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,15,20,,,Sixgym
+1000,06/05/2024,17:25,Angeles Conforti,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,15,20,,,Sixgym
+1001,06/05/2024,17:25,Angeles Conforti,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,15,20,,,Sixgym
+1002,06/05/2024,17:25,Angeles Conforti,Tren Inferior,Cuádriceps,Prensa,1,80,20,,,Sixgym
+1003,06/05/2024,17:26,Angeles Conforti,Tren Inferior,Cuádriceps,Prensa,2,80,20,,,Sixgym
+1004,06/05/2024,17:26,Angeles Conforti,Tren Inferior,Cuádriceps,Prensa,3,80,20,,,Sixgym
+1005,06/05/2024,17:27,Angeles Conforti,Tren Inferior,Cuádriceps,Sentadillas,1,25,25,,,Sixgym
+1006,06/05/2024,17:27,Angeles Conforti,Tren Inferior,Cuádriceps,Sentadillas,2,30,20,,,Sixgym
+1007,06/05/2024,17:28,Angeles Conforti,Tren Inferior,Cuádriceps,Sentadillas,3,35,15,,,Sixgym
+1008,06/05/2024,17:30,Angeles Conforti,Tren Inferior,Cuádriceps,Maquina Hack,1,10,20,,,Sixgym
+1009,06/05/2024,17:33,Brunella Paz,Tren Inferior,Isquiotibiales,Peso muerto,1,30,20,,,Sixgym
+1010,06/05/2024,17:33,Brunella Paz,Tren Inferior,Isquiotibiales,Peso muerto,2,40,15,,,Sixgym
+1011,06/05/2024,17:33,Brunella Paz,Tren Inferior,Isquiotibiales,Peso muerto,3,50,10,,,Sixgym
+1012,06/05/2024,17:34,Brunella Paz,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,1,15,12,,,Sixgym
+1013,06/05/2024,17:35,Brunella Paz,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,2,20,8,,,Sixgym
+1014,06/05/2024,17:35,Brunella Paz,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,3,20,8,,,Sixgym
+1015,06/05/2024,17:36,Angeles Conforti,Tren Inferior,Cuádriceps,Maquina Hack,2,20,15,,,Sixgym
+1016,06/05/2024,17:36,Angeles Conforti,Tren Inferior,Cuádriceps,Maquina Hack,3,30,10,,,Sixgym
+1017,06/05/2024,17:37,Angeles Conforti,Tren Inferior,Cuádriceps,Sillón de cuadriceps,1,15,15,,Al fallo,Sixgym
+1018,06/05/2024,17:37,Angeles Conforti,Tren Inferior,Cuádriceps,Sillón de cuadriceps,2,15,15,,Al fallo,Sixgym
+1019,06/05/2024,17:37,Angeles Conforti,Tren Inferior,Cuádriceps,Sillón de cuadriceps,3,15,15,,Al fallo,Sixgym
+1020,06/05/2024,18:09,Angeles Conforti,Zona Media,abdominales,Varios,1,1,1,600.0,"10 minutos, 40 seg trabajo y 20 descanso",Sixgym
+1021,06/05/2024,18:12,Brunella Paz,Tren Inferior,Glúteos,Hip trust con barra,1,30,24,,,Sixgym
+1022,06/05/2024,18:13,Brunella Paz,Tren Inferior,Glúteos,Hip trust con barra,2,40,15,,,Sixgym
+1023,06/05/2024,18:13,Brunella Paz,Tren Inferior,Glúteos,Hip trust con barra,3,50,12,,,Sixgym
+1024,06/05/2024,18:18,Brunella Paz,Tren Inferior,Glúteos,Patada unilateral en polea,1,20,24,,,Sixgym
+1025,06/05/2024,18:18,Brunella Paz,Tren Inferior,Glúteos,Patada unilateral en polea,2,20,24,,,Sixgym
+1026,06/05/2024,18:18,Brunella Paz,Tren Inferior,Glúteos,Patada unilateral en polea,3,20,24,,,Sixgym
+1027,06/05/2024,18:20,Brunella Paz,Tren Inferior,Cuádriceps,Prensa,1,80,28,,,Sixgym
+1028,06/05/2024,18:52,Brunella Paz,Tren Inferior,Cuádriceps,Prensa,2,100,24,,,Sixgym
+1029,06/05/2024,18:52,Brunella Paz,Tren Inferior,Cuádriceps,Prensa,3,120,20,,,Sixgym
+1030,06/05/2024,19:09,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con barra,1,50,15,,,Sixgym
+1031,06/05/2024,19:17,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con barra,2,60,11,,,Sixgym
+1032,06/05/2024,19:25,José Gerchinhoren,Tren Superior,Pecho,Press inclinado con barra,3,70,9,,,Sixgym
+1033,06/05/2024,19:39,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,1,25,15,,,Sixgym
+1034,06/05/2024,19:40,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,2,30,12,,,Sixgym
+1035,06/05/2024,19:45,José Gerchinhoren,Tren Superior,Biceps,Curl con barra,3,35,8,,,Sixgym
+1036,06/05/2024,19:57,Nieva Valeria,Tren Superior,Espalda,Remo en polea,1,15,32,,,Sixgym
+1037,06/05/2024,19:57,Nieva Valeria,Tren Superior,Espalda,Remo en polea,2,20,22,,,Sixgym
+1038,06/05/2024,19:58,Nieva Valeria,Tren Superior,Espalda,Remo en polea,3,25,12,,,Sixgym
+1039,06/05/2024,20:02,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,1,30,15,,,Sixgym
+1040,06/05/2024,20:02,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,2,30,12,,,Sixgym
+1041,06/05/2024,20:05,Nieva Valeria,Tren Superior,Hombros,Press de hombro en maquina,1,2,22,,,Sixgym
+1042,06/05/2024,20:05,Nieva Valeria,Tren Superior,Hombros,Press de hombro en maquina,2,2,22,,,Sixgym
+1043,06/05/2024,20:05,Nieva Valeria,Tren Superior,Hombros,Press de hombro en maquina,3,5,15,,,Sixgym
+1044,06/05/2024,20:12,Nieva Valeria,Tren Superior,Pecho,Press inclinado con mancuernas,1,6,25,,,Sixgym
+1045,06/05/2024,20:12,Nieva Valeria,Tren Superior,Pecho,Press inclinado con mancuernas,2,6,26,,,Sixgym
+1046,06/05/2024,20:12,Nieva Valeria,Tren Superior,Pecho,Press inclinado con mancuernas,3,6,25,,,Sixgym
+1047,06/05/2024,20:13,José Gerchinhoren,Tren Superior,Pecho,Cruce de poleas,3,30,12,,,Sixgym
+1048,06/05/2024,20:20,José Gerchinhoren,Tren Superior,Biceps,Curl con barra recta en polea,1,35,15,,,Sixgym
+1049,06/05/2024,20:25,Nieva Valeria,Tren Superior,Biceps,Curl con barra en U,1,5,30,,,Sixgym
+1050,06/05/2024,20:25,Nieva Valeria,Tren Superior,Biceps,Curl con barra en U,2,7,15,,,Sixgym
+1051,06/05/2024,20:25,Nieva Valeria,Tren Superior,Biceps,Curl con barra en U,3,7,15,,,Sixgym
+1052,06/05/2024,20:26,Nieva Valeria,Tren Superior,Triceps,Extension de triceps en polea con bara V,1,15,30,,,Sixgym
+1053,06/05/2024,20:26,Nieva Valeria,Tren Superior,Triceps,Extension de triceps en polea con bara V,2,20,20,,,Sixgym
+1054,06/05/2024,20:26,Nieva Valeria,Tren Superior,Triceps,Extension de triceps en polea con bara V,3,20,20,,,Sixgym
+1055,06/05/2024,20:30,José Gerchinhoren,Tren Superior,Biceps,Curl con barra recta en polea,2,35,15,,,Sixgym
+1056,06/05/2024,20:30,José Gerchinhoren,Tren Superior,Biceps,Curl con barra recta en polea,3,35,15,,,Sixgym
+1057,06/05/2024,20:35,José Gerchinhoren,Tren Superior,Biceps,Martillo con soga en polea baja,1,35,10,,,Sixgym
+1058,06/05/2024,20:35,José Gerchinhoren,Tren Superior,Biceps,Martillo con soga en polea baja,2,35,10,,,Sixgym
+1059,06/05/2024,20:35,José Gerchinhoren,Tren Superior,Biceps,Martillo con soga en polea baja,3,35,10,,,Sixgym
+1060,07/05/2024,11:05,Angeles Conforti,Tren Superior,Hombros,Press militar con barra,1,7,15,,,Sixgym
+1061,07/05/2024,11:07,Angeles Conforti,Tren Superior,Hombros,Press militar con barra,2,11,13,,,Sixgym
+1062,07/05/2024,11:07,Angeles Conforti,Tren Superior,Hombros,Press militar con barra,3,13,11,,,Sixgym
+1063,07/05/2024,11:07,Angeles Conforti,Tren Superior,Hombros,Press militar con barra,4,13,11,,,Sixgym
+1064,07/05/2024,11:17,Angeles Conforti,Tren Superior,Hombros,Vuelos frontales unilaterales en polea,1,3,13,,Combinado con  12 vuelos laterales,Sixgym
+1065,07/05/2024,11:17,Angeles Conforti,Tren Superior,Hombros,Vuelos frontales unilaterales en polea,2,3,13,,Combinado con  12 vuelos laterales,Sixgym
+1066,07/05/2024,11:17,Angeles Conforti,Tren Superior,Hombros,Vuelos frontales unilaterales en polea,3,3,13,,Combinado con  12 vuelos laterales,Sixgym
+1067,07/05/2024,11:30,Angeles Conforti,Tren Superior,Hombros,Vuelos posteriores en polea unilateral,1,3,15,,,Sixgym
+1068,07/05/2024,11:30,Angeles Conforti,Tren Superior,Hombros,Vuelos posteriores en polea unilateral,2,3,15,,,Sixgym
+1069,07/05/2024,14:10,José Gerchinhoren,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,1,20,16,,,Sixgym
+1070,07/05/2024,14:10,José Gerchinhoren,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,2,20,12,,,Sixgym
+1071,07/05/2024,14:18,José Gerchinhoren,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,3,20,15,,,Sixgym
+1072,07/05/2024,14:23,José Gerchinhoren,Tren Inferior,Isquiotibiales,Peso muerto,1,50,20,,,Sixgym
+1073,07/05/2024,14:27,José Gerchinhoren,Tren Inferior,Isquiotibiales,Peso muerto,2,60,15,,,Sixgym
+1074,07/05/2024,14:32,José Gerchinhoren,Tren Inferior,Isquiotibiales,Peso muerto,3,70,8,,,Sixgym
+1075,08/05/2024,10:12,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con barra,1,30,14,,,Sixgym
+1076,08/05/2024,10:12,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con barra,2,34,12,,,Sixgym
+1077,08/05/2024,10:13,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con barra,3,40,10,,,Sixgym
+1078,08/05/2024,10:13,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con barra,4,40,10,,,Sixgym
+1079,08/05/2024,10:13,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto con barra,5,43,8,,,Sixgym
+1080,08/05/2024,10:27,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas con barra,1,36,12,,,Sixgym
+1081,08/05/2024,10:27,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas con barra,2,38,10,,,Sixgym
+1082,08/05/2024,10:27,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas con barra,3,38,10,,,Sixgym
+1083,08/05/2024,10:27,Candela Perez,Tren Inferior,Cuádriceps,Sentadillas con barra,4,41,8,,,Sixgym
+1084,08/05/2024,10:39,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadilla con barra exagonal,1,15,12,,,Sixgym
+1085,08/05/2024,10:40,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadilla con barra exagonal,2,20,10,,,Sixgym
+1086,08/05/2024,10:40,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadilla con barra exagonal,3,20,10,,,Sixgym
+1087,08/05/2024,10:40,Roxana Cabrera,Tren Inferior,Cuádriceps,Sentadilla con barra exagonal,4,30,8,,,Sixgym
+1088,08/05/2024,10:41,Roxana Cabrera,Tren Inferior,Cuádriceps,Prensa,1,80,12,,Combinado con 20 seg de sentadilla iso,Sixgym
+1089,08/05/2024,10:41,Roxana Cabrera,Tren Inferior,Cuádriceps,Prensa,2,100,10,,Combinado con 20 seg de sentadilla iso,Sixgym
+1090,08/05/2024,10:42,Roxana Cabrera,Tren Inferior,Cuádriceps,Prensa,3,100,10,,Combinado con 20 seg de sentadilla iso,Sixgym
+1091,08/05/2024,10:42,Candela Perez,Tren Inferior,Cuádriceps,Prensa,1,100,12,,Combinado con 20 seg de sentadilla iso,Sixgym
+1092,08/05/2024,10:43,Candela Perez,Tren Inferior,Cuádriceps,Prensa,2,100,10,,Combinado con 20 seg de sentadilla iso,Sixgym
+1093,08/05/2024,10:43,Candela Perez,Tren Inferior,Cuádriceps,Prensa,3,100,10,,Combinado con 20 seg de sentadilla iso,Sixgym
+1094,08/05/2024,10:45,Brenda Paz,Tren Inferior,Isquiotibiales,Buenos dias con barra,1,20,12,,Combinado con 10 peso muerto lentos,Sixgym
+1095,08/05/2024,10:45,Brenda Paz,Tren Inferior,Isquiotibiales,Buenos dias con barra,2,24,10,,Combinado con 10 peso muerto lentos,Sixgym
+1096,08/05/2024,10:45,Brenda Paz,Tren Inferior,Isquiotibiales,Buenos dias con barra,3,24,10,,Combinado con 10 peso muerto lentos,Sixgym
+1097,08/05/2024,11:01,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto unilateral con mancuerna,1,10,15,,,Sixgym
+1098,08/05/2024,11:01,Brenda Paz,Tren Inferior,Isquiotibiales,Peso muerto unilateral con mancuerna,2,10,15,,,Sixgym
+1099,08/05/2024,11:04,Brenda Paz,Tren Inferior,Glúteos,Hip trust con barra,1,45,13,,,Sixgym
+1100,08/05/2024,11:04,Brenda Paz,Tren Inferior,Glúteos,Hip trust con barra,2,48,11,,,Sixgym
+1101,08/05/2024,11:06,Brenda Paz,Tren Inferior,Glúteos,Hip trust con barra,3,50,9,,,Sixgym
+1102,08/05/2024,11:18,Candela Perez,Tren Inferior,Cuádriceps,Estocadas hacia atras,1,16,15,,,Sixgym
+1103,08/05/2024,11:19,Candela Perez,Tren Inferior,Cuádriceps,Estocadas hacia atras,2,16,15,,,Sixgym
+1104,08/05/2024,11:25,Roxana Cabrera,Tren Inferior,Cuádriceps,Estocadas hacia atras,1,10,15,,,Sixgym
+1105,08/05/2024,11:25,Roxana Cabrera,Tren Inferior,Cuádriceps,Estocadas hacia atras,2,10,15,,,Sixgym
+1106,08/05/2024,11:26,Roxana Cabrera,Tren Inferior,Pantorrillas,Elevacion en maquina Hack,1,30,13,,,Sixgym
+1107,08/05/2024,11:26,Roxana Cabrera,Tren Inferior,Pantorrillas,Elevacion en maquina Hack,2,40,11,,,Sixgym
+1108,08/05/2024,11:26,Roxana Cabrera,Tren Inferior,Pantorrillas,Elevacion en maquina Hack,3,42,9,,,Sixgym
+1109,08/05/2024,11:32,Candela Perez,Tren Inferior,Pantorrillas,Elevacion en maquina hack,1,40,13,,,Sixgym
+1110,08/05/2024,11:32,Candela Perez,Tren Inferior,Pantorrillas,Elevacion en maquina hack,2,45,11,,,Sixgym
+1111,08/05/2024,11:33,Candela Perez,Tren Inferior,Pantorrillas,Elevacion en maquina hack,3,48,9,,,Sixgym
+1112,08/05/2024,15:13,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,1,3,14,,,Sixgym
+1113,08/05/2024,15:14,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,2,6,12,,,Sixgym
+1114,08/05/2024,15:14,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,3,8,10,,,Sixgym
+1115,08/05/2024,15:14,Malena Cedrón,Tren Superior,Hombros,Press militar en maquina,4,8,10,,,Sixgym
+1116,08/05/2024,15:15,Malena Cedrón,Tren Superior,Hombros,Vuelos frontales unilaterales con mancuernas,1,2,12,,Combinado con 12 laterales y 10 seg en iso,Sixgym
+1117,08/05/2024,15:15,Malena Cedrón,Tren Superior,Hombros,Vuelos frontales unilaterales con mancuernas,2,2,12,,Combinado con 12 laterales y 10 seg en iso,Sixgym
+1118,08/05/2024,15:16,Malena Cedrón,Tren Superior,Hombros,Vuelos frontales unilaterales con mancuernas,3,2,12,,Combinado con 12 laterales y 10 seg en iso,Sixgym
+1119,08/05/2024,15:18,Malena Cedrón,Tren Superior,Hombros,Vuelos posteriores con mancuerna,1,2,8,,Descanso 10 seg y hago 8 mas,Sixgym
+1120,08/05/2024,15:18,Malena Cedrón,Tren Superior,Hombros,Vuelos posteriores con mancuerna,2,2,8,,Descanso 10 seg y hago 8 mas,Sixgym
+1121,08/05/2024,15:19,Malena Cedrón,Tren Superior,Hombros,Vuelos posteriores con mancuerna,3,2,8,,Descanso 10 seg y hago 8 mas,Sixgym
+1122,08/05/2024,15:28,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,1,3,15,,,Sixgym
+1123,08/05/2024,15:28,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,2,3,15,,,Sixgym
+1124,08/05/2024,15:28,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,3,5,13,,,Sixgym
+1125,08/05/2024,15:29,Virginia Yapura,Tren Superior,Hombros,Press militar en maquina,4,5,13,,,Sixgym
+1126,08/05/2024,15:30,Virginia Yapura,Tren Superior,Hombros,Vuelo frontal unilateral con mancuernas,1,2,12,,Combinado con 10 laterales y 10 seg en iso.,Sixgym
+1127,08/05/2024,15:32,Virginia Yapura,Tren Superior,Hombros,Vuelo frontal unilateral con mancuernas,2,2,12,,Combinado con 10 laterales y 10 seg en iso.,Sixgym
+1128,08/05/2024,15:32,Virginia Yapura,Tren Superior,Hombros,Vuelo frontal unilateral con mancuernas,3,2,12,,Combinado con 10 laterales y 10 seg en iso.,Sixgym
+1129,08/05/2024,15:36,Virginia Yapura,Tren Superior,Hombros,Vuelo posteriores con mancuernas,1,3,13,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+1130,08/05/2024,15:37,Virginia Yapura,Tren Superior,Hombros,Vuelo posteriores con mancuernas,2,3,13,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+1131,08/05/2024,15:37,Virginia Yapura,Tren Superior,Hombros,Vuelo posteriores con mancuernas,3,3,13,,Descansamos 10 seg y hacemos 8 mas,Sixgym
+1133,08/05/2024,18:02,Angeles Conforti,Tren Inferior,Glúteos,Hip trust con mancuerna,1,20,15,,,Sixgym
+1134,08/05/2024,18:02,Angeles Conforti,Tren Inferior,Glúteos,Hip trust con mancuerna,2,20,15,,,Sixgym
+1135,08/05/2024,18:04,Angeles Conforti,Tren Inferior,Glúteos,Hip trust con mancuerna,3,20,12,,,Sixgym
+1136,08/05/2024,18:09,Angeles Conforti,Tren Inferior,Glúteos,Patada unilateral en polea,1,20,12,,,Sixgym
+1137,08/05/2024,18:09,Angeles Conforti,Tren Inferior,Glúteos,Patada unilateral en polea,2,20,12,,,Sixgym
+1138,08/05/2024,18:09,Angeles Conforti,Tren Inferior,Glúteos,Patada unilateral en polea,3,20,12,,,Sixgym
+1139,08/05/2024,18:16,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto,1,30,10,,,Sixgym
+1140,08/05/2024,18:17,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto,2,30,10,,,Sixgym
+1141,08/05/2024,18:17,Angeles Conforti,Tren Inferior,Isquiotibiales,Peso muerto,3,30,10,,,Sixgym
+1142,08/05/2024,18:18,Angeles Conforti,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,1,5,38,,,Sixgym
+1143,08/05/2024,18:18,Angeles Conforti,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,2,10,21,,,Sixgym
+1144,08/05/2024,18:34,Angeles Conforti,Tren Inferior,Isquiotibiales,Camilla de isquiostibiales,3,10,20,,,Sixgym
+1145,08/05/2024,19:58,Soledad Fernandez,Tren Inferior,Isquiotibiales,Peso muerto,1,20,20,,,Sixgym
+1146,08/05/2024,19:59,Soledad Fernandez,Tren Inferior,Isquiotibiales,Peso muerto,2,20,20,,,Sixgym
+1147,08/05/2024,19:59,Soledad Fernandez,Tren Inferior,Isquiotibiales,Peso muerto,3,20,20,,,Sixgym
+1148,08/05/2024,19:59,Soledad Fernandez,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,1,5,25,,,Sixgym
+1149,08/05/2024,19:59,Soledad Fernandez,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,2,5,25,,,Sixgym
+1150,08/05/2024,20:00,Soledad Fernandez,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,3,5,25,,,Sixgym
+1151,08/05/2024,20:35,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,1,50,20,,,Sixgym
+1152,08/05/2024,20:35,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,2,55,15,,,Sixgym
+1153,08/05/2024,20:47,José Gerchinhoren,Tren Superior,Espalda,Dorsalera agarre amplio,3,60,10,,,Sixgym
+1154,08/05/2024,20:48,José Gerchinhoren,Tren Superior,Hombros,Press militar,1,40,12,,,Sixgym
+1155,08/05/2024,20:53,José Gerchinhoren,Tren Superior,Hombros,Press militar,2,40,10,,,Sixgym
+1156,08/05/2024,20:54,José Gerchinhoren,Tren Superior,Hombros,Press militar,3,40,10,,,Sixgym
+1157,08/05/2024,20:54,Nieva Valeria,Tren Inferior,Glúteos,Hip Thrust,1,30,18,,,Sixgym
+1158,08/05/2024,20:54,Nieva Valeria,Tren Inferior,Glúteos,Hip Thrust,2,30,18,,,Sixgym
+1159,08/05/2024,20:54,Nieva Valeria,Tren Inferior,Glúteos,Hip Thrust,3,30,18,,,Sixgym
+1160,08/05/2024,20:56,Nieva Valeria,Tren Inferior,Glúteos,Patada unilateral en polea,1,15,36,,18 cada pierna,Sixgym
+1161,08/05/2024,20:56,Nieva Valeria,Tren Inferior,Glúteos,Patada unilateral en polea,2,15,36,,18 cada pierna,Sixgym
+1162,08/05/2024,20:57,Nieva Valeria,Tren Inferior,Glúteos,Patada unilateral en polea,3,15,36,,18 cada pierna,Sixgym
+1163,08/05/2024,21:07,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,1,15,18,,,Sixgym
+1164,08/05/2024,21:14,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,2,20,10,,,Sixgym
+1165,08/05/2024,21:16,José Gerchinhoren,Tren Superior,Triceps,Press francés con barra,3,20,8,,,Sixgym
+1166,08/05/2024,21:17,Nieva Valeria,Tren Inferior,Isquiotibiales,Peso muerto,1,30,15,,,Sixgym
+1167,08/05/2024,21:17,Nieva Valeria,Tren Inferior,Isquiotibiales,Peso muerto,2,30,15,,,Sixgym
+1168,08/05/2024,21:17,Nieva Valeria,Tren Inferior,Isquiotibiales,Peso muerto,3,30,15,,,Sixgym
+1169,08/05/2024,21:18,Nieva Valeria,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,1,10,12,,,Sixgym
+1170,08/05/2024,21:18,Nieva Valeria,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,2,10,12,,,Sixgym
+1171,08/05/2024,21:18,Nieva Valeria,Tren Inferior,Isquiotibiales,Camilla de isquiotibiales,3,10,12,,,Sixgym
+1172,08/05/2024,21:36,José Gerchinhoren,Tren Superior,Espalda,Pullover con soga en polea alta,1,35,15,,,Sixgym
+1173,08/05/2024,21:36,José Gerchinhoren,Tren Superior,Espalda,Pullover con soga en polea alta,2,35,15,,,Sixgym
+1174,08/05/2024,21:37,José Gerchinhoren,Tren Superior,Espalda,Pullover con soga en polea alta,3,35,15,,,Sixgym
+1175,08/05/2024,21:37,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,1,50,15,,,Sixgym
+1176,08/05/2024,21:38,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,2,50,15,,,Sixgym
+1177,08/05/2024,21:38,José Gerchinhoren,Tren Superior,Espalda,Remo en polea,3,50,15,,,Sixgym
+1178,08/05/2024,21:52,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales,1,15,25,,Repeticiones rápidas,Sixgym
+1179,08/05/2024,21:55,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales,2,15,20,,Repeticiones rápidas,Sixgym
+1180,08/05/2024,22:07,José Gerchinhoren,Tren Superior,Hombros,Vuelos laterales,3,15,18,,,Sixgym
+1181,08/05/2024,22:08,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,1,20,15,,,Sixgym
+1182,08/05/2024,22:08,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,2,20,15,,,Sixgym
+1183,08/05/2024,22:08,José Gerchinhoren,Tren Superior,Triceps,Extension de triceps en polea de dorsalera,3,20,15,,,Sixgym
+1184,08/05/2024,22:11,José Gerchinhoren,Tren Superior,Triceps,Trasnuca con mancuernas,1,15,15,,,Sixgym
+1185,08/05/2024,22:11,José Gerchinhoren,Tren Superior,Triceps,Trasnuca con mancuernas,2,15,8,,,Sixgym
+1186,08/05/2024,22:38,José Gerchinhoren,Tren Superior,Triceps,Trasnuca con mancuernas,3,15,8,,,Sixgym
+1187,10/05/2024,09:40,Laura Gonzales,Tren Superior,Pecho,Press plano con barra,1,8,12,,,Sixgym
+1188,10/05/2024,09:40,Laura Gonzales,Tren Superior,Pecho,Press plano con barra,2,8,12,,,Sixgym
+1189,10/05/2024,09:40,Laura Gonzales,Tren Superior,Pecho,Press plano con barra,3,10,10,,,Sixgym
+1190,10/05/2024,09:40,Laura Gonzales,Tren Superior,Pecho,Press plano con barra,4,7,12,,,Sixgym
+1191,10/05/2024,09:41,Laura Gonzales,Tren Superior,Pecho,Press plano con mancuernas,1,4,10,,Combinado con flexiones de brazo,Sixgym
+1192,10/05/2024,09:41,Laura Gonzales,Tren Superior,Pecho,Press plano con mancuernas,2,4,10,,Combinado con flexiones de brazo,Sixgym
+1193,10/05/2024,09:42,Laura Gonzales,Tren Superior,Pecho,Press plano con mancuernas,3,4,10,,Combinado con flexiones de brazo,Sixgym
+1194,10/05/2024,09:43,Laura Gonzales,Tren Superior,Pecho,Cruce de poleas,1,3,12,,Aguanto 10 seg en iso. y hago 5 mas,Sixgym
+1195,10/05/2024,09:43,Laura Gonzales,Tren Superior,Pecho,Cruce de poleas,2,3,12,,Aguanto 10 seg en iso. y hago 5 mas,Sixgym
+1196,10/05/2024,09:43,Laura Gonzales,Tren Superior,Pecho,Cruce de poleas,3,3,12,,Aguanto 10 seg en iso. y hago 5 mas,Sixgym
+1197,10/05/2024,09:45,Laura Gonzales,Tren Superior,Biceps,Curl de bicep con barra,1,3,12,,,Sixgym
+1198,10/05/2024,09:45,Laura Gonzales,Tren Superior,Biceps,Curl de bicep con barra,2,7,10,,,Sixgym
+1199,10/05/2024,09:46,Laura Gonzales,Tren Superior,Biceps,Curl de bicep con barra,3,7,10,,,Sixgym
+1200,10/05/2024,09:48,Vale Gonzales,Tren Superior,Pecho,Press plano con barra,1,7,12,,,Sixgym
+1201,10/05/2024,09:48,Vale Gonzales,Tren Superior,Pecho,Press plano con barra,2,7,12,,,Sixgym
+1202,10/05/2024,09:48,Vale Gonzales,Tren Superior,Pecho,Press plano con barra,3,10,10,,,Sixgym
+1203,10/05/2024,09:48,Vale Gonzales,Tren Superior,Pecho,Press plano con barra,4,7,12,,,Sixgym
+1204,10/05/2024,09:49,Vale Gonzales,Tren Superior,Pecho,Press plano mancuernas,1,4,10,,Combinado con flexiones de brazo,Sixgym
+1205,10/05/2024,09:49,Vale Gonzales,Tren Superior,Pecho,Press plano mancuernas,2,4,10,,Combinado con flexiones de brazo,Sixgym
+1206,10/05/2024,09:49,Vale Gonzales,Tren Superior,Pecho,Press plano mancuernas,3,4,10,,Combinado con flexiones de brazo,Sixgym
+1207,10/05/2024,09:52,Vale Gonzales,Tren Superior,Pecho,Cruce de poleas,1,3,12,,Aguanto 10 seg en iso. y hago 5 mas,Sixgym
+1208,10/05/2024,10:05,Vale Gonzales,Tren Superior,Pecho,Cruce de poleas,2,3,12,,Aguanto 10 seg en iso. y hago 5 mas,Sixgym
+1209,10/05/2024,10:06,Vale Gonzales,Tren Superior,Pecho,Cruce de poleas,3,3,12,,Aguanto 10 seg en iso. y hago 5 mas,Sixgym
+1210,10/05/2024,10:07,Vale Gonzales,Tren Superior,Biceps,Curl de bicep con barra,1,3,12,,,Sixgym
+1211,10/05/2024,10:07,Vale Gonzales,Tren Superior,Biceps,Curl de bicep con barra,2,6,10,,,Sixgym
+1212,10/05/2024,10:07,Vale Gonzales,Tren Superior,Biceps,Curl de bicep con barra,3,6,10,,,Sixgym
+1213,10/05/2024,10:26,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con barra,1,20,15,,,Sixgym
+1214,10/05/2024,10:27,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con barra,2,25,13,,,Sixgym
+1215,10/05/2024,10:27,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con barra,3,27,11,,,Sixgym
+1216,10/05/2024,10:27,Malena Cedrón,Tren Inferior,Isquiotibiales,Peso muerto con barra,4,27,11,,,Sixgym
+1217,10/05/2024,10:29,Malena Cedrón,Tren Inferior,Isquiotibiales,Camilla de isquios,1,10,13,,Aguanto 10 seg en iso. y hago 8 mas,Sixgym
+1218,10/05/2024,10:29,Malena Cedrón,Tren Inferior,Isquiotibiales,Camilla de isquios,2,10,13,,Aguanto 10 seg en iso. y hago 8 mas,Sixgym
+1219,10/05/2024,10:29,Malena Cedrón,Tren Inferior,Isquiotibiales,Camilla de isquios,3,10,13,,Aguanto 10 seg en iso. y hago 8 mas,Sixgym
+1220,10/05/2024,10:38,Virginia Yapura,Tren Inferior,Isquiotibiales,Peso muerto con barra,1,16,15,,,Sixgym
+1221,10/05/2024,10:38,Virginia Yapura,Tren Inferior,Isquiotibiales,Peso muerto con barra,2,20,13,,,Sixgym
+1222,10/05/2024,10:40,Virginia Yapura,Tren Inferior,Isquiotibiales,Peso muerto con barra,3,20,13,,,Sixgym
+1223,10/05/2024,10:40,Virginia Yapura,Tren Inferior,Isquiotibiales,Peso muerto con barra,4,20,13,,,Sixgym
+1224,10/05/2024,10:42,Virginia Yapura,Tren Inferior,Isquiotibiales,Camilla de isquios,1,5,13,,Aguanto 10 seg en iso. y hago 8 mas,Sixgym
+1225,10/05/2024,10:43,Virginia Yapura,Tren Inferior,Isquiotibiales,Camilla de isquios,2,5,13,,Aguanto 10 seg en iso. y hago 8 mas,Sixgym
+1226,10/05/2024,10:43,Virginia Yapura,Tren Inferior,Isquiotibiales,Camilla de isquios,3,5,13,,Aguanto 10 seg en iso. y hago 8 mas,Sixgym
+1227,10/05/2024,10:46,Virginia Yapura,Tren Inferior,Isquiotibiales,Curl femoral unilateral en polea,1,10,15,,,Sixgym
+1228,10/05/2024,10:46,Virginia Yapura,Tren Inferior,Isquiotibiales,Curl femoral unilateral en polea,2,10,15,,,Sixgym
+1229,10/05/2024,10:47,Malena Cedrón,Tren Inferior,Isquiotibiales,Curl femoral en polea unilateral,1,10,15,,,Sixgym
+1230,10/05/2024,10:48,Malena Cedrón,Tren Inferior,Isquiotibiales,Curl femoral en polea unilateral,2,10,15,,,Sixgym
