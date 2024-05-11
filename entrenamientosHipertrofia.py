@@ -124,53 +124,108 @@ def registra_entrenamientos_hipertrofia():
 
             musculo = st.selectbox('Músculo', opciones_musculos, index=opciones_musculos.index(ultima_fila_socio.get('musculo', '')) if ultima_fila_socio.get('musculo') in opciones_musculos else 0)
 
-            if musculo:
-                ejercicios_disponibles = df_total[df_total['musculo'] == musculo]['ejercicio'].unique()
-            else:
-                ejercicios_disponibles = []
+            # Si el musculo se cambia, pasa lo siguiente para limpiar los campos
+            if musculo != ultima_fila_socio.get('musculo', ''):
+                ejercicio_input = ''
+                # st.warning("El músculo seleccionado es diferente al último registro. Se ha limpiado el campo de ejercicio.")
 
-            ejercicio_input = st.text_input('Ejercicio', value=ultima_fila_socio.get('ejercicio', ''))
-            ejercicio_input = normalizar_ejercicio(ejercicio_input)
-
-            ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
-
-            ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
-            # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
-                        
-            if ejercicio:
-                # Obtener la fecha actual usando la función obtener_fecha_argentina()
-                fecha_actual = obtener_fecha_argentina()
-                
-                # Filtrar los entrenamientos del ejercicio seleccionado y que no sean de la fecha actual
-                entrenamientos_ejercicio = df_entrenamientos_socio[(df_entrenamientos_socio['ejercicio'] == ejercicio) & (df_entrenamientos_socio['fecha'] != fecha_actual)]
-                
-                if not entrenamientos_ejercicio.empty:
-                    # Ordenar los entrenamientos por fecha en orden descendente para obtener el más reciente primero
-                    entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='fecha', ascending=False)
-                    
-                    # Obtener la fecha más reciente
-                    ultima_fecha = entrenamientos_ejercicio.iloc[0]['fecha']
-                    
-                    st.info(f"Última vez en {ejercicio} ({ultima_fecha}):")
-                    
-                    # Filtrar los entrenamientos por la fecha más reciente
-                    entrenamientos_ultima_fecha = entrenamientos_ejercicio[entrenamientos_ejercicio['fecha'] == ultima_fecha]
-                    
-                    # Iterar sobre las filas de entrenamiento y mostrar los detalles de cada serie
-                    for _, fila in entrenamientos_ultima_fecha.iterrows():
-                        serie = fila['serie']
-                        peso = fila['peso']
-                        repeticiones = fila['repeticiones']
-                        
-                        st.write(f"Serie {serie}: {peso} kg, repeticiones {repeticiones}")
+                if musculo:
+                    ejercicios_disponibles = df_total[df_total['musculo'] == musculo]['ejercicio'].unique()
                 else:
-                    st.info(f"No hay registros de entrenamiento para {ejercicio} para {socio} que no sean de la fecha actual.")
+                    ejercicios_disponibles = []
+            
+                ejercicio_input = st.text_input('Ejercicio')
+                ejercicio_input = normalizar_ejercicio(ejercicio_input)
 
-            serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1))+1, step=1)
+                ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
 
-            peso = st.number_input('Peso',  min_value=0, value=ultima_fila_socio.get('peso'), step=1)
+                ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
+                # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
+                            
+                if ejercicio:
+                    # Obtener la fecha actual usando la función obtener_fecha_argentina()
+                    fecha_actual = obtener_fecha_argentina()
+                    
+                    # Filtrar los entrenamientos del ejercicio seleccionado y que no sean de la fecha actual
+                    entrenamientos_ejercicio = df_entrenamientos_socio[(df_entrenamientos_socio['ejercicio'] == ejercicio) & (df_entrenamientos_socio['fecha'] != fecha_actual)]
+                    
+                    if not entrenamientos_ejercicio.empty:
+                        # Ordenar los entrenamientos por fecha en orden descendente para obtener el más reciente primero
+                        entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='fecha', ascending=False)
+                        
+                        # Obtener la fecha más reciente
+                        ultima_fecha = entrenamientos_ejercicio.iloc[0]['fecha']
+                        
+                        st.info(f"Última vez en {ejercicio} ({ultima_fecha}):")
+                        
+                        # Filtrar los entrenamientos por la fecha más reciente
+                        entrenamientos_ultima_fecha = entrenamientos_ejercicio[entrenamientos_ejercicio['fecha'] == ultima_fecha]
+                        
+                        # Iterar sobre las filas de entrenamiento y mostrar los detalles de cada serie
+                        for _, fila in entrenamientos_ultima_fecha.iterrows():
+                            serie = fila['serie']
+                            peso = fila['peso']
+                            repeticiones = fila['repeticiones']
+                            
+                            st.write(f"Serie {serie}: {peso} kg, repeticiones {repeticiones}")
+                    else:
+                        st.info(f"No hay registros de entrenamiento para {ejercicio} para {socio} que no sean de la fecha actual.")
 
-            repeticiones = st.number_input('Repeticiones',  min_value=0, value=ultima_fila_socio.get('repeticiones'), step=1)
+                serie = st.number_input('Serie', min_value=0, value=1, step=1)
+
+                peso = st.number_input('Peso',  min_value=0, value=None, step=1)
+
+                repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
+
+            # Si el musculo no se cambia
+            else:
+                if musculo:
+                    ejercicios_disponibles = df_total[df_total['musculo'] == musculo]['ejercicio'].unique()
+                else:
+                    ejercicios_disponibles = []
+
+                ejercicio_input = st.text_input('Ejercicio', value=ultima_fila_socio.get('ejercicio', ''))
+                ejercicio_input = normalizar_ejercicio(ejercicio_input)
+
+                ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
+
+                ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
+                # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
+                            
+                if ejercicio:
+                    # Obtener la fecha actual usando la función obtener_fecha_argentina()
+                    fecha_actual = obtener_fecha_argentina()
+                    
+                    # Filtrar los entrenamientos del ejercicio seleccionado y que no sean de la fecha actual
+                    entrenamientos_ejercicio = df_entrenamientos_socio[(df_entrenamientos_socio['ejercicio'] == ejercicio) & (df_entrenamientos_socio['fecha'] != fecha_actual)]
+                    
+                    if not entrenamientos_ejercicio.empty:
+                        # Ordenar los entrenamientos por fecha en orden descendente para obtener el más reciente primero
+                        entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='fecha', ascending=False)
+                        
+                        # Obtener la fecha más reciente
+                        ultima_fecha = entrenamientos_ejercicio.iloc[0]['fecha']
+                        
+                        st.info(f"Última vez en {ejercicio} ({ultima_fecha}):")
+                        
+                        # Filtrar los entrenamientos por la fecha más reciente
+                        entrenamientos_ultima_fecha = entrenamientos_ejercicio[entrenamientos_ejercicio['fecha'] == ultima_fecha]
+                        
+                        # Iterar sobre las filas de entrenamiento y mostrar los detalles de cada serie
+                        for _, fila in entrenamientos_ultima_fecha.iterrows():
+                            serie = fila['serie']
+                            peso = fila['peso']
+                            repeticiones = fila['repeticiones']
+                            
+                            st.write(f"Serie {serie}: {peso} kg, repeticiones {repeticiones}")
+                    else:
+                        st.info(f"No hay registros de entrenamiento para {ejercicio} para {socio} que no sean de la fecha actual.")
+
+                serie = st.number_input('Serie', min_value=0, value=int(ultima_fila_socio.get('serie', 1))+1, step=1)
+
+                peso = st.number_input('Peso',  min_value=0, value=ultima_fila_socio.get('peso'), step=1)
+
+                repeticiones = st.number_input('Repeticiones',  min_value=0, value=ultima_fila_socio.get('repeticiones'), step=1)
 
         else:
             grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
@@ -206,7 +261,6 @@ def registra_entrenamientos_hipertrofia():
 
         observaciones = st.text_input('Observaciones')
         observaciones = normalizar_observaciones(observaciones)
-
 
         # Botón para guardar el registro
         if st.button('Guardar Entrenamiento de Hipertrofia'):
