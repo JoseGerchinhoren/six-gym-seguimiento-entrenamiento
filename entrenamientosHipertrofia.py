@@ -352,11 +352,42 @@ def visualizar_entrenamientos_hiper(socio):
     })
 
     # Establecer el orden deseado de las columnas
-    column_order = ['ID', 'Fecha', 'Grupo Muscular', 'Músculo', 'Ejercicio', 'Serie', 'Peso', 'Repeticiones', 'Tiempo','Hora', 'Observaciones', 'Entrenador']
+    column_order = ['ID', 'Fecha', 'Grupo Muscular', 'Músculo', 'Ejercicio', 'Serie', 'Peso', 'Repeticiones', 'Tiempo', 'Hora', 'Observaciones', 'Entrenador']
     df_total = df_total.reindex(columns=column_order)
+
+    # Convertir las fechas a objetos datetime
+    df_total['Fecha'] = pd.to_datetime(df_total['Fecha'], format='%d/%m/%Y')
+
+    # Agregar filtros en el sidebar
+    st.sidebar.markdown("### Filtrar entrenamientos")
+
+    grupo_muscular_filtro = st.sidebar.selectbox('Grupo Muscular', ['Todos'] + df_total['Grupo Muscular'].unique().tolist())
+    musculo_filtro = st.sidebar.selectbox('Músculo', ['Todos'] + df_total['Músculo'].unique().tolist())
+    ejercicio_filtro = st.sidebar.selectbox('Ejercicio', ['Todos'] + df_total['Ejercicio'].unique().tolist())
+    fecha_inicio = st.sidebar.date_input('Fecha Inicio', df_total['Fecha'].min().date())
+    fecha_fin = st.sidebar.date_input('Fecha Fin', df_total['Fecha'].max().date())
+
+    # Aplicar filtros al DataFrame
+    if grupo_muscular_filtro != 'Todos':
+        df_total = df_total[df_total['Grupo Muscular'] == grupo_muscular_filtro]
+
+    if musculo_filtro != 'Todos':
+        df_total = df_total[df_total['Músculo'] == musculo_filtro]
+
+    if ejercicio_filtro != 'Todos':
+        df_total = df_total[df_total['Ejercicio'] == ejercicio_filtro]
+
+    df_total = df_total[(df_total['Fecha'] >= pd.to_datetime(fecha_inicio)) & (df_total['Fecha'] <= pd.to_datetime(fecha_fin))]
+
+    if df_total.empty:
+        st.warning("No hay entrenamientos de hipertrofia registrados con los filtros seleccionados.")
+        return
 
     # Ordenar el DataFrame por el ID de Ejercicio de Hipertrofia de forma descendente
     df_total = df_total.sort_values(by='ID', ascending=False)
+
+    # Convertir la columna 'Fecha' al formato deseado para mostrar en Streamlit
+    df_total['Fecha'] = df_total['Fecha'].dt.strftime('%d/%m/%Y')
 
     # Mostrar el DataFrame de entrenamientos de hipertrofia
     st.dataframe(df_total)
@@ -367,6 +398,9 @@ def visualizar_entrenamientos_hiper(socio):
     df_total['Fecha'] = pd.to_datetime(df_total['Fecha'], format='%d/%m/%Y')
     df_total['Peso Total'] = df_total['Peso'] * df_total['Repeticiones']
     peso_total_por_dia = df_total.groupby('Fecha', as_index=False).agg({'Peso Total': 'sum', 'Músculo': lambda x: ', '.join(set(x))})
+
+    # Convertir la columna 'Fecha' al formato deseado para mostrar en el gráfico
+    peso_total_por_dia['Fecha'] = pd.to_datetime(peso_total_por_dia['Fecha'], format='%d/%m/%Y')
 
     # Gráfico de línea con peso total levantado por día
     line_chart = alt.Chart(peso_total_por_dia).mark_line(color='green').encode(
@@ -393,7 +427,7 @@ def visualizar_entrenamientos_hiper(socio):
     chart = line_chart + points
 
     st.altair_chart(chart)
-    
+
 def editar_entrenamientos_hiper():
     st.header('Editar Entrenamiento de Hipertrofia')
 
