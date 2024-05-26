@@ -143,8 +143,11 @@ def registra_entrenamientos_hipertrofia():
                 # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
                             
                 if ejercicio:
-                    # Obtener la fecha actual usando la función obtener_fecha_argentina()
+                    # Obtener la fecha actual
                     fecha_actual = obtener_fecha_argentina()
+
+                    # Formatear la fecha en el formato deseado
+                    fecha_actual = fecha_actual.strftime('%d/%m/%Y')
                     
                     # Filtrar los entrenamientos del ejercicio seleccionado y que no sean de la fecha actual
                     entrenamientos_ejercicio = df_entrenamientos_socio[(df_entrenamientos_socio['ejercicio'] == ejercicio) & (df_entrenamientos_socio['fecha'] != fecha_actual)]
@@ -193,8 +196,11 @@ def registra_entrenamientos_hipertrofia():
                 # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
                             
                 if ejercicio:
-                    # Obtener la fecha actual usando la función obtener_fecha_argentina()
+                    # Obtener la fecha actual
                     fecha_actual = obtener_fecha_argentina()
+
+                    # Formatear la fecha en el formato deseado
+                    fecha_actual = fecha_actual.strftime('%d/%m/%Y')
                     
                     # Filtrar los entrenamientos del ejercicio seleccionado y que no sean de la fecha actual
                     entrenamientos_ejercicio = df_entrenamientos_socio[(df_entrenamientos_socio['ejercicio'] == ejercicio) & (df_entrenamientos_socio['fecha'] != fecha_actual)]
