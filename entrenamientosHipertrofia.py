@@ -137,7 +137,13 @@ def registra_entrenamientos_hipertrofia():
                 ejercicio_input = st.text_input('Ejercicio')
                 ejercicio_input = normalizar_ejercicio(ejercicio_input)
 
-                ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
+                # Calcular la frecuencia de los ejercicios
+                frecuencia_ejercicios = df_entrenamientos_socio['ejercicio'].value_counts().to_dict()
+
+                # Ordenar los ejercicios disponibles por frecuencia
+                ejercicios_ordenados = sorted(ejercicios_disponibles, key=lambda x: frecuencia_ejercicios.get(x, 0), reverse=True)
+
+                ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_ordenados if ejercicio_input.lower() in ejercicio.lower()]
 
                 ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
                 # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
@@ -190,7 +196,13 @@ def registra_entrenamientos_hipertrofia():
                 ejercicio_input = st.text_input('Ejercicio', value=ultima_fila_socio.get('ejercicio', ''))
                 ejercicio_input = normalizar_ejercicio(ejercicio_input)
 
-                ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_disponibles if ejercicio_input.lower() in ejercicio.lower()]
+                # Calcular la frecuencia de los ejercicios
+                frecuencia_ejercicios = df_entrenamientos_socio['ejercicio'].value_counts().to_dict()
+
+                # Ordenar los ejercicios disponibles por frecuencia
+                ejercicios_ordenados = sorted(ejercicios_disponibles, key=lambda x: frecuencia_ejercicios.get(x, 0), reverse=True)
+
+                ejercicios_filtrados = [ejercicio for ejercicio in ejercicios_ordenados if ejercicio_input.lower() in ejercicio.lower()]
 
                 ejercicio = st.selectbox('Seleccione Ejercicio', [ejercicio_input] + ejercicios_filtrados)
                 # Mostrar información del último entrenamiento del socio para el ejercicio seleccionado
@@ -234,12 +246,12 @@ def registra_entrenamientos_hipertrofia():
                 repeticiones = st.number_input('Repeticiones',  min_value=0, value=ultima_fila_socio.get('repeticiones'), step=1)
 
         else:
-            grupoMuscular = st.selectbox('Grupo Muscular', ['','Tren Superior', 'Tren Inferior', 'Zona Media'])
+            grupoMuscular = st.selectbox('Grupo Muscular', ['Tren Superior', 'Tren Inferior', 'Zona Media'])
 
             if grupoMuscular == 'Tren Superior':
-                opciones_musculos = ['','Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']            
+                opciones_musculos = ['Pecho', 'Espalda', 'Hombros', 'Biceps', 'Triceps']
             elif grupoMuscular == 'Tren Inferior':
-                opciones_musculos = ['', 'Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
+                opciones_musculos = ['Cuádriceps', 'Isquiotibiales', 'Glúteos', 'Pantorrillas']
             elif grupoMuscular == 'Zona Media':
                 opciones_musculos = ['abdominales']
             else:
@@ -263,10 +275,13 @@ def registra_entrenamientos_hipertrofia():
 
             peso = st.number_input('Peso',  min_value=0, value=None, step=1)
             repeticiones = st.number_input('Repeticiones',  min_value=0, value=None, step=1)
-        tiempo = st.number_input('Tiempo en segundos',  min_value=0, value=None, step=1)
 
+        tiempo = st.number_input('Tiempo en segundos',  min_value=0, value=None, step=1)
         observaciones = st.text_input('Observaciones')
         observaciones = normalizar_observaciones(observaciones)
+
+        # Agregar campo de multiplicador de series
+        multiplicador_series = st.number_input('Multiplicador de series', min_value=1, value=1, step=1)
 
         # Botón para guardar el registro
         if st.button('Guardar Entrenamiento de Hipertrofia'):
@@ -282,22 +297,25 @@ def registra_entrenamientos_hipertrofia():
                 hora = obtener_fecha_argentina().strftime('%H:%M')
                 usuario = st.session_state.get("user_nombre_apellido", "")
 
-                # Crear un DataFrame con los datos ingresados
-                data = {
-                    'idEjercicioHiper': [df_total['idEjercicioHiper'].max() + 1 if not df_total.empty else 0],
-                    'fecha': [fecha],
-                    'hora': [hora],
-                    'socio': [socio],
-                    'grupoMuscular': [grupoMuscular],
-                    'musculo': [musculo],
-                    'ejercicio': [ejercicio],
-                    'serie': [serie],
-                    'peso': [peso],
-                    'repeticiones': [repeticiones],
-                    'tiempo': [tiempo],
-                    'observaciones': [observaciones],
-                    'usuario': [usuario]
-                }
+                # Crear una lista de diccionarios para almacenar múltiples registros
+                data = []
+                for i in range(multiplicador_series):
+                    data.append({
+                        'idEjercicioHiper': df_total['idEjercicioHiper'].max() + 1 + i if not df_total.empty else i,
+                        'fecha': fecha,
+                        'hora': hora,
+                        'socio': socio,
+                        'grupoMuscular': grupoMuscular,
+                        'musculo': musculo,
+                        'ejercicio': ejercicio,
+                        'serie': serie + i,
+                        'peso': peso,
+                        'repeticiones': repeticiones,
+                        'tiempo': tiempo,
+                        'observaciones': observaciones,
+                        'usuario': usuario
+                    })
+
                 df_new = pd.DataFrame(data)
 
                 # Concatenar el nuevo DataFrame con el DataFrame total
@@ -308,7 +326,7 @@ def registra_entrenamientos_hipertrofia():
 
                 st.success('Entrenamiento guardado con éxito!')
 
-                # Esperar 1 segundos antes de recargar la aplicación
+                # Esperar 1 segundo antes de recargar la aplicación
                 time.sleep(0.1)
                 
                 # Recargar la aplicación
