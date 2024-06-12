@@ -160,7 +160,7 @@ def registra_entrenamientos_hipertrofia():
                     
                     if not entrenamientos_ejercicio.empty:
                         # Ordenar los entrenamientos por fecha en orden descendente para obtener el más reciente primero
-                        entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='fecha', ascending=False)
+                        entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='idEjercicioHiper', ascending=False)
                         
                         # Obtener la fecha más reciente
                         ultima_fecha = entrenamientos_ejercicio.iloc[0]['fecha']
@@ -171,7 +171,7 @@ def registra_entrenamientos_hipertrofia():
                         entrenamientos_ultima_fecha = entrenamientos_ejercicio[entrenamientos_ejercicio['fecha'] == ultima_fecha]
                         
                         # Iterar sobre las filas de entrenamiento y mostrar los detalles de cada serie
-                        for _, fila in entrenamientos_ultima_fecha.iterrows():
+                        for _, fila in entrenamientos_ultima_fecha.sort_values('serie').iterrows():
                             serie = fila['serie']
                             peso = fila['peso']
                             repeticiones = fila['repeticiones']
@@ -219,7 +219,7 @@ def registra_entrenamientos_hipertrofia():
                     
                     if not entrenamientos_ejercicio.empty:
                         # Ordenar los entrenamientos por fecha en orden descendente para obtener el más reciente primero
-                        entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='fecha', ascending=False)
+                        entrenamientos_ejercicio = entrenamientos_ejercicio.sort_values(by='idEjercicioHiper', ascending=False)
                         
                         # Obtener la fecha más reciente
                         ultima_fecha = entrenamientos_ejercicio.iloc[0]['fecha']
@@ -230,7 +230,7 @@ def registra_entrenamientos_hipertrofia():
                         entrenamientos_ultima_fecha = entrenamientos_ejercicio[entrenamientos_ejercicio['fecha'] == ultima_fecha]
                         
                         # Iterar sobre las filas de entrenamiento y mostrar los detalles de cada serie
-                        for _, fila in entrenamientos_ultima_fecha.iterrows():
+                        for _, fila in entrenamientos_ultima_fecha.sort_values('serie').iterrows():
                             serie = fila['serie']
                             peso = fila['peso']
                             repeticiones = fila['repeticiones']
